@@ -125,7 +125,7 @@
                                         <tbody>
 											<tr>
                                                 <th scope="row">
-                                                	<a href=""><span class="fa fa-eye center" data-toggle="tooltip" data-placement="top" title="" data-original-title="view"></span></a>
+                                                	<a href=""><span class="fa fa-eye" data-toggle="tooltip" data-placement="top" title="" data-original-title="view"></span></a>
                                                 </th>
                                                 <td>
 													1
@@ -136,22 +136,21 @@
                                                 <td>Sister Wedding</td>
                                                 <td>Special Leave</td>
                                                 <td>Plan</td>
-                                                <td>1</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">1</th>
+                                                <th scope="row">
+                                                	<a href=""><span class="fa fa-eye" data-toggle="tooltip" data-placement="top" title="" data-original-title="view"></span></a>
+                                                </th>
                                                 <td>
-													<a href=""><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-lock" data-toggle="tooltip" data-placement="top" title="" data-original-title="Lock"></span></a>
+													1
 												</td>												
-                                                <td>bensteav</td>
-                                                <td>ben@gmail.com</td>
-                                                <td>Employee</td>
-                                                <td>Hr Manager</td>
-                                                <td>1</td>
-                                            </tr>                                   
+                                                <td>10/22/2015(Morning)</td>
+                                                <td>10/24/2015(Morning)</td>
+                                                <td>2</td>
+                                                <td>Sister Wedding</td>
+                                                <td>Special Leave</td>
+                                                <td>Plan</td>
+                                            </tr>                                 
                                         </tbody>
 										<!--<tfoot>
 											<div><span>There aren't any users</span></div>
