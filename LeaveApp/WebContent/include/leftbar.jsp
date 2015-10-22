@@ -2,7 +2,7 @@
                 <div class="left_col scroll-view">
 
                     <div class="navbar nav_title" style="border: 0;">
-                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentellela Alela!</span></a>
+                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Leave Management</span></a>
                     </div>
                     <div class="clearfix"></div>
 
@@ -13,7 +13,7 @@
                         </div>
                         <div class="profile_info">
                             <span>Welcome,</span>
-                            <h2>Anthony Fernando</h2>
+                            <h2>General User</h2>
                         </div>
                     </div>
                     <!-- /menu prile quick info -->
@@ -42,9 +42,6 @@
                                         </li>
                                         <li><a href="index2.html">Overtime Request</a>
                                         </li>
-                                        <li><a href="index3.html">New Leaves</a>
-                                        </li>
-                                        
                                     </ul>
                                 </li>
                                 <li><a><i class="fa fa-edit"></i> Admin <span class="fa fa-chevron-down"></span></a>
@@ -77,14 +74,6 @@
                                         </li>
                                         <li><a href="glyphicons.html">leave Balance</a>
                                         </li>
-                                        <li><a href="widgets.html">Widgets</a>
-                                        </li>
-                                        <li><a href="invoice.html">Invoice</a>
-                                        </li>
-                                        <li><a href="inbox.html">Inbox</a>
-                                        </li>
-                                        <li><a href="calender.html">Calender</a>
-                                        </li>
                                     </ul>
                                 </li>
                                 <li><a><i class="fa fa-table"></i>Validation<span class="fa fa-chevron-down"></span></a>
@@ -109,13 +98,17 @@
                                         </li>
                                         <li><a href="javascript:"><i class="fa fa-star-half-empty"></i> OVERTIME</a>
                                         </li>
-                                        <li><a href="other_charts.html">Counter </a>
+                                        <li><a href="other_charts.html">List of Extra </a>
+                                        </li>
+                                        <li><a href="other_charts.html">Request an Ex </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li><a><i class="fa fa-bar-chart-o"></i> Calendar <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="chartjs.html">My Calendar</a>
+                                        </li>
+                                        <li><a href="chartjs2.html">My workmate</a>
                                         </li>
                                         <li><a href="chartjs2.html">My collaborators</a>
                                         </li>
