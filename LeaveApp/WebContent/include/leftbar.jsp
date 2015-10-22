@@ -30,7 +30,7 @@
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="#"><i class="fa fa-star-half-empty"></i> An Employee</a>
                                         </li>
-                                        <li><a href="index.html">Leave Balances</a>
+                                        <li><a href="leavebalances.jsp">Leave Balances</a>
                                         </li>
                                         <li><a href="index2.html">List Leave requested</a>
                                         </li>
@@ -44,7 +44,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-edit"></i> Admin <span class="fa fa-chevron-down"></span></a>
+                                <li><a><i class="fa fa-key"></i> Admin <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="form.html">List of Users</a>
                                         </li>
@@ -56,7 +56,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-desktop"></i> HR <span class="fa fa-chevron-down"></span></a>
+                                <li><a><i class="fa fa-lightbulb-o"></i> HR <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="javascript:"><i class="fa fa-star-half-empty"></i> EMPLOYEE</a>
                                         </li>
@@ -76,7 +76,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-table"></i>Validation<span class="fa fa-chevron-down"></span></a>
+                                <li><a><i class="fa fa-cog"></i>Validation<span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="tables.html">Delegations</a>
                                         </li>
@@ -86,7 +86,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-bar-chart-o"></i> Request <span class="fa fa-chevron-down"></span></a>
+                                <li><a><i class="fa fa-pencil-square-o"></i> Request <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="javascript:"><i class="fa fa-star-half-empty"></i> Leaves</a>
                                         </li>
@@ -104,7 +104,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-bar-chart-o"></i> Calendar <span class="fa fa-chevron-down"></span></a>
+                                <li><a><i class="fa fa-calendar"></i> Calendar <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="chartjs.html">My Calendar</a>
                                         </li>
