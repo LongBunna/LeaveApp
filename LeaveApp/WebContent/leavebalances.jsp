@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentallela Alela! | </title>
+    <title>LMS | Leave Balances</title>
 
     <!-- Bootstrap core CSS -->
 
@@ -90,7 +90,7 @@
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
-                                    <h2>Hover rows <small>Try hovering over the rows</small></h2>
+                                    <h2>My leave requests</h2>
                                     <ul class="nav navbar-right panel_toolbox">
                                         <!--<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                         </li>
@@ -112,28 +112,30 @@
                                     <table class="table table-bordered">
                                         <thead>
                                             <tr>
-												<th>ID</th>
-                                                <th>First Name</th>
-												<th>Last Name</th>
-												<th>Email</th>
-												<th>Department</th>
-												<th>Contrast</th>
-												<th>Manager</th>
+												<th>View</th>
+                                                <th>ID</th>
+												<th>Start Date</th>
+												<th>End Date</th>
+												<th>Duration</th>
+												<th>Reason</th>
+												<th>Type</th>
+												<th>Status</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-											                                            <tr>
-                                                <th scope="row">1</th>
+											<tr>
+                                                <th scope="row">
+                                                	<a href=""><span class="fa fa-eye center" data-toggle="tooltip" data-placement="top" title="" data-original-title="view"></span></a>
+                                                </th>
                                                 <td>
-													<a href=""><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-lock" data-toggle="tooltip" data-placement="top" title="" data-original-title="Lock"></span></a>
+													1
 												</td>												
-                                                <td>yonryna</td>
-                                                <td>yonryna123@gmail.com</td>
-                                                <td>Manager</td>
-                                                <td>User</td>
+                                                <td>10/22/2015(Morning)</td>
+                                                <td>10/24/2015(Morning)</td>
+                                                <td>2</td>
+                                                <td>Sister Wedding</td>
+                                                <td>Special Leave</td>
+                                                <td>Plan</td>
                                                 <td>1</td>
                                             </tr>
                                             <tr>
