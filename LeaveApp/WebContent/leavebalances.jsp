@@ -135,7 +135,7 @@
                                                 <td>2</td>
                                                 <td>Sister Wedding</td>
                                                 <td>Special Leave</td>
-                                                <td>Plan</td>
+                                                <td><span class="label label-info">plan</span></td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -149,7 +149,7 @@
                                                 <td>2</td>
                                                 <td>Sister Wedding</td>
                                                 <td>Special Leave</td>
-                                                <td>Plan</td>
+                                                <td><span class="label label-success">Approve</span></td>
                                             </tr>                                 
                                         </tbody>
 										<!--<tfoot>
