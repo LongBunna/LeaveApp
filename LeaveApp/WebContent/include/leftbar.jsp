@@ -81,19 +81,11 @@
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="tables.html">Delegations</a>
                                         </li>
-                                        <li><a href="tables_dynamic.html">Leaves</a>
-                                        </li>
-                                        <li><a href="tables_dynamic.html">Overtimes</a>
-                                        </li>
                                     </ul>
                                 </li>
                                 <li><a><i class="fa fa-pencil-square-o"></i> Request <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="javascript:"><i class="fa fa-star-half-empty"></i> Leaves</a>
-                                        </li>
-                                        <li><a href="chartjs.html">Counter</a>
-                                        </li>
-                                        <li><a href="chartjs2.html">List of leav request</a>
                                         </li>
                                         <li><a href="morisjs.html">Request leaves</a>
                                         </li>
