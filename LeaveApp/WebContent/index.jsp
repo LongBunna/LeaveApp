@@ -26,13 +26,13 @@
 
                     <div class="page-title">
                         <div class="title_left">
-                            <h3><small>
-									<ol class="breadcrumb">
-									  <li><a href="#">Users</a></li>
-									  <li><a href="#">list</a></li>
+                            <h3>Leave/Overtime management system<!--<small>
+									 <ol class="breadcrumb">
+									  <li><a href="#">Home</a></li> -->
+									  <!-- <li><a href="#">list</a></li> -->
 									  <!--<li class="active">Data</li>-->
-									</ol>
-								</small>
+									<!-- </ol>
+								</small> -->
 							</h3>
                         </div>
                         <div class="title_right">
@@ -53,72 +53,75 @@
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
-                                    <h2>Hover rows <small>Try hovering over the rows</small></h2>
+                                    <h2>If you are an employee, you here</h2>
                                     <ul class="nav navbar-right panel_toolbox">
-                                        <!--<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a href="#">Settings 1</a>
-                                                </li>
-                                                <li><a href="#">Settings 2</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
-                                        </li>-->
                                     </ul>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="x_content">
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-												<th>ID</th>
-                                                <th>First Name</th>
-												<th>Last Name</th>
-												<th>Email</th>
-												<th>Department</th>
-												<th>Contrast</th>
-												<th>Manager</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-											                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>
-													<a href=""><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-lock" data-toggle="tooltip" data-placement="top" title="" data-original-title="Lock"></span></a>
-												</td>												
-                                                <td>yonryna</td>
-                                                <td>yonryna123@gmail.com</td>
-                                                <td>Manager</td>
-                                                <td>User</td>
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>
-													<a href=""><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-lock" data-toggle="tooltip" data-placement="top" title="" data-original-title="Lock"></span></a>
-												</td>												
-                                                <td>bensteav</td>
-                                                <td>ben@gmail.com</td>
-                                                <td>Employee</td>
-                                                <td>Hr Manager</td>
-                                                <td>1</td>
-                                            </tr>                                   
-                                        </tbody>
-										<!--<tfoot>
-											<div><span>There aren't any users</span></div>
-										</tfoot>-->
-                                    </table>
-
+                                   <div class="row">
+                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                          <a href="leavebalances.jsp">
+                                            <div class="tile-stats" style="height: 138px;text-align: center;">
+                                                <div class="icon" style="right: 167px;"><i class="fa fa-caret-square-o-right"></i>
+                                                </div>
+                                                <h3 class="tile_align">Leave Balance</h3>
+                                            </div>
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                            <a href="listleavrequested.jsp">
+                                            <div class="tile-stats" style="height: 138px;text-align: center;">
+                                                <div class="icon" style="right: 167px;"><i class="fa fa-comments-o"></i>
+                                                </div>
+                                                <h3 class="tile_align">List Leave requested</h3>
+                                            </div>
+                                            </a>
+                                        </div>
+                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                          <a href="#">
+                                            <div class="tile-stats" style="height: 138px;text-align: center;">
+                                                <div class="icon" style="right: 167px;"><i class="fa fa-sort-amount-desc"></i>
+                                                </div>
+                                                <h3 class="tile_align">New Leave</h3>
+                                            </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>If you are an manager, you here</h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                                   <div class="row">
+                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                          <a href="#">
+                                            <div class="tile-stats" style="height: 138px;width: 390px;text-align: center;">
+                                                <div class="icon" style="right: 210px;;"><i class="fa fa-caret-square-o-right"></i>
+                                                </div>
+                                                <h3 class="tile_align">All Leave request submitted </h3>
+                                            </div>
+                                            </a>
+                                        </div>
+                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                          <a href="#">
+                                            <div class="tile-stats" style="height: 138px;width: 390px;text-align: center;margin: 0 89px 8px !important;">
+                                                <div class="icon" style="right: 210px;;"><i class="fa fa-comments-o"></i>
+                                                </div>
+                                                 <h3 class="tile_align">All Overtime request submitted </h3>
+                                            </div>
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
