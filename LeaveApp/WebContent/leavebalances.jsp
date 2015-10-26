@@ -65,9 +65,9 @@
                         <div class="title_left">
                             <h3><small>
 									<ol class="breadcrumb">
-									  <li><a href="#">Home</a></li>
-									  <li><a href="#">An Employee</a></li>
-									  <li class="active"><a href="#">My leave</a></li>
+									  <li><a href="#">Users</a></li>
+									  <li><a href="#">balance</a></li>
+									  <!--<li class="active">Data</li>-->
 									</ol>
 								</small>
 							</h3>
@@ -90,7 +90,7 @@
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
-                                    <h2>My leave requests</h2>
+                                    <h2>My balance summary</h2>
                                     <ul class="nav navbar-right panel_toolbox">
                                         <!--<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                         </li>
@@ -112,67 +112,39 @@
                                     <table class="table table-bordered">
                                         <thead>
                                             <tr>
-												<th>View</th>
-                                                <th>ID</th>
-												<th>Start Date</th>
-												<th>End Date</th>
-												<th>Duration</th>
-												<th>Reason</th>
-												<th>Type</th>
-												<th>Status</th>
+												<th>Leave type</th>
+                                                <th>Available</th>
+												<th>Taken</th>
+												<th>Entitled</th>
+												
                                             </tr>
                                         </thead>
                                         <tbody>
-											<tr>
-                                                <th scope="row">
-                                                	<a href=""><span class="fa fa-eye" data-toggle="tooltip" data-placement="top" title="" data-original-title="view"></span></a>
-                                                </th>
-                                                <td>
-													1
-												</td>												
-                                                <td>10/22/2015(Morning)</td>
-                                                <td>10/24/2015(Morning)</td>
-                                                <td>2</td>
-                                                <td>Sister Wedding</td>
-                                                <td>Special Leave</td>
-                                                <td><span class="label label-info">plan</span></td>
+											<tr>                                             											
+                                                <td>Annual Leave</td>
+                                                <td>13</td>
+                                                <td>5</td>
+                                                <td>18</td>    
                                             </tr>
-                                            <tr>
-                                                <th scope="row">
-                                                	<a href=""><span class="fa fa-eye" data-toggle="tooltip" data-placement="top" title="" data-original-title="view"></span></a>
-                                                </th>
-                                                <td>
-													1
-												</td>												
-                                                <td>10/22/2015(Morning)</td>
-                                                <td>10/24/2015(Morning)</td>
-                                                <td>2</td>
-                                                <td>Sister Wedding</td>
+                                            <tr>                                             											
                                                 <td>Special Leave</td>
-                                                <td><span class="label label-success">Approve</span></td>
-                                            </tr>                                 
-                                            <tr>
-                                                <th scope="row">
-                                                	<a href=""><span class="fa fa-eye" data-toggle="tooltip" data-placement="top" title="" data-original-title="view"></span></a>
-                                                </th>
-                                                <td>
-													1
-												</td>												
-                                                <td>10/22/2015(Morning)</td>
-                                                <td>10/24/2015(Morning)</td>
+                                                <td>5</td>
                                                 <td>2</td>
-                                                <td>Sister Wedding</td>
-                                                <td>Special Leave</td>
-                                                <td><span class="label label-danger">Reject</span></td>
-                                            </tr>                                 
+                                                <td>7</td>    
+                                            </tr>
+                                            <tr>                                             											
+                                                <td>Sick Leave</td>
+                                                <td>7</td>
+                                                <td>0</td>
+                                                <td>7</td>    
+                                            </tr>
+                                              
                                         </tbody>
 										<!--<tfoot>
 											<div><span>There aren't any users</span></div>
 										</tfoot>-->
                                     </table>
-                                    
-									<div id="example_length" class="dataTables_length"><label>Show <select size="1" style="width: 56px;padding: 6px;" name="example_length" aria-controls="example"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div>
-									<div class="dataTables_paginate paging_full_numbers" id="example_paginate"><a tabindex="0" class="first paginate_button paginate_button_disabled" id="example_first">First</a><a tabindex="0" class="previous paginate_button paginate_button_disabled" id="example_previous">Previous</a><span><a tabindex="0" class="paginate_active">1</a><a tabindex="0" class="paginate_button">2</a><a tabindex="0" class="paginate_button">3</a><a tabindex="0" class="paginate_button">4</a></span><a tabindex="0" class="next paginate_button" id="example_next">Next</a><a tabindex="0" class="last paginate_button" id="example_last">Last</a></div>
+
                                 </div>
                             </div>
                         </div>
