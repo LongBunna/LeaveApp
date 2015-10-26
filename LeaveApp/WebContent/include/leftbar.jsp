@@ -33,7 +33,7 @@
                                         </li>
                                         <li><a href="leavebalances.jsp">Leave Balances</a>
                                         </li>
-                                        <li><a href="listleaverequested">List Leave requested</a>
+                                        <li><a href="listleaverequested.jsp">List Leave requested</a>
                                         </li>
                                         <li><a href="index3.html">New Leaves</a>
                                         </li>
