@@ -1,3 +1,9 @@
+/*Custom*/
+.animated .tile-stats h3.tile_align{
+	color: #626A73; 
+	margin: 101px 0 !important;
+}
+/*--Custom*/
 body.nav-sm .container.body .left_col {
     width: 70px;
     padding: 0;
