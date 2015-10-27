@@ -21,6 +21,12 @@
     <!-- Custom styling plus plugins -->
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/icheck/flat/green.css" rel="stylesheet">
+    
+    <!-- Full Calendar CSS included by Chitra -->
+    <link href="css/calendar/fullcalendar.css" rel="stylesheet">
+    <link href="css/calendar/fullcalendar.print.css" rel="stylesheet" media="print">  
+    <link href="css/lms_adm_031.css" rel="stylesheet">  
+    <!-- That's all -->
 
 
     <script src="js/jquery.min.js"></script>
