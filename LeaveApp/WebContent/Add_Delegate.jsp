@@ -97,7 +97,7 @@
 							</div>
 							<!-- end modal body -->
 							<div class="modal-footer">
-								<button type="button" class="btn btn-primary antosubmit2" style="vertical-align: -webkit-baseline-middle;">Ok</button>
+								<button type="button" class="btn btn-primary antosubmit2">Ok</button>
 								<button type="button" class="btn btn-default antoclose2" data-dismiss="modal">Cancel</button>
 							</div>
 						</div>
