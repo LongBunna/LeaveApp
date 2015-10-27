@@ -1,4 +1,3 @@
-
 <script src="js/bootstrap.min.js"></script>
 
     <!-- chart js -->
@@ -10,6 +9,12 @@
     <script src="js/icheck/icheck.min.js"></script>
 
     <script src="js/custom.js"></script>
+    
+    <!-- full calendar by Chitra-->
+    <script src="js/moment.min.js"></script>
+    <script src="js/calendar/fullcalendar.min.js"></script>
+    <script src="js/lms_adm_031.js"></script>
+    <!-- End -->
 
 </body>
 
