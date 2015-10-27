@@ -26,19 +26,28 @@
 		body{
 			background-color: #C1DADA;
 		}
+		/*login_form*/
+		#kosign_login_title{
+			color: #196464;
+			width:400px;
+			font-family: arial;
+			font-weight: bold;
+		}
 		#login{
 			text-align: center !important;
 		}
-		#kosign_title{
-			color: #196464;
-			width:400px;
-		}
-		h1{
+		#login_form_title{
+			padding: 10px 10px; 
+			width:336px; 
+			background-color:#FFF; 
+			color: #000;
 			font-family: arial;
 			font-weight: bold;
+		}
+		h1{
 			border-radius: 5px;
 		}
-		section{
+		#section_login_form{
 			border: 1px solid #959999; 
 			border-radius: 25px;
 			padding: 10px 30px 10px 30px !important;
@@ -46,14 +55,60 @@
 		}
 		td{
 			text-align: left;
+			color: #000;
+			padding-left:5px;
 		}
 		input[type="checkbox"]{
 			margin-right:10px;
+			margin-bottom: 10px;
 		}
-		form{
+		#form_login{
 			background-color: #FFF;
-			background-image: url("");
+			background-image: url("images/key.png");
 			padding: 20px 20px 20px 20px !important;
+		}
+		a{
+			color: #000;
+		}
+		.btn{
+			background-color: #6C9696 !important;
+			color:#FFF;
+			font-weight: bold;
+		}
+		.align_center{
+			text-align: left;
+			padding-bottom:10px;
+		}
+		/*login_form*/
+		
+		/*register_form*/
+		#kosign_register_title{
+			color: #196464;
+			width:700px;
+			font-family: arial;
+			font-weight: bold;
+			text-align: center;
+			margin-left:-100px;
+			margin-top:-50px;
+		}
+		#section_register_form{
+			margin-left:-100px;
+			border: 1px solid #959999; 
+			border-radius: 20px;
+			padding: 10px 0px 10px 20px !important;
+			width:670px !important;
+		}
+		#register_form_title{
+			padding: 10px 10px; 
+			width:620px; 
+			background-color:#FFF; 
+			color: #000;
+			font-family: arial;
+			font-weight: bold;
+			padding:15px;
+		}
+		input[type="button"]{
+			margin-top:-12px;
 		}
 	</style>
 	
@@ -79,31 +134,33 @@
 
         <div id="wrapper">
             <div id="login" class="animate form">
-            	<h1 id="kosign_title">KOSIGN</h1>
-                <section class="login_content">
-                <h1 style="padding: 10px 10px; width:336px; background-color:#FFF; color: #000;">Login Form</h1>
-                    <form>
+            	<h1 id="kosign_login_title">KOSIGN</h1>
+                <section class="login_content" id="section_login_form">
+                <h1 id="login_form_title">Login Form</h1>
+                    <form id="form_login">
                         <table>
 	                        <tr>
-	                            <td width="80"><label>Login Name</label></td>
-	                            <td colspan="3" width="260"><input type="text" class="form-control" placeholder="Username" required="" /></td>
+	                            <td width="100"><label>Login Name</label></td>
+	                            <td width="260"><input type="text" class="form-control" placeholder="Username" required="" /></td>
 	                        </tr>
 	                        <tr>
 	                        	<td><label>Password</label></td>
-	                            <td colspan="3"><input type="password" class="form-control" placeholder="Password" required=""/></td>
+	                            <td><input type="password" class="form-control" placeholder="Password" required=""/></td>
 	                        </tr>
 	                        <tr>
 	                        	<td></td>
-	                        	<td colspan="2"><input type="checkbox" />Remembered me</td>
+	                        	<td class="align_center"><input type="checkbox" />Remembered me</td>
 	                        </tr>
 	                        <tr>
 	                        	<td></td>
-	                            <td><a class="btn btn-default submit" href="index.html">Log in</a></td>
-	                            <td><a class="btn btn-default submit" href="#register">Sign Up</a></td>
+	                            <td class="align_center">
+	                            	<a class="btn btn-default submit" href="index.html">Log in</a>
+	                            	<a class="btn btn-default submit" href="#toregister">Sign Up</a>
+	                            </td>
 	                        </tr>
 	                        <tr>
 	                        	<td></td>
-	                            <td colspan="2"><a class="reset_pass" href="#">Forgot your password?</a></td>
+	                            <td class="align_center"><a class="reset_pass" href="#">Forgot your password?</a></td>
 	                        </tr
 	                        <div class="clearfix"></div>
                         </table>
@@ -117,33 +174,69 @@
             
             
             <div id="register" class="animate form">
-                <section class="login_content">
-                    <form>
-                        <h1>Create Account</h1>
-                        <div>
-                            <input type="text" class="form-control" placeholder="Username" required="" />
-                        </div>
-                        <div>
-                            <input type="email" class="form-control" placeholder="Email" required="" />
-                        </div>
-                        <div>
-                            <input type="password" class="form-control" placeholder="Password" required="" />
-                        </div>
-                        <div>
-                            <a class="btn btn-default submit" href="index.html">Submit</a>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="separator">
-
-                            <p class="change_link">Already a member ?
-                                <a href="#tologin" class="to_register"> Log in </a>
-                            </p>
-                            <div class="clearfix"></div>
-                            <br />
-                            <div>
-                                <h1><i class="fa fa-paw" style="font-size: 26px;"></i> Gentelella Alela!</h1>
-                            </div>
-                        </div>
+            	<h1 id="kosign_register_title">KOSIGN</h1>
+                <section class="login_content" id="section_register_form">
+                <h1 id="register_form_title">Sign Up</h1>
+                    <form id="form_register">
+                    	<table>
+                    		<tr>
+	                        	<td rowspan="4" width="200">
+	                        		<div style="width:150px; height:150px; margin:0px auto; border:1px solid black;"><img src="images/photo_pic.png" width="150" height="150"/></div>
+	                        	</td>
+	                        	<td></td>
+	                        	<td></td>
+	                        </tr>
+	                        <tr>
+	                        	
+	                        	<td width="100"><label>First Name</label></td>
+	                        	<td colspan="2" width="300"><input type="text" class="form-control" placeholder="First Name" required="" /></td>
+	                        </tr>
+	                        <tr>
+	                        	
+	                        	<td><label>Last Name</label></td>
+	                            <td colspan="2"><input type="text" class="form-control" placeholder="Last Name" required="" /></td>
+	                        </tr>
+	                        <tr>
+	                        	
+	                        	<td><label>Login ID</label></td>
+	                            <td colspan="2"><input type="text" class="form-control" placeholder="Login ID" required="" /></td>
+	                        </tr>
+	                        <tr>
+	                        	<td></td>
+	                        	<td><label>Email</label></td>
+	                            <td colspan="2"><input type="email" class="form-control" placeholder="Email" required="" /></td>
+	                        </tr>
+	                        <tr>
+	                        	<td></td>
+	                        	<td><label>Phone</label></td>
+	                            <td colspan="2"><input type="text" class="form-control" placeholder="Phone" required="" /></td>
+	                        </tr>
+	                        <tr>
+	                        	<td></td>
+	                        	<td><label>Department</label></td>
+	                            <td><input type="text" class="form-control" placeholder="Department" required="" /></td>
+	                            <td><input type="button" class="btn btn-default submit" value="Select"></td>
+	                        </tr>
+	                        <tr>
+	                        	<td></td>
+	                        	<td><label>Position</label></td>
+	                            <td width="240"><input type="text" class="form-control" placeholder="Position" required="" /></td>
+	                            <td><input type="button" class="btn btn-default submit" value="Select"></td>
+	                        </tr>
+	                        <tr>
+	                        	<td></td>
+	                        	<td><label>Password</label></td>
+	                            <td colspan="2"><input type="password" class="form-control" placeholder="Password" required="" /></td>
+	                        </tr>
+	                        <tr>
+	                        	<td></td>
+	                            <td colspan="3" >
+	                            	<a class="btn btn-default submit" href="index.html">Create User</a>
+	                            	<a class="btn btn-default submit" href="#tologin">Cancel</a>
+	                            </td>
+	                        </tr>
+                        </table>
+                        <!-- table -->
                     </form>
                     <!-- form -->
                 </section>
