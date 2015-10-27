@@ -1,6 +1,5 @@
 <%@include file="/include/assetheader.jsp" %>
 
-
 <body class="nav-md">
 
     <div class="container body">
@@ -21,108 +20,76 @@
             <!-- /top navigation -->
 
             <!-- page content -->
-            <div class="right_col" role="main">
-				<div class="">
+			<div class="right_col" role="main">
+				<div class="page-title">
+					<div class="title_left">
+						<h3>Leave/Overtime management system</h3>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-md-12 col-sm-6 col-xs-12">
+						<div class="x_panel">
+							<div class="text-center">
+								<h3>Submit a Leave Request</h3>
+							</div>
+							<div class="x_content">
+								<br>
+								<form class="form-horizontal form-label-left">
 
-                    <div class="page-title">
-                        <div class="title_left">
-                            <h3>Leave/Overtime management system<!--<small>
-									 <ol class="breadcrumb">
-									  <li><a href="#">Home</a></li> -->
-									  <!-- <li><a href="#">list</a></li> -->
-									  <!--<li class="active">Data</li>-->
-									<!-- </ol>
-								</small> -->
-							</h3>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-					<div class="row">
-						<div class="col-md-12 col-sm-12">
-							<div class=x></div>
+									<div class="form-group">
+										<label class="control-label col-md-3 col-sm-3 col-xs-3">Leave Type:</label>
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<input vk_10c70="subscribed" class="form-control"
+												data-inputmask="'mask': '99/99/9999'" type="text"> <span
+												class="fa fa-user form-control-feedback right"
+												aria-hidden="true"></span>
+										</div>
+									</div>
+
+									<fieldset>
+										<div class="control-group">
+											<div class="controls">
+												<div
+													class="col-md-11 xdisplay_inputx form-group has-feedback">
+													<input type="text" class="form-control has-feedback-left"
+														id="single_cal1" name="daterang" placeholder="First Name"
+														aria-describedby="inputSuccess2Status"> <span
+														class="fa fa-calendar-o form-control-feedback left"
+														aria-hidden="true"></span> <span id="inputSuccess2Status"
+														class="sr-only">(success)</span>
+												</div>
+											</div>
+										</div>
+									</fieldset>
+
+
+									<div class="form-group">
+										<label class="control-label col-md-3 col-sm-3 col-xs-3">Duration:</label>
+										<div class="col-md-6 col-sm-6 col-xs-6">
+											<input class="form-control"
+												data-inputmask="'mask': '99/99/9999'" type="text"> <span
+												class="fa fa-user form-control-feedback right"
+												aria-hidden="true"></span>
+										</div>
+									</div>
+									
+									<div class="ln_solid"></div>
+									<!-- Buttons -->
+									<div class="form-group">
+										<div class="col-md-9 col-md-offset-3">
+											<button type="submit" class="btn btn-primary">Cancel</button>
+											<button type="submit" class="btn btn-success">Submit</button>
+										</div>
+									</div>
+
+								</form>
+							</div>
 						</div>
 					</div>
-                    <div class="row">
-                        <div class="col-md-12 col-sm-6 col-xs-12">
-                            <div class="x_panel">
-                                <div class="x_title">
-                                    <h2>If you are an employee, you here</h2>
-                                    <ul class="nav navbar-right panel_toolbox">
-                                    </ul>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="x_content">
-                                   <div class="row">
-                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="leavebalances.jsp">
-                                            <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-caret-square-o-right"></i>
-                                                </div>
-                                                <h3 class="tile_align">Leave Balance</h3>
-                                            </div>
-                                            </a>
-                                        </div>
-                                        
-                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                            <a href="listleavrequested.jsp">
-                                            <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-comments-o"></i>
-                                                </div>
-                                                <h3 class="tile_align">List Leave requested</h3>
-                                            </div>
-                                            </a>
-                                        </div>
-                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="#">
-                                            <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-sort-amount-desc"></i>
-                                                </div>
-                                                <h3 class="tile_align">New Leave</h3>
-                                            </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                            <div class="x_panel">
-                                <div class="x_title">
-                                    <h2>If you are an manager, you here</h2>
-                                    <ul class="nav navbar-right panel_toolbox">
-                                    </ul>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="x_content">
-                                   <div class="row">
-                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="#">
-                                            <div class="tile-stats" style="height: 138px;width: 390px;text-align: center;">
-                                                <div class="icon" style="right: 210px;;"><i class="fa fa-caret-square-o-right"></i>
-                                                </div>
-                                                <h3 class="tile_align">All Leave request submitted </h3>
-                                            </div>
-                                            </a>
-                                        </div>
-                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="#">
-                                            <div class="tile-stats" style="height: 138px;width: 390px;text-align: center;margin: 0 89px 8px !important;">
-                                                <div class="icon" style="right: 210px;;"><i class="fa fa-comments-o"></i>
-                                                </div>
-                                                 <h3 class="tile_align">All Overtime request submitted </h3>
-                                            </div>
-                                            </a>
-                                        </div>
-                                        
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-            </div>
-            <!-- /page content -->
+				</div>
+			</div>
+			<!-- /page content -->
         </div>
 
     </div>
