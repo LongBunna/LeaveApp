@@ -50,7 +50,7 @@
 
 
                     <div class="row">
-                        <div class="col-md-12 col-sm-6 col-xs-12">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
                                     <h2>If you are an employee, you here</h2>
@@ -58,72 +58,92 @@
                                     </ul>
                                     <div class="clearfix"></div>
                                 </div>
-                                <div class="x_content">
-                                   <div class="row">
-                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="leavebalances.jsp">
-                                            <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-caret-square-o-right"></i>
-                                                </div>
-                                                <h3 class="tile_align">Leave Balance</h3>
+                                <div class="x_content" style="display: block;">
+                                    <br>
+                                    <form class="form-horizontal form-label-left" novalidate="">
+										<div class="form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Leave type:</label>
+                                            <div class="col-md-4 col-sm-3 col-xs-12">
+                                                <select class="form-control">
+                                                    <option>Annual leave</option>
+                                                    <option>Option one</option>
+                                                    <option>Option two</option>
+                                                    <option>Option three</option>
+                                                    <option>Option four</option>
+                                                </select>
+                                                <ul class="parsley-errors-list" id=""></ul>
                                             </div>
-                                            </a>
                                         </div>
-                                        
-                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                            <a href="listleavrequested.jsp">
-                                            <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-comments-o"></i>
-                                                </div>
-                                                <h3 class="tile_align">List Leave requested</h3>
+                                        <div class="form-group">
+                                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Start date:</label>
+                                            <div class="col-md-4 col-sm-3 col-xs-12">
+                                                <input type="text" id="last-name" name="last-name" required="required" class="form-control" data-parsley-id="6975">
+                                                <ul class="parsley-errors-list" id="parsley-id-6975"></ul>
                                             </div>
-                                            </a>
+                                            <div class="col-md-2 col-sm-3 col-xs-12">
+                                                <select class="form-control">
+                                                    <option>Morning</option>
+                                                    <option>Option one</option>
+                                                    <option>Option two</option>
+                                                    <option>Option three</option>
+                                                    <option>Option four</option>
+                                                </select>
+                                           	</div>
                                         </div>
-                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="#">
-                                            <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-sort-amount-desc"></i>
-                                                </div>
-                                                <h3 class="tile_align">New Leave</h3>
+                                        <div class="form-group">
+                                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">End date:</label>
+                                            <div class="col-md-4 col-sm-3 col-xs-12">
+                                                <input type="text" id="last-name" name="last-name" required="required" class="form-control" data-parsley-id="">
+                                                <ul class="parsley-errors-list" id=""></ul>
                                             </div>
-                                            </a>
+                                            <div class="col-md-2 col-sm-3 col-xs-12">
+                                                <select class="form-control">
+                                                    <option>Afternoon</option>
+                                                    <option>Option one</option>
+                                                    <option>Option two</option>
+                                                    <option>Option three</option>
+                                                    <option>Option four</option>
+                                                </select>
+                                           	</div>
                                         </div>
-                                    </div>
-                                   
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Duration:</label>
+                                            <div class="col-md-4 col-sm-3 col-xs-12">
+                                                <input id="birthday" class="date-picker form-control" required="required" type="text" data-parsley-id="5319">
+                                                <ul class="parsley-errors-list" id="parsley-id-5319"></ul>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Reason:</label>
+                                            <div class="col-md-4 col-sm-3 col-xs-12">
+                                            	<textarea class="form-control" rows="3"></textarea>
+                                            	<ul class="parsley-errors-list" id=""></ul>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Status:</label>
+                                            <div class="col-md-4 col-sm-3 col-xs-12">
+                                                <select class="form-control">
+                                                    <option>Planned</option>
+                                                    <option>Option one</option>
+                                                    <option>Option two</option>
+                                                    <option>Option three</option>
+                                                    <option>Option four</option>
+                                                </select>
+                                           	</div>
+                                        </div>
+                                        <div class="ln_solid"></div>
+                                        <div class="form-group">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                                <button type="submit" class="btn btn-success">Request leave</button>
+                                            </div>
+                                        </div>
+
+                                    </form>
                                 </div>
                             </div>
-                            <div class="x_panel">
-                                <div class="x_title">
-                                    <h2>If you are an manager, you here</h2>
-                                    <ul class="nav navbar-right panel_toolbox">
-                                    </ul>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="x_content">
-                                   <div class="row">
-                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="#">
-                                            <div class="tile-stats" style="height: 138px;width: 390px;text-align: center;">
-                                                <div class="icon" style="right: 210px;;"><i class="fa fa-caret-square-o-right"></i>
-                                                </div>
-                                                <h3 class="tile_align">All Leave request submitted </h3>
-                                            </div>
-                                            </a>
-                                        </div>
-                                        <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="#">
-                                            <div class="tile-stats" style="height: 138px;width: 390px;text-align: center;margin: 0 89px 8px !important;">
-                                                <div class="icon" style="right: 210px;;"><i class="fa fa-comments-o"></i>
-                                                </div>
-                                                 <h3 class="tile_align">All Overtime request submitted </h3>
-                                            </div>
-                                            </a>
-                                        </div>
-                                        
-                                    </div>
-                                   
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="clearfix"></div>
                     </div>
