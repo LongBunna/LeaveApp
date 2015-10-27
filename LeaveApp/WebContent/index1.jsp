@@ -63,7 +63,7 @@
                                     <form class="form-horizontal form-label-left" novalidate="">
 										<div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Leave type:</label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="col-md-4 col-sm-3 col-xs-12">
                                                 <select class="form-control">
                                                     <option>Annual leave</option>
                                                     <option>Option one</option>
@@ -108,21 +108,21 @@
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Duration:</label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="col-md-4 col-sm-3 col-xs-12">
                                                 <input id="birthday" class="date-picker form-control" required="required" type="text" data-parsley-id="5319">
                                                 <ul class="parsley-errors-list" id="parsley-id-5319"></ul>
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Reason:</label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="col-md-4 col-sm-3 col-xs-12">
                                             	<textarea class="form-control" rows="3"></textarea>
                                             	<ul class="parsley-errors-list" id=""></ul>
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Status:</label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="col-md-4 col-sm-3 col-xs-12">
                                                 <select class="form-control">
                                                     <option>Planned</option>
                                                     <option>Option one</option>
