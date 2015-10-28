@@ -5673,8 +5673,15 @@ a.hiddenanchor{
 #wrapper{
     right: 0px;
     margin: 0px auto;
-    margin-top: 5%;
-    max-width: 350px;
+    margin-top: 3%;
+    max-width: 400px;
+    position: relative;
+}
+
+#wrapper_register{
+    right: 0px;
+    margin: 0px auto;
+    max-width: 600px;
     position: relative;
 }
 
@@ -5690,7 +5697,7 @@ a.hiddenanchor{
 #login{
     z-index: 22;
 }
-#toregister:target ~ #wrapper #register,
+#toregister:target ~ #wrapper_register #register,
 #tologin:target ~ #wrapper #login{
     z-index: 22;
     -webkit-animation-name: fadeInLeft;
@@ -5705,7 +5712,7 @@ a.hiddenanchor{
     animation-delay: .1s;
 }
 #toregister:target ~ #wrapper #login,
-#tologin:target ~ #wrapper #register{
+#tologin:target ~ #wrapper_register #register{
     -webkit-animation-name: fadeOutLeft;
     -moz-animation-name: fadeOutLeft;
     -ms-animation-name: fadeOutLeft;
