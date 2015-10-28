@@ -64,6 +64,18 @@
     		float: right;
     		clear: right;
 		}
+		#pagination{
+			width:100%;
+			text-align: center;
+			margin:0px auto;
+			margin-bottom: 30px;
+		}
+		#pagination select{
+			width: 5%;
+			padding: 6px;
+			float: left;
+			clear:left;
+		}
 	</style>
 	
     <script src="js/jquery.min.js"></script>
@@ -273,7 +285,7 @@
                                     <li>
                                         <a href="javascript:;">Help</a>
                                     </li>
-                                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                                    <li><a href="login_form.jsp"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
                                     </li>
                                 </ul>
                             </li>
@@ -435,7 +447,31 @@
                         </div>
                     </div>
                 </div>
+                <!-- Pagination block -->
+                <div id="pagination">
+	                <select size="1" name="" aria-controls="">
+			              <option value="10">10</option>
+			              <option value="25">25</option>
+			              <option value="50">50</option>
+			              <option value="100">100</option>
+	                </select> 
+	
+	                <span class="dataTables_paginate paging_full_numbers">
+	                	<a tabindex="0" class="first paginate_button paginate_button_disabled" id="example_first">First</a>
+	                	<a tabindex="0" class="previous paginate_button paginate_button_disabled" id="example_previous">Previous</a>
+	                	<span>
+	                		<a tabindex="0" class="paginate_active">1</a><a tabindex="0" class="paginate_button">2</a>
+	                		<a tabindex="0" class="paginate_button">3</a><a tabindex="0" class="paginate_button">4</a>
+	                	</span>
+	                	<a tabindex="0" class="next paginate_button" id="example_next">Next</a>
+	                	<a tabindex="0" class="last paginate_button" id="example_last">Last</a>
+	                </span> 
+                </div>
+                <!-- End Pagination block -->
+                
+                
 				<div id="create_new_type_btn">
+					<a class="btn btn btn-success"><i class="fa fa-download"></i></i>Export List</a>
 					<a class="btn btn btn-primary"><i class="fa fa-plus-circle"></i>Create a new type</a>
 				</div>
 				

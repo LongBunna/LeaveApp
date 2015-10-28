@@ -1444,8 +1444,9 @@ table.jambo_table tbody tr.selected td {
 }
 
 .dataTables_paginate {
-    float: right;
-    text-align: right;
+    /* float: right; */
+    margin: 0px auto;
+    text-align: center;
 }
 /* Pagination nested */
 
@@ -3352,7 +3353,7 @@ textarea:focus {
     vertical-align: middle;
     cursor: pointer;
     color: #333333;
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    /* text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); */
     background-color: #f5f5f5;
     background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
@@ -5765,7 +5766,7 @@ form:after {
     padding: 25px 0 0;
     position: relative;
     text-align: center;
-    text-shadow: 0 1px 0 #fff;
+    /* text-shadow: 0 1px 0 #fff; */
     min-width: 280px;
 }
 .login_content h1 {

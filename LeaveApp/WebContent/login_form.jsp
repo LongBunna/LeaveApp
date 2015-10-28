@@ -24,7 +24,7 @@
 	<!-- LOCAL style -->
 	<style type="text/css">
 		body{
-			background-color: #C1DADA;
+			background-color: #E1EDED;
 		}
 		/*login_form*/
 		 #kosign_login_title{
