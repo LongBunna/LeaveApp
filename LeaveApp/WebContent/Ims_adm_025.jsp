@@ -35,10 +35,9 @@
 										role="form">
 										<div class="form-group">
 											<div class="has-feedback" style="margin-left: 70%;">
-												<span
-													class="glyphicon glyphicon-search form-control-feedback"></span>
-												<input type="text" class="form-control" style="border-radius:25px;" 
-													id="" placeholder="Search" />
+												<input type="text" class="form-control has-feedback-left"
+													style="border-radius: 25px; " id="" placeholder="Search" /> 
+												<span class="glyphicon glyphicon-search form-control-feedback left"></span>
 											</div>
 										</div>
 									</form>
