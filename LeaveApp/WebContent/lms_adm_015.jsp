@@ -3,7 +3,6 @@
 
 <%@include file="/include/assetheader.jsp" %>
 
-សដាថ
 <body class="nav-md">
 
     <div class="container body">
