@@ -87,7 +87,7 @@
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="javascript:"><i class="fa fa-star-half-empty"></i> Leaves</a>
                                         </li>
-                                        <li><a href="Request_Leave.jsp">Request leaves</a>
+                                        <li><a href="Ims_adm_027.jsp">Request leaves</a>
                                         </li>
                                         <li><a href="javascript:"><i class="fa fa-star-half-empty"></i> OVERTIME</a>
                                         </li>
