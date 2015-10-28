@@ -99,17 +99,17 @@
                                 </li>
                                 <li><a><i class="fa fa-calendar"></i> Calendar <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
-                                        <li><a href="chartjs.html">My Calendar</a>
+                                        <li><a href="lms_adm_031.jsp">My Calendar</a>
                                         </li>
-                                        <li><a href="chartjs2.html">My workmate</a>
+                                        <li><a href="lms_adm_032.jsp">My workmate</a>
                                         </li>
-                                        <li><a href="chartjs2.html">My collaborators</a>
+                                        <li><a href="lms_adm_033.jsp">My collaborators</a>
                                         </li>
-                                        <li><a href="morisjs.html">Department</a>
+                                        <li><a href="lms_adm_034.jsp">Department</a>
                                         </li>
-                                        <li><a href="echarts.html">Global </a>
+                                        <li><a href="lms_adm_035.jsp">Global </a>
                                         </li>
-                                        <li><a href="other_charts.html">Tabular </a>
+                                        <li><a href="lms_adm_036.jsp">Tabular </a>
                                         </li>
                                     </ul>
                                 </li>
