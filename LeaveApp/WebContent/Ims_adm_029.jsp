@@ -29,76 +29,44 @@
 				<div class="clearfix"></div>
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="x_panel">
+						<div class="x_panel" style="margin-top:5%;">
 							<div class="text-center">
-								<h3>Submit a Leave Request</h3>
+								<h3>Submit an overtime request</h3>
 							</div>
 							<div class="x_content">
 								<br>
 								<form class="form-horizontal form-label-left">
-
-									<div class="form-group">
-										<label class="control-label col-md-3 col-sm-3 col-xs-3">Leave Type:</label>
-										<div class="col-md-3 col-sm-3 col-xs-3">
-											<select data-parsley-id="4308" id="heard" class="form-control"
-											required="">
-											<option value="annual">Annual Leave</option>
-											<option value="special">Special Leave</option>
-											<option value="sick">Sick Leave</option>
-										</select>
-										</div>
-										<label class="control-label col-md-1 col-sm-1 col-xs-1">Duration:</label>
-										<div class="col-md-2 col-sm-2 col-xs-2">
-											<input class="form-control"
-												data-inputmask="'mask': '99/99/9999'" type="text">
-										</div>
-										<label class="control-label col-md-1 col-sm-1 col-xs-1" style="text-align: left;">Day(s)</label>
-										
-									</div>
 									<div class="form-group">
 										<label class="control-label control-label col-md-3 col-sm-3 col-xs-3">Start Date:</label>
 										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
 											<input type="text" class="form-control has-feedback-left"
 													id="" name="daterang1" aria-describedby="inputSuccess2Status">
-											<span class="fa fa-calendar-o form-control-feedback left"
+											<span class="fa fa-calendar-o form-control-feedback right"
 													aria-hidden="true"></span> <span id="" class="sr-only">(success)
 											</span>
-										</div>
-										<span class="control-label col-md-1 col-sm-1 col-xs-1  "></span>
-										<div class="col-md-3 col-sm-3 col-xs-3">
-											<select data-parsley-id="4308" id="heard" class="form-control"
-											required="">
-											<option value="am">Morning</option>
-											<option value="pm">Afternoon</option>
-											<option value="full">Full day</option>
-										</select>
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="control-label control-label col-md-3 col-sm-3 col-xs-3">Start Date:</label>
-										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
-											<input type="text" class="form-control has-feedback-left"
-													id="" name="daterang2" aria-describedby="inputSuccess2Status">
-											<span class="fa fa-calendar-o form-control-feedback left"
-													aria-hidden="true"></span> <span id="" class="sr-only">(success)
-											</span>
+										<label class="control-label col-md-3 col-sm-3 col-xs-3">Duration:</label>
+										<div class="col-md-2 col-sm-2 col-xs-2">
+											<input class="form-control"
+												data-inputmask="'mask': '99/99/9999'" type="text">
 										</div>
-										<span class="control-label col-md-1 col-sm-1 col-xs-1  "></span>
+										<label class="control-label col-md-1 col-sm-1 col-xs-1" style="text-align: left;">Day(s)</label>
 										<div class="col-md-3 col-sm-3 col-xs-3">
-											<select data-parsley-id="4308" id="heard" class="form-control"
-											required="">
-											<option value="am">Morning</option>
-											<option value="pm">Afternoon</option>
-											<option value="full">Full day</option>
-										</select>
+											<select data-parsley-id="4308" id="heard"
+												class="form-control" required="">
+												<option value="day">Days</option>
+												<option value="hour">Hours</option>
+											</select>
 										</div>
 									</div>
-
+									<br>
 									<div class="form-group">
 										<label class="control-label col-md-3 col-sm-3 col-xs-12">Reason
 											<span class="required">*</span>
 										</label>
-										<div class="col-md-7 col-sm-7 col-xs-7">
+										<div class="col-md-6 col-sm-6 col-xs-6">
 											<textarea class="form-control" rows="2"></textarea>
 										</div>
 									</div>
@@ -117,8 +85,8 @@
 									<!-- Buttons -->
 									<div class="form-group">
 										<div class="col-md-9 col-md-offset-3">
+											<button type="submit" class="btn btn-success">Request Overtime</button>
 											<button type="submit" class="btn btn-primary">Cancel</button>
-											<button type="submit" class="btn btn-success">Submit</button>
 										</div>
 									</div>
 
