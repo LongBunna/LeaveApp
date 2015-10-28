@@ -26,7 +26,7 @@
 			text-align: right;
 			margin-bottom:10px;
 		}
-		#create_new_type_btn img{
+		#create_new_type_btn i{
 			padding-right:5px;
 		}
 		.title_left{
@@ -351,7 +351,7 @@
 
 
                                     <!-- start project list -->
-                                    <table class="table table-striped projects">
+                                    <table class="table table-hover projects">
                                         <thead>
                                             <tr>
                                                 <th style="width: 20%" colspan="2">ID</th>
@@ -364,10 +364,10 @@
                                                 <td>1</td>
                                                 <td>
                                                 	<a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
-                                                    <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
+                                                    <a data-toggle="modal" data-target="#lms_adm_013p" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
                                                 </td>
                                                 <td>
-                                                    <a>Annual Leave</a>
+                                                    <p>Annual Leave</p>
                                                 </td>
                                             </tr>
                                             
@@ -375,10 +375,10 @@
                                                 <td>2</td>
                                                 <td>
                                                 	<a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
-                                                    <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
+                                                    <a data-toggle="modal" data-target="#lms_adm_013p" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
                                                 </td>
                                                 <td>
-                                                    <a>Special Leave</a>dfds
+                                                    <p>Special Leave</p>
                                                 </td>
                                             </tr>
                                             
@@ -392,15 +392,15 @@
                     </div>
                 </div>
 				<div id="create_new_type_btn">
-					<a class="btn btn-info" data-toggle="modal" data-target="#lms_adm_012p"><img alt="" src="images/Plus.png" width="30" height="25">Create a new type</a>
+					<a class="btn btn btn-primary" data-toggle="modal" data-target="#lms_adm_012p"><i class="fa fa-plus-circle"></i>Create a new type</a>
 				</div>
 				
             </div>
             <!-- /page content -->
         </div>
-
     </div>
-	<!-- Modal -->
+    
+	<!-- Modal of form create new leave type-->
 	<div class="modal fade" id="lms_adm_012p" role="dialog">
 		<div class="modal-dialog">
 	    
@@ -414,13 +414,35 @@
 	          		Name: <input type="text" size="50">
 	        	</div>
 	        	<div class="modal-footer">
-	        		<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
-	          		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        		<button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+	          		<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 	        	</div>
 	      	</div>
 	    </div>
 	</div>
-  
+  	<!--End Modal -->
+  	
+  	<!-- Modal updating leaving form-->
+  	<div class="modal fade" id="lms_adm_013p" role="dialog">
+		<div class="modal-dialog">
+		<!-- pop up form--update leave type-->
+			<div class="modal-content">
+				<div class="modal-header">
+	          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	          		<h4 class="modal-title">Update a leave type</h4>
+	        	</div>
+	        	<div class="modal-body">
+	          		Name: <input type="text" size="50">
+	        	</div>
+	        	<div class="modal-footer">
+	        		<button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+	          		<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+	        	</div>
+	      	</div>
+	    </div>
+	</div>
+	<!--End Modal -->
+	
     <div id="custom_notifications" class="custom-notifications dsp_none">
         <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
         </ul>
