@@ -378,7 +378,7 @@
                                                     <a href="#" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
                                                 </td>
                                                 <td>
-                                                    <a>Annual Leave</a>
+                                                    <a>Special Leave</a>
                                                 </td>
                                             </tr>
                                             
