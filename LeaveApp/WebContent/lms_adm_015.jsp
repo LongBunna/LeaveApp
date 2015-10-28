@@ -3,6 +3,7 @@
 
 <%@include file="/include/assetheader.jsp" %>
 
+
 <body class="nav-md">
 
     <div class="container body">
@@ -18,17 +19,14 @@
                     <div class="page-title">
                         <div class="title_left">
                             <h3>Leave and Times Management System </h3>
-                        </div>
-
-                        
+                        </div>                        
                     </div>
                     <div class="clearfix"></div>
                     <div class="row">
 
                         <div class="col-md-6 col-sm-6 col-xs-12" style="width:30%; position: relative;">
                             <div class="x_panel">
-                                <div class="x_title">
-                                
+                                <div class="x_title">                                
                                  <!-- Search for -->
                                   
                                			 <div class="input-group">
@@ -36,18 +34,14 @@
                                    			 <span class="input-group-btn">
                             					<button class="btn btn-default" type="button">Go!</button>
                       						</span>
-                               			</div>
-			                                               
-                                    
-                                  <!-- /Search for -->  
-                                  
+                               			</div> 
+                                 <!-- /Search for -->                                    
                                     
                                 <div class="clearfix"></div>
                                 </div>
                                 <div class="x_content">
 
-                                <!-- Tree -->
-                                
+                                <!-- Tree -->                                
                                 
                                 <ul id="tree1">
 								    <li><a href="#">KOSIGN</a>
@@ -146,11 +140,11 @@
                                  <!-- Select for -->
                                   
                                	<div class="input-group" style="width:45%">
-                                    		<input type="text" class="form-control" placeholder="Please Select an User ..." >
-                                   			 <span class="input-group-btn">
-                            				<button class="btn btn-default" type="button" ><i class="fa fa-close"></i></button>
-                            				<button class="btn btn-default" type="button" >Select</button>
-                      						</span>
+                                    <input type="text" class="form-control" placeholder="Please Select an User ..." >
+                                   	<span class="input-group-btn">
+	                            		<button class="btn btn-default" type="button" ><i class="fa fa-close"></i></button>
+	                            		<button class="btn btn-default" type="button" >Select</button>
+                      				</span>
                                	</div>                                            
                                     
                                   <!-- /Select for -->  
@@ -172,8 +166,8 @@
                                     <thead>
                                             <tr class="headings">
                                                 <th>
-                                                    <div >
-                                                    <input type="checkbox" id="">                                                    
+                                                    <div>
+                                                   	 <input type="checkbox" id="">                                                    
                                                     </div>
                                                 </th>
                                                 <th class="column-title">ID </th>
@@ -183,23 +177,18 @@
                                                 
                             			    </tr>
                            			</thead>
-
-                             		 <tbody>
-                               			 <tr class="even pointer">
-				                               <td class="a-center ">
-				                               <input type="checkbox" id=""> 
-				                               </td>
-				                               <td class=" ">001</td>
-				                               <td class=" ">Sunleng </td>
-				                               <td class=" ">Lao </td>
-				                               <td class=" ">sunlenglao@yahoo.com</td>
+                             		<tbody>
+                               			<tr class="even pointer">
+				                        	<td class="a-center "><input type="checkbox" id=""></td>
+				                            <td class=" ">001</td>
+				                            <td class=" ">Sunleng </td>
+				                            <td class=" ">Lao </td>
+				                            <td class=" ">sunlenglao@yahoo.com</td>
                                 
                                 		   </tr>
                                             <tr class="odd pointer">
-                                               <td class="a-center ">
-				                               <input type="checkbox" id=""> 
-				                               </td>
-                                                <td class=" ">002</td>
+                                               <td class="a-center "><input type="checkbox" id=""></td>
+                                               <td class=" ">002</td>
 				                               <td class=" ">Gechleng </td>
 				                               <td class=" ">Ngor </td>
 				                               <td class=" ">jexl@yahoo.com</td>
@@ -286,9 +275,9 @@
                                                
                                             </tr>
                                             
-                                            </tbody>
+                                       </tbody>
 
-                                    </table>
+                                  </table>
                                     
                                      <!-- Combo  -->
                                   <div id="example_length" class="dataTables_length"><label>Show <select size="1" style="width: 56px;padding: 6px;" name="example_length" aria-controls="example">
@@ -321,7 +310,7 @@
                     </div>
 
                 </div>
-			<!-- footer content -->
+				<!-- footer content -->
                 <footer >
                     <div class="" >
                         <p style="text-align: center !important; margin-top:8px;" >copyright @ 2015 kosign.All reserve</p>
@@ -333,14 +322,8 @@
             
             <!-- /page content -->
         </div>
-
-    </div>     
-    
-
-    
-
+    </div>  
     <%@include file="/include/assetfooter.jsp" %>t>
 
 </body>
-
 </html>
