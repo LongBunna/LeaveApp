@@ -8,7 +8,6 @@
                 var categoryClass;
 
                 var calendar = $('#calendar').fullCalendar({
-                	eventColor: '#428bca',
                 	eventTextColor: '#ffffff',
                     header: {
                         left: 'prev,next today',

@@ -54,7 +54,7 @@
                                         <h2 class="btn-sm btn-primary">Planed</h2>
                                         <h2 class="btn-sm btn-warning">Requested</h2>
                                         <h2 class="btn-sm btn-success">Accepted</h2>
-                                        <h2 class="align-center">Coocon Center</h2>
+                                        <h2 class="text-center">Coocon Center</h2>
                                     	</div>
                                         <ul class="nav navbar-right panel_toolbox">
                                             <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
