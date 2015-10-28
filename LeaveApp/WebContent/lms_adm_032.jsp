@@ -1,5 +1,5 @@
 <%@include file="/include/assetheader.jsp" %>
-ថសដសដាថ
+
 <body class="nav-md">
 
     <div class="container body">
