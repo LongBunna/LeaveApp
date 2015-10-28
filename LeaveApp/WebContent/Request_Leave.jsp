@@ -39,41 +39,81 @@
 
 									<div class="form-group">
 										<label class="control-label col-md-3 col-sm-3 col-xs-3">Leave Type:</label>
-										<div class="col-md-6 col-sm-6 col-xs-6">
-											<input vk_10c70="subscribed" class="form-control"
-												data-inputmask="'mask': '99/99/9999'" type="text"> <span
-												class="fa fa-user form-control-feedback right"
-												aria-hidden="true"></span>
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<select data-parsley-id="4308" id="heard" class="form-control"
+											required="">
+											<option value="annual">Annual Leave</option>
+											<option value="special">Special Leave</option>
+											<option value="sick">Sick Leave</option>
+										</select>
+										</div>
+										<label class="control-label col-md-1 col-sm-1 col-xs-1">Duration:</label>
+										<div class="col-md-2 col-sm-2 col-xs-2">
+											<input class="form-control"
+												data-inputmask="'mask': '99/99/9999'" type="text">
+										</div>
+										<label class="control-label col-md-1 col-sm-1 col-xs-1" style="text-align: left;">Day(s)</label>
+										
+									</div>
+									<div class="form-group">
+										<label class="control-label control-label col-md-3 col-sm-3 col-xs-3">Start Date:</label>
+										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
+											<input type="text" class="form-control has-feedback-left"
+													id="" name="daterang1" aria-describedby="inputSuccess2Status">
+											<span class="fa fa-calendar-o form-control-feedback left"
+													aria-hidden="true"></span> <span id="" class="sr-only">(success)
+											</span>
+										</div>
+										<span class="control-label col-md-1 col-sm-1 col-xs-1  "></span>
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<select data-parsley-id="4308" id="heard" class="form-control"
+											required="">
+											<option value="am">Morning</option>
+											<option value="pm">Afternoon</option>
+											<option value="full">Full day</option>
+										</select>
 										</div>
 									</div>
-
-									<fieldset>
-										<div class="control-group">
-											<div class="controls">
-												<div
-													class="col-md-11 xdisplay_inputx form-group has-feedback">
-													<input type="text" class="form-control has-feedback-left"
-														id="single_cal1" name="daterang" placeholder="First Name"
-														aria-describedby="inputSuccess2Status"> <span
-														class="fa fa-calendar-o form-control-feedback left"
-														aria-hidden="true"></span> <span id="inputSuccess2Status"
-														class="sr-only">(success)</span>
-												</div>
-											</div>
+									<div class="form-group">
+										<label class="control-label control-label col-md-3 col-sm-3 col-xs-3">Start Date:</label>
+										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
+											<input type="text" class="form-control has-feedback-left"
+													id="" name="daterang2" aria-describedby="inputSuccess2Status">
+											<span class="fa fa-calendar-o form-control-feedback left"
+													aria-hidden="true"></span> <span id="" class="sr-only">(success)
+											</span>
 										</div>
-									</fieldset>
-
+										<span class="control-label col-md-1 col-sm-1 col-xs-1  "></span>
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<select data-parsley-id="4308" id="heard" class="form-control"
+											required="">
+											<option value="am">Morning</option>
+											<option value="pm">Afternoon</option>
+											<option value="full">Full day</option>
+										</select>
+										</div>
+									</div>
 
 									<div class="form-group">
-										<label class="control-label col-md-3 col-sm-3 col-xs-3">Duration:</label>
-										<div class="col-md-6 col-sm-6 col-xs-6">
-											<input class="form-control"
-												data-inputmask="'mask': '99/99/9999'" type="text"> <span
-												class="fa fa-user form-control-feedback right"
-												aria-hidden="true"></span>
+										<label class="control-label col-md-3 col-sm-3 col-xs-12">Reason
+											<span class="required">*</span>
+										</label>
+										<div class="col-md-7 col-sm-7 col-xs-7">
+											<textarea class="form-control" rows="2"></textarea>
 										</div>
 									</div>
-									
+
+									<div class="form-group">
+										<label class="control-label col-md-3 col-sm-3 col-xs-3">Leave
+											Type:</label>
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<select data-parsley-id="4308" id="heard"
+												class="form-control" required="">
+												<option value="plan">Planned</option>
+												<option value="unplan">Unplanned</option>
+											</select>
+										</div>
+									</div>
 									<div class="ln_solid"></div>
 									<!-- Buttons -->
 									<div class="form-group">
