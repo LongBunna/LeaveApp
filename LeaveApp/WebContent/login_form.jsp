@@ -232,8 +232,8 @@
 		                        <tr>
 		                        	<td></td>
 		                            <td colspan="3" >
-		                            	<a class="btn btn-default submit" href="index.html">Create User</a>
-		                            	<a class="btn btn-default submit" href="#tologin">Cancel</a>
+		                            	<a class="btn btn-default submit" href="index.html"><i class="fa fa-plus-circle"></i>&nbsp;&nbsp;Create User</a>
+		                            	<a class="btn btn-default submit" href="#tologin"><i class="fa fa-close"></i>&nbsp;&nbsp;Cancel</a>
 		                            </td>
 		                        </tr>
 	                        </table>
