@@ -27,7 +27,7 @@
                         <div class="menu_section">
                             <h3>General</h3>
                             <ul class="nav side-menu">
-                                <li><a  href="index1.jsp"><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                                <li><a  href="index1.jspt"><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="#"><i class="fa fa-star-half-empty"></i> An Employee</a>
                                         </li>
