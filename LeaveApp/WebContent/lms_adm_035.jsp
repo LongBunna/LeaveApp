@@ -51,13 +51,16 @@
                                 <div class="x_panel">
                                     <div class="x_title">
                                     	<div class="group">
-                                    		 <select class="btn btn-sm">
+		                                    <label class="col-xs-1">Department</label>
+                                    		<div class="col-xs-2 selectContainer" >                                    			
+                                    		 <select class="form-control" title="Choose department...">
                                     			<option>COCOON</option>
                                     			<option>ABC</option>
                                     			<option>R&D</option>                                          			
                                     		</select>
-											  <label><input type="checkbox" value="">Include-sub-department</label>
-                                    	</div>
+                                    		</div>
+											<label><input type="checkbox" value="">Include-sub-department</label>
+                                    	</div><br/>
                                     	<div class="group">
 	                                        <h2 class="btn-sm btn-primary">Planed</h2>
 	                                        <h2 class="btn-sm btn-warning">Requested</h2>
