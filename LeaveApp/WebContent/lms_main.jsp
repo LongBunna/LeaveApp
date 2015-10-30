@@ -27,13 +27,13 @@
 
                     <div class="page-title">
                         <div class="title_left">
-                            <h3>Leave/Overtime management system<!--<small>
-									 <ol class="breadcrumb">
-									  <li><a href="#">Home</a></li> -->
-									  <!-- <li><a href="#">list</a></li> -->
+                            <h3><small>
+									<ol class="breadcrumb">
+									  <li><a href="#">Users</a></li>
+									  <li><a href="#">list</a></li>
 									  <!--<li class="active">Data</li>-->
-									<!-- </ol>
-								</small> -->
+									</ol>
+								</small>
 							</h3>
                         </div>
                         <div class="title_right">
