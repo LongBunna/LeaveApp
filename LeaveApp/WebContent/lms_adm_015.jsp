@@ -16,8 +16,7 @@
                         <div class="title_left">                            
                             <h3><small>
 									<ol class="breadcrumb">
-									  <li><a href="#">Leave and Times Management System</a></li>
-									  <li><a href="#">Organization</a></li>
+									  <li><a href="#">Leave and Times Management System</a></li>									  
 									  <!--<li class="active">Data</li>-->
 									</ol>
 								</small>
@@ -27,22 +26,27 @@
                     </div>
                     <div class="clearfix"></div>
                     <div class="row">
-
-                        <div class="col-md-6 col-sm-6 col-xs-12" style="width:30%; position: relative;">
+                    	<div class="col-md-12 col-sm-12 col-xs-12" >
+                    	
+                       	 <!-- <div class="col-md-6 col-sm-6 col-xs-12"> -->
+                            
                             <div class="x_panel">
-                                <div class="x_title">                                
-                                 <!-- Search for -->
-                                  
-                               			 <div class="input-group">
-                                    		<input type="text" class="form-control" placeholder="Search for...">
-                                   			 <span class="input-group-btn">
-                            					<button class="btn btn-default" type="button">Go!</button>
-                      						</span>
-                               			</div> 
-                                 <!-- /Search for -->                                    
-                                    
-                                <div class="clearfix"></div>
-                                </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12"> 
+                                <div class="x_panel"><!-- panel left  -->   
+                                <h2>Organization</h2>                             
+	                                <div class="x_title">                                
+	                                 <!-- Search for -->
+	                                  
+	                               			 <div class="input-group">
+	                                    		<input type="text" class="form-control" placeholder="Search for...">
+	                                   			 <span class="input-group-btn">
+	                            					<button class="btn btn-default" type="button">Go!</button>
+	                      						</span>
+	                               			</div> 
+	                                 <!-- /Search for -->                                    
+	                                    
+	                                <div class="clearfix"></div>
+	                                </div>
                                 <div class="x_content">
 
                                 <!-- Tree -->                                
@@ -129,13 +133,15 @@
                                 <!-- /Tree -->
 
                                 </div>
-                            </div>
-                        </div>
+                            </div><!-- /panel left  -->
+                            
+                            
+                         </div> <!-- /class x3 -->
 
-
-                        <div class="col-md-6 col-sm-6 col-xs-12" style="width:70%; position: relative;">
-                            <div class="x_panel">
-                                <h1>Supervisor</h1>
+                        
+                            <div class="col-md-8 col-sm-6 col-xs-12">
+                            <div class="x_panel" ><!-- panel right  -->
+                                <h2>Supervisor</h2>
                                 <div class="x_content">
 									If you select a supervisor, he will receive a copy of accepted and rejected leave requests submitted by employees of this department.
                                    <br/><br/>  
@@ -284,17 +290,17 @@
                                   </table>
                                     
                                      <!-- Combo  -->
-                                  <div id="example_length" class="dataTables_length"><label>Show <select size="1" style="width: 56px;padding: 6px;" name="example_length" aria-controls="example">
+                                  <div id="example_length" class="dataTables_length">
+                                  	<label>Show <select size="1" style="width: 56px;padding: 6px;" name="example_length" aria-controls="example">
 	                                  <option value="10">10</option>
 	                                  <option value="25">25</option>
-	                                  <option value="50">50</option>
-	                                  <option value="100">100</option>
+	                                  <option value="50">50</option>	                                  
 	                                  </select> entries</label>
                                   </div>
                                   <!-- /Combo  -->
                                   
                                   <!--   Pagination  -->
-                                  <div class="dataTables_paginate paging_full_numbers" id="example_paginate">
+                                  <div class="dataTables_paginate paging_full_numbers" id="example_paginate" style="float: right;">
 	                                  <a tabindex="0" class="first paginate_button paginate_button_disabled" id="example_first">First</a>
 	                                  <a tabindex="0" class="previous paginate_button paginate_button_disabled" id="example_previous">Previous</a>
 	                                  <span><a tabindex="0" class="paginate_active">1</a><a tabindex="0" class="paginate_button">2</a>
@@ -309,8 +315,10 @@
                                            <button type="submit" class="btn btn-primary" style="float: right">Add an Employee</button>
                                            
                                  </div>   
-                            </div>
-                        </div>
+                            <!-- </div> -->
+                        </div><!-- panel right  -->
+                        </div><!-- panel x 6  -->
+                      </div> <!-- /class 12 all  -->
                     </div>
 
                 </div>
