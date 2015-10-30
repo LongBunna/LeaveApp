@@ -3,8 +3,6 @@
 <html lang="en">
 
 <%@include file="/include/assetheader.jsp" %>
-
-
 <body class="nav-md">
 
     <div class="container body">
