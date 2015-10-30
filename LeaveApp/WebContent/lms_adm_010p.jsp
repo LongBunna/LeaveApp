@@ -431,7 +431,7 @@
                 
 				<div id="create_new_type_btn">
 					<a class="btn btn btn-success"><i class="fa fa-check"></i>OK</a>
-					<a class="btn btn btn-primary"><i class="fa fa-close"></i>Cancel</a>
+					<a class="btn btn btn-primary"><i class="fa fa-close"></i>&nbsp;Cancel</a>
 				</div>
 				
             </div>
