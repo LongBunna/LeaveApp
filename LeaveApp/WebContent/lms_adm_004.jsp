@@ -88,7 +88,7 @@
                         aria-relevant="all">
                         <tr class="pointer odd">
                           <td id="">1</td>
-                          <td id=""><a class="fa fa-eye"
+                          <td id=""><a href="javascrip:void(0)" class="fa fa-eye"
                             data-toggle="modal" data-target="#myModal"></a></td>
                           <td id="">Yon Ryna</td>
                           <td id="">10/16/2015 (Morning)</td>
@@ -99,7 +99,8 @@
                         </tr>
                         <tr class="pointer odd">
                           <td id="">1</td>
-                          <td id=""><a class="fa fa-eye"></a></td>
+                          <td id=""><a href="javascrip:void(0)" class="fa fa-eye"
+                            data-toggle="modal" data-target="#myModal"></a></td>
                           <td id="">Yon Ryna</td>
                           <td id="">10/16/2015 (Morning)</td>
                           <td id="">10/16/2015 (Afternoon)</td>
