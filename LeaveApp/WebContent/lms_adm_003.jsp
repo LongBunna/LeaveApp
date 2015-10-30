@@ -76,10 +76,11 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Start date:</label>
-                                            <div class="col-md-4 col-sm-3 col-xs-12">
-                                                <input type="text" id="last-name" name="last-name" required="required" class="form-control" data-parsley-id="6975">
-                                                <ul class="parsley-errors-list" id="parsley-id-6975"></ul>
-                                            </div>
+                                            <div class="col-md-4 col-sm-3 col-xs-12 xdisplay_inputx form-group has-feedback">
+												<input type="text" class="form-control has-feedback-left active" id="" name="daterang1" aria-describedby="inputSuccess2Status">
+												<span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span> <span id="" class="sr-only">(success)
+												</span>
+											</div>
                                             <div class="col-md-2 col-sm-3 col-xs-12">
                                                 <select class="form-control">
                                                     <option>Morning</option>
@@ -92,10 +93,11 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">End date:</label>
-                                            <div class="col-md-4 col-sm-3 col-xs-12">
-                                                <input type="text" id="last-name" name="last-name" required="required" class="form-control" data-parsley-id="">
-                                                <ul class="parsley-errors-list" id=""></ul>
-                                            </div>
+                                            <div class="col-md-4 col-sm-3 col-xs-12 xdisplay_inputx form-group has-feedback">
+												<input type="text" class="form-control has-feedback-left active" id="" name="daterang1" aria-describedby="inputSuccess2Status">
+												<span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span> <span id="" class="sr-only">(success)
+												</span>
+											</div>
                                             <div class="col-md-2 col-sm-3 col-xs-12">
                                                 <select class="form-control">
                                                     <option>Afternoon</option>
@@ -108,10 +110,11 @@
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Duration:</label>
-                                            <div class="col-md-4 col-sm-3 col-xs-12">
+                                            <div class="col-md-3 col-sm-2 col-xs-11">
                                                 <input id="birthday" class="date-picker form-control" required="required" type="text" data-parsley-id="5319">
                                                 <ul class="parsley-errors-list" id="parsley-id-5319"></ul>
                                             </div>
+                                            <label class="control-label col-md-1 col-sm-1 col-xs-1" style="text-align: left;">Day(s)</label>
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Reason:</label>

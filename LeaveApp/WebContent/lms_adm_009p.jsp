@@ -1,0 +1,127 @@
+<%@include file="/include/assetheader.jsp" %>
+
+<body class="nav-md" style="background-color:white; " >
+	<div class="x_panel" style="width: 450px;" >
+        	<div class="x_title">
+                	<h2>Select the Department</h2>
+                    <ul class="nav navbar-right panel_toolbox" style="min-width: 0;">
+                       <li><a class="close-link"><i class="fa fa-close"></i></a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+            
+            <!-- Select for -->
+                 <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search" style="position: absolute">
+                      <div class="input-group">
+                           <input class="form-control" placeholder="Search for..." type="text">
+                            <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                        </span>
+                      </div>
+                 </div>                                        
+                                    
+            <!-- /Select for -->  
+                <br>
+            <form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+				<!-- Tree -->                                
+                           <div style="padding-top: 20px;">   
+                                <ul id="tree1">
+								    <li><a href="#">KOSIGN</a>
+								
+								        <ul>								            
+								            <li>Account Center
+								                <ul>
+								                    <li>GM
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    
+								                </ul>
+								            </li>
+								            <li>Business Center
+								                <ul>
+								                    <li>Network
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                   <!--  <li>Employee Maint.</li> -->
+								                </ul>
+								            </li>
+								            <li>Coocon Center
+								                <ul>
+								                    <li>Scraping Team
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    <li>Web Team
+								                       <!--  <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    
+								                </ul>
+								            </li>								            
+								            <li>R & D Center
+								                <ul>
+								                    <li>Fintech Team
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    <li>Bizplay Team
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    <li>Smart Team
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    
+								                </ul>
+								            </li>
+								            
+								            <!-- <li>Human Resources</li> -->
+								        </ul>
+								    </li>
+								    
+								</ul>
+                               
+                               </div>  
+                                <!-- /Tree -->
+                                        
+               
+              
+               <div class="ln_solid"></div>
+                   <div class="form-group">
+                   <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" style="text-align:center;">
+                   		<button type="submit" class="btn btn-primary" style="width:70px;">  OK  </button>
+                       	<button type="submit" class="btn btn-success" style="width: 70px;">Cancel</button>
+                      
+                   </div>
+               </div>
+        	</form>
+    	</div>
+	</div>
+    </body>
+
+   <%@include file="/include/assetfooter.jsp" %>
