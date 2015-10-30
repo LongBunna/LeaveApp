@@ -1,29 +1,29 @@
-<%@include file="/include/assetheader.jsp"%>
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Bootstrap core CSS -->
 
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link href="fonts/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet">
+
+<!-- Custom styling plus plugins -->
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/icheck/flat/green.css" rel="stylesheet">
+
+<!-- Full Calendar CSS included by Chitra -->
+<link href="css/calendar/fullcalendar.css" rel="stylesheet">
+<link href="css/calendar/fullcalendar.print.css" rel="stylesheet"
+	media="print">
+<link href="css/lms_adm_031.css" rel="stylesheet">
+<!-- That's all -->
+</head>
 
 <body class="nav-md">
-
-	<div class="container body">
-
-		<div class="main_container">
-
-			<!-- Left menu bar -->
-
-			<%@include file="/include/leftbar.jsp"%>
-
-			<!-- /Left menu bar -->
-
-			<!-- top navigation -->
-
-			<%@include file="/include/topNav.jsp"%>
-
-			<!-- /top navigation -->
-
-			<!-- page content -->
-			<div class="right_col" role="main">
-				<div class="AddDelegate" style="margin-top:10%">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
+		<div class="modal fade" id="otModal">
+			<div class="modal-dialog modal-lg ">
+						<div class="modal-content col-md-offset-3"  style="margin-top: 25%">
 							<div class="modal-header">
 								<!-- <button type="button" class="close" data-dismiss="modal"
 									aria-hidden="true">x</button> -->
@@ -102,18 +102,7 @@
 						</div>
 
 					</div>
-				</div>
-				<!-- /page content -->
-			</div>
-
 		</div>
-
-		<div id="custom_notifications" class="custom-notifications dsp_none">
-			<ul class="list-unstyled notifications clearfix"
-				data-tabbed_notifications="notif-group">
-			</ul>
-			<div class="clearfix"></div>
-			<div id="notif-group" class="tabbed_notifications"></div>
-		</div>
-
-		<%@include file="/include/assetfooter.jsp"%>
+</body>
+</html>
+		
