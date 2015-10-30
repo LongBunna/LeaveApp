@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>List All Employees</title>
+    <title>Leave Type! | </title>
 
     <!-- Bootstrap core CSS -->
 
@@ -32,45 +32,6 @@
 		.modal-dialog{
 			margin-top: 200px;
 		}
-		#dept_selectbox{
-			border-right: 0;
-   			box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
-    		padding-left: 20px;
-    		border: 1px solid rgba(221, 226, 232, 0.49);
-    		line-height: 30px;
-    		width: 20%;
-    		margin-right:10px;
-		}
-		#search_div {
-			margin-bottom:5px;
-			margin-left:5px;
-		}
-		#search_div input[type="checkbox"]{
-			margin-right:5px;
-		}
-		#searchbox{
-			border-right: 0;
-   			box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
-    		border-radius: 25px 25px 25px 25px;
-    		padding-left: 20px;
-    		border: 1px solid rgba(221, 226, 232, 0.49);
-    		line-height: 30px;
-    		width: 20%;
-    		float: right;
-    		clear: right;
-		}
-		#pagination{
-			width:100%;
-			text-align: center;
-			margin:0px auto;
-			margin-bottom: 30px;
-		}
-		#pagination select{
-			width: 5%;
-			padding: 6px;
-			float: left;
-			clear:left;
-		}
 	</style>
 	
     <script src="js/jquery.min.js"></script>
@@ -92,6 +53,7 @@
 
     <div class="container body">
 
+
         <div class="main_container">
 
             <!-- Left menu bar -->
@@ -104,14 +66,14 @@
 
             <!-- page content -->
             <div class="right_col" role="main">
+
                 <div class="">
                     <div class="page-title">
                         <div class="title_left">
-                            <h3>
-                            	<small>
+                            <h3><small>
 									<ol class="breadcrumb">
-									  <li><a href="#">Employees</a></li>
-									  <li><a href="#">List of Employees</a></li>
+									  <li><a href="#">Leaves</a></li>
+									  <li><a href="#">Leave Type</a></li>
 									  <!--<li class="active">Data</li>-->
 									</ol>
 								</small>
@@ -130,12 +92,12 @@
                     </div>
                     <div class="clearfix"></div>
                     
-                    
+
                     <div class="row">
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
-                                    <h2>Leave and Overtime Management System<small>List all employees</small></h2>
+                                    <h2>Leave and Overtime Management System<small>Leave Type</small></h2>
                                     <ul class="nav navbar-right panel_toolbox">
                                         <!--<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                         </li>
@@ -153,41 +115,31 @@
                                     </ul>
                                     <div class="clearfix"></div>
                                 </div>
-                                <div id="search_div">
-									<span><label>Department:</label><input type="text" placeholder="KOSIGN" id="dept_selectbox"/><input type="button" value="Select" class="btn btn-primary btn-sm"/></span>
-									<span><input type="checkbox">include sub-department</span>
-	                			</div>
                                 <div class="x_content">
                                     <table class="table table-bordered">
                                         <thead>
                                             <tr>
 												<th>ID</th>
-                                                <th>First Name</th>
-												<th>Last Name</th>
-												<th>Email</th>
-												<th>Department</th>
-												<th>Contrast</th>
-												<th>Manager</th>
+                                                <th>Action</th>
+												<th>Type</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-											<tr>
-                                                <th scope="row">1</th>	
-                                                <td>First</td>											
-                                                <td>Last</td>
-                                                <td>name@gmail.com</td>
-                                                <td>Manager</td>
-                                                <td>User</td>
-                                                <td>1</td>
+                                        	<tr>
+                                        		<th scope="row">1</th>
+                                            	<td>
+													<a href="#" data-toggle="modal" data-target="#update_leave_type"><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit" ></span></a> | 
+													<a href=""><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a>  
+												</td>												
+                                                <td>Annual Leave</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
-                                                <td>First</td>												
-                                                <td>bensteav</td>
-                                                <td>ben@gmail.com</td>
-                                                <td>Employee</td>
-                                                <td>Hr Manager</td>
-                                                <td>1</td>
+                                                <td>
+													<a data-toggle="modal" data-target="#update_leave_type"><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
+													<a href=""><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a> 
+												</td>												
+                                                <td>Speacial Leave</td>
                                             </tr>                                   
                                         </tbody>
 										<!--<tfoot>
@@ -196,48 +148,64 @@
                                     </table>
 
                                 </div>
-                                
-                                <!-- Pagination block -->
-				                <div id="pagination">
-					                <select size="1" name="" aria-controls="">
-							              <option value="10">10</option>
-							              <option value="25">25</option>
-							              <option value="50">50</option>
-							              <option value="100">100</option>
-					                </select> 
-					
-					                <span class="dataTables_paginate paging_full_numbers">
-					                	<a tabindex="0" class="first paginate_button paginate_button_disabled" id="example_first">First</a>
-					                	<a tabindex="0" class="previous paginate_button paginate_button_disabled" id="example_previous">Previous</a>
-					                	<span>
-					                		<a tabindex="0" class="paginate_active">1</a><a tabindex="0" class="paginate_button">2</a>
-					                		<a tabindex="0" class="paginate_button">3</a><a tabindex="0" class="paginate_button">4</a>
-					                	</span>
-					                	<a tabindex="0" class="next paginate_button" id="example_next">Next</a>
-					                	<a tabindex="0" class="last paginate_button" id="example_last">Last</a>
-					                </span> 
-				                </div>
-				                <!-- End Pagination block -->
-                
-				                <!-- button -->
-								<div id="create_new_type_btn">
-									<a class="btn btn btn-success"><i class="fa fa-download"></i>Export List</a>
-									<a class="btn btn btn-primary"><i class="fa fa-plus-circle"></i>Create a new type</a>
+                                <div id="create_new_type_btn">
+									<a class="btn btn btn-primary" data-toggle="modal" data-target="#new_leave_type"><i class="fa fa-plus-circle"></i>Create a new type</a>
 								</div>
-				                <!-- End button -->                
                             </div>
                         </div>
                         <div class="clearfix"></div>
                     </div>
                     
                 </div>
-                
+				
+				
             </div>
             <!-- /page content -->
         </div>
     </div>
-
-
+    
+	<!-- Modal of form create new leave type-->
+	<div class="modal fade" id="new_leave_type" role="dialog">
+		<div class="modal-dialog">
+	    
+		<!-- pop up form--create new leave type-->
+			<div class="modal-content">
+				<div class="modal-header">
+	          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	          		<h4 class="modal-title"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Add a leave type</h4>
+	        	</div>
+	        	<div class="modal-body">
+	          		Name: <input type="text" size="50">
+	        	</div>
+	        	<div class="modal-footer">
+	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;&nbsp;OK</button>
+	          		<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;&nbsp;Close</button>
+	        	</div>
+	      	</div>
+	    </div>
+	</div>
+  	<!--End Modal -->
+  	
+  	<!-- Modal updating leaving form-->
+  	<div class="modal fade" id="update_leave_type" role="dialog">
+		<div class="modal-dialog">
+		<!-- pop up form--update leave type-->
+			<div class="modal-content">
+				<div class="modal-header">
+	          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	          		<h4 class="modal-title"><i class="fa fa-edit"></i>&nbsp;&nbsp;Update a leave type</h4>
+	        	</div>
+	        	<div class="modal-body">
+	          		Name: <input type="text" size="50">
+	        	</div>
+	        	<div class="modal-footer">
+	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;&nbsp;OK</button>
+	          		<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;&nbsp;Close</button>
+	        	</div>
+	      	</div>
+	    </div>
+	</div>
+	<!--End Modal -->
 	
     <div id="custom_notifications" class="custom-notifications dsp_none">
         <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
