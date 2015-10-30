@@ -35,7 +35,7 @@
                                         </li>
                                         <li><a href="lms_adm_002.jsp">List Leave requested</a>
                                         </li>
-                                        <li><a href="index3.html">New Leaves</a>
+                                        <li><a href="lms_adm_003.jsp">New Leaves</a>
                                         </li>
                                         <li><a href="#"><i class="fa fa-star-half-empty"></i> An Manager</a>
                                         </li>
