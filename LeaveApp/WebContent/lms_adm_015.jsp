@@ -310,7 +310,7 @@
                                   
                                   <!--  / Pagination  -->
                                  <br/><br/><br/>
-                                    <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" style="float: right">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" style="float: right;">
                                            <button type="submit" class="btn btn-success" style="float: right">Delete an Employee</button>
                                            <button type="submit" class="btn btn-primary" style="float: right">Add an Employee</button>
                                            
