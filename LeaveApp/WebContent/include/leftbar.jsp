@@ -27,7 +27,7 @@
                         <div class="menu_section">
                             <h3>General</h3>
                             <ul class="nav side-menu">
-                                <li><a  href="index1.jsp"><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                                <li><a  href="javascript:"><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="#"><i class="fa fa-star-half-empty"></i> An Employee</a>
                                         </li>
@@ -47,7 +47,7 @@
                                 </li>
                                 <li><a><i class="fa fa-key"></i> Admin <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
-                                        <li><a href="form.html">List of Users</a>
+                                        <li><a href="lms_adm_006.jsp">List of Users</a>
                                         </li>
                                         <li><a href="form_advanced.html">Create Users</a>
                                         </li>
