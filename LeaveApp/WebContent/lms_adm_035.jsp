@@ -51,9 +51,17 @@
                                 <div class="x_panel">
                                     <div class="x_title">
                                     	<div class="group">
-                                        <h2 class="btn-sm btn-primary">Planed</h2>
-                                        <h2 class="btn-sm btn-warning">Requested</h2>
-                                        <h2 class="btn-sm btn-success">Accepted</h2>
+                                    		 <select class="btn btn-sm">
+                                    			<option>COCOON</option>
+                                    			<option>ABC</option>
+                                    			<option>R&D</option>                                          			
+                                    		</select>
+											  <label><input type="checkbox" value="">Include-sub-department</label>
+                                    	</div>
+                                    	<div class="group">
+	                                        <h2 class="btn-sm btn-primary">Planed</h2>
+	                                        <h2 class="btn-sm btn-warning">Requested</h2>
+	                                        <h2 class="btn-sm btn-success">Accepted</h2>
                                     	</div>
                                         <ul class="nav navbar-right panel_toolbox">
                                             <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
@@ -99,3 +107,7 @@
     </div>
 
    <%@include file="/include/assetfooter.jsp" %>
+   
+    <script src="js/lms_adm_035.js"></script>
+    </body>
+    </html>

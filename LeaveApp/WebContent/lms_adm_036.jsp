@@ -100,3 +100,7 @@
     </div>
 
    <%@include file="/include/assetfooter.jsp" %>
+   
+    <script src="js/lms_adm_036.js"></script>
+    </body>
+    </html>
