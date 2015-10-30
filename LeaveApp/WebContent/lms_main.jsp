@@ -27,7 +27,7 @@
 
                     <div class="page-title">
                         <div class="title_left">
-                            <h3><small>
+                            <h3>Dashboard<small>
 									<ol class="breadcrumb">
 									  <li><a href="#">Users</a></li>
 									  <li><a href="#">list</a></li>
