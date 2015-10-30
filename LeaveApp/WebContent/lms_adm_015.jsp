@@ -10,9 +10,9 @@
 
     <title>Gentallela Alela! | </title>
 
-
-</head>
 <%@include file="/include/assetheader.jsp" %>
+</head>
+
 <body class="nav-md">
 
     <div class="container body">
