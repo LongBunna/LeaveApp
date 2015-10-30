@@ -87,13 +87,13 @@
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="javascript:"><i class="fa fa-star-half-empty"></i> Leaves</a>
                                         </li>
-                                        <li><a href="Ims_adm_027.jsp">Request leaves</a>
+                                        <li><a href="lms_adm_027.jsp">Request leaves</a>
                                         </li>
                                         <li><a href="javascript:"><i class="fa fa-star-half-empty"></i> OVERTIME</a>
                                         </li>
-                                        <li><a href="Ims_adm_028.jsp">List of Extra </a>
+                                        <li><a href="lms_adm_028.jsp">List of Extra </a>
                                         </li>
-                                        <li><a href="Ims_adm_029.jsp">Request an Ex </a>
+                                        <li><a href="lms_adm_029.jsp">Request an Ex </a>
                                         </li>
                                     </ul>
                                 </li>
