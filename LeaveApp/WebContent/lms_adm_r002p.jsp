@@ -110,6 +110,8 @@
 								<!-- end modal body -->
 								<div class="modal-footer">
 									<div class="col-md-11">
+										<button type="submit" class="btn btn-success">Accept</button>
+										<button type="submit" class="btn">Edit</button>
 										<button type="submit" class="btn">Back to list</button>
 									</div>
 								</div>
