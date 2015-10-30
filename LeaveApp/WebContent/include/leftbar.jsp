@@ -91,9 +91,9 @@
                                         </li>
                                         <li><a href="javascript:"><i class="fa fa-star-half-empty"></i> OVERTIME</a>
                                         </li>
-                                        <li><a href="other_charts.html">List of Extra </a>
+                                        <li><a href="Ims_adm_028.jsp">List of Extra </a>
                                         </li>
-                                        <li><a href="other_charts.html">Request an Ex </a>
+                                        <li><a href="Ims_adm_029.jsp">Request an Ex </a>
                                         </li>
                                     </ul>
                                 </li>
