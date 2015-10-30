@@ -858,7 +858,7 @@ li.current-page a {
 
 .panel_toolbox {
     float: right;
-    min-width: 70px;
+    /* min-width: 70px; */
 }
 
 .panel_toolbox>li {
@@ -6359,7 +6359,6 @@ ul.notifications {
     opacity: 1;
 }
 
-
 /* *********  Tree HTML  **************************** */
 
 .tree, .tree ul {
@@ -6429,3 +6428,4 @@ ul.notifications {
 
 
 /* *********  /Tree HTML  **************************** */
+
