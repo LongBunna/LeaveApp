@@ -20,7 +20,7 @@
 
             <!-- page content -->
 			<div class="right_col" role="main">
-			<%@include file="/Ims_adm_030.jsp" %>
+			<%@include file="/lms_adm_030.jsp" %>
 				<div class="page-title">
 					<div class="title_left">
 						<h3>Leave/Overtime management system</h3>
@@ -126,7 +126,7 @@
 									<div class="form-group">
 										<div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-10">
 											<a class="btn btn-app" style="border-radius:15px; !important"> <i class="fa fa-send" ></i> Export</a> 
-											<a class="btn btn-app" style="border-radius:15px; !important" href="Ims_adm_029.jsp"> <i class="fa fa-file"></i> New
+											<a class="btn btn-app" style="border-radius:15px; !important" href="lms_adm_029.jsp"> <i class="fa fa-file"></i> New
 												Request	</a>
 										</div>
 									</div>
