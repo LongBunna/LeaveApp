@@ -29,7 +29,7 @@
 				<div class="clearfix"></div>
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="x_panel" style="margin-top:5%;">
+						<div class="x_panel">
 							<div class="text-center">
 								<h3>Submit an overtime request</h3>
 							</div>

@@ -27,7 +27,7 @@
                         <div class="menu_section">
                             <h3>General</h3>
                             <ul class="nav side-menu">
-                                <li><a  href="index1.jsp"><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                                <li><a  href="javascript:"><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="#"><i class="fa fa-star-half-empty"></i> An Employee</a>
                                         </li>
@@ -91,9 +91,9 @@
                                         </li>
                                         <li><a href="javascript:"><i class="fa fa-star-half-empty"></i> OVERTIME</a>
                                         </li>
-                                        <li><a href="other_charts.html">List of Extra </a>
+                                        <li><a href="Ims_adm_028.jsp">List of Extra </a>
                                         </li>
-                                        <li><a href="other_charts.html">Request an Ex </a>
+                                        <li><a href="Ims_adm_029.jsp">Request an Ex </a>
                                         </li>
                                     </ul>
                                 </li>
