@@ -151,21 +151,22 @@
                                 </div>
                                
                                  <!-- Select for -->
-                                  
-                               	<div class="input-group" style="width:45%">
-                                    <input type="text" class="form-control" placeholder="Please Select an User ..." >
-                                   	<span class="input-group-btn">
-	                            		<button class="btn btn-default" type="button" ><i class="fa fa-close"></i></button>
-	                            		<button class="btn btn-default" type="button" data-toggle="modal" data-target="#lms_adm_015p_Modal" >Select</button>
-                      				</span>
-                               	</div>                                            
-                                    
+                                <div class="col-md-6 col-sm-8 col-xs-12">  
+	                               	<div class="input-group">
+	                                    <input type="text" class="form-control" placeholder="Please Select an User ..." >
+	                                   	<span class="input-group-btn">
+		                            		<button class="btn btn-default" type="button" ><i class="fa fa-close"></i></button>
+		                            		<button class="btn btn-default" type="button" data-toggle="modal" data-target="#lms_adm_015p_Modal" >Select</button>
+	                      				</span>
+	                               	</div>
+	                              	                                           
+                                </div><br/><br/>
                                   <!-- /Select for -->  
-                                
-                                <br/>
-                                <div><h2 style="font-weight:700;">Employees attached to Department</h2></div>
+                                  
+                                <div class="col-md-8" style="width:56.66%"><h2 style="font-weight:600;">Employees attached to Department</h2></div>
                                 <!-- Search  -->
-                                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">  
+                                                               
                                 	<div class="input-group">
 	                                    <input type="text" class="form-control" placeholder="Search for...">
 	                                    <span class="input-group-btn">
@@ -337,7 +338,8 @@
                 <!-- ****************** Popup lms_adm_015p******************************************************************************* -->
                 
                 <div class="modal fade"  id="lms_adm_015p_Modal"  role="dialog">
-                	<div class="modal-dialog modal-lg">
+                  
+                	<div class="modal-dialog modal-md">
                 		<div class="modal-content" style="padding-top:4px;">
                            <div class="x_panel" style="border:none;">
                                 <div class="x_title" >
@@ -509,123 +511,20 @@
                                                 <td class=" ">Song</td>
                                                 <td class=" ">rathana@gmail.com 
                                                 </td>
-                                               
-                                                
-                                            </tr>
-                                            
-                                           
-                                            <tr class="even pointer selected">
-                                                <td class="a-center ">
-                                                   
-                                                    <input type="checkbox" checked class="tableflat">
-                                                </td>
-                                                <td>014</td>
-                                                <td class=" ">Rathana</td>
-                                                <td class=" ">Song</td>
-                                                <td class=" ">rathana@gmail.com 
-                                                </td>
-                                               
-                                                
-                                            </tr>
-                                            <tr class="even pointer selected">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" checked class="tableflat">
-                                                </td>
-                                                <td>015</td>
-                                                <td class=" ">Bunna</td>
-                                                <td class=" ">Long</td>
-                                                <td class=" ">longbunna@gmail.com 
-                                                </td>
-                                                
-                                               
-                                            </tr>
-                                            <tr class="odd pointer">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" class="tableflat">
-                                                </td>
-                                                <td>016</td>
-                                                <td class=" ">Rathana</td>
-                                                <td class=" ">Song</td>
-                                                <td class=" ">rathana@gmail.com 
-                                                </td>
-                                               
-                                                
-                                            </tr>
-                                            <tr class="even pointer selected">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" checked class="tableflat">
-                                                </td>
-                                                <td>017</td>
-                                                <td class=" ">Bunna</td>
-                                                <td class=" ">Long</td>
-                                                <td class=" ">longbunna@gmail.com 
-                                                </td>
-                                                
-                                               
-                                            </tr>
-                                            <tr class="odd pointer">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" class="tableflat">
-                                                </td>
-                                               <td>018</td>
-                                                <td class=" ">Rathana</td>
-                                                <td class=" ">Song</td>
-                                                <td class=" ">rathana@gmail.com 
-                                                </td>
-                                               
-                                                
-                                            </tr>
-                                            <tr class="even pointer selected">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" checked class="tableflat">
-                                                </td>
-                                                <td>019</td>
-                                                <td class=" ">Bunna</td>
-                                                <td class=" ">Long</td>
-                                                <td class=" ">longbunna@gmail.com 
-                                                </td>
-                                                
-                                               
-                                            </tr>
-                                            <tr class="odd pointer">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" class="tableflat">
-                                                </td>
-                                                <td>020</td>
-                                                <td class=" ">Rathana</td>
-                                                <td class=" ">Song</td>
-                                                <td class=" ">rathana@gmail.com 
-                                                </td>
-                                               
-                                                
-                                            </tr>
-                                            <tr class="even pointer selected">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" checked class="tableflat">
-                                                </td>
-                                                <td>021</td>
-                                                <td class=" ">Bunna</td>
-                                                <td class=" ">Long</td>
-                                                <td class=" ">longbunna@gmail.com 
-                                                </td>
-                                                
-                                               
-                                            </tr>
+                                            </tr>   
                                         </tbody>
 
                                     </table>
                                      <!-- Combo  -->
-                                  <div id="example_length" class="dataTables_length"><label>Show <select size="1" style="width: 56px;padding: 6px;" name="example_length" aria-controls="example">
+                                  <div id="example_length" class="dataTables_length" style="width:26%;"><label>Show <select size="1" style="width: 56px;padding: 6px;" name="example_length" aria-controls="example">
 	                                  <option value="10">10</option>
-	                                  <option value="25">25</option>
-	                                  <option value="50">50</option>
-	                                  <option value="100">100</option>
+	                                  <option value="25">15</option>	                                  
 	                                  </select> entries</label>
                                   </div>
                                   <!-- /Combo  -->
                                   
                                   <!--   Pagination  -->
-                                  <div class="dataTables_paginate paging_full_numbers" id="example_paginate" style="float: right;">
+                                  <div class="dataTables_paginate paging_full_numbers" id="example_paginate" style="float: right; padding-top:4px;">
 	                                  <a tabindex="0" class="first paginate_button paginate_button_disabled" id="example_first">First</a>
 	                                  <a tabindex="0" class="previous paginate_button paginate_button_disabled" id="example_previous">Previous</a>
 	                                  <span><a tabindex="0" class="paginate_active">1</a><a tabindex="0" class="paginate_button">2</a>
@@ -646,6 +545,7 @@
                 
                 
                 </div> <!-- /Modal content -->
+                
         	</div> <!-- /Modal -->
                 
                 
@@ -655,7 +555,7 @@
                 <!-- ****************** Popup lms_adm_016p************************************************************************************************************** -->
                 
                 <div class="modal fade"  id="lms_adm_016p_Modal"  role="dialog">
-                	<div class="modal-dialog modal-lg">
+                	<div class="modal-dialog modal-md">
                 		<div class="modal-content" style="padding-top:4px;">
                             <div class="x_panel" style="border:none;">
                                 <div class="x_title">
@@ -842,108 +742,21 @@
                                                 <td class=" ">Song</td>
                                                 <td class=" ">rathana@gmail.com 
                                                 </td>
-                                               
-                                                
                                             </tr>
-                                            <tr class="even pointer selected">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" checked class="tableflat">
-                                                </td>
-                                                <td>015</td>
-                                                <td class=" ">Bunna</td>
-                                                <td class=" ">Long</td>
-                                                <td class=" ">longbunna@gmail.com 
-                                                </td>
-                                                
-                                               
-                                            </tr>
-                                            <tr class="odd pointer">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" class="tableflat">
-                                                </td>
-                                                <td>016</td>
-                                                <td class=" ">Rathana</td>
-                                                <td class=" ">Song</td>
-                                                <td class=" ">rathana@gmail.com 
-                                                </td>
-                                               
-                                                
-                                            </tr>
-                                            <tr class="even pointer selected">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" checked class="tableflat">
-                                                </td>
-                                                <td>017</td>
-                                                <td class=" ">Bunna</td>
-                                                <td class=" ">Long</td>
-                                                <td class=" ">longbunna@gmail.com 
-                                                </td>
-                                                
-                                               
-                                            </tr>
-                                            <tr class="odd pointer">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" class="tableflat">
-                                                </td>
-                                               <td>018</td>
-                                                <td class=" ">Rathana</td>
-                                                <td class=" ">Song</td>
-                                                <td class=" ">rathana@gmail.com 
-                                                </td>
-                                               
-                                                
-                                            </tr>
-                                            <tr class="even pointer selected">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" checked class="tableflat">
-                                                </td>
-                                                <td>019</td>
-                                                <td class=" ">Bunna</td>
-                                                <td class=" ">Long</td>
-                                                <td class=" ">longbunna@gmail.com 
-                                                </td>
-                                                
-                                               
-                                            </tr>
-                                            <tr class="odd pointer">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" class="tableflat">
-                                                </td>
-                                                <td>020</td>
-                                                <td class=" ">Rathana</td>
-                                                <td class=" ">Song</td>
-                                                <td class=" ">rathana@gmail.com 
-                                                </td>
-                                               
-                                                
-                                            </tr>
-                                            <tr class="even pointer selected">
-                                                <td class="a-center ">
-                                                    <input type="checkbox" checked class="tableflat">
-                                                </td>
-                                                <td>021</td>
-                                                <td class=" ">Bunna</td>
-                                                <td class=" ">Long</td>
-                                                <td class=" ">longbunna@gmail.com 
-                                                </td>
-                                                
-                                               
-                                            </tr>
+                                            
                                         </tbody>
 
                                     </table>
                                      <!-- Combo  -->
-                                  <div id="example_length" class="dataTables_length"><label>Show <select size="1" style="width: 56px;padding: 6px;" name="example_length" aria-controls="example">
+                                  <div id="example_length" class="dataTables_length" style="width:26%;"><label>Show <select size="1" style="width: 55px;padding: 5px;" name="example_length" aria-controls="example">
 	                                  <option value="10">10</option>
-	                                  <option value="25">25</option>
-	                                  <option value="50">50</option>
-	                                  <option value="100">100</option>
+	                                  <option value="25">15</option>	                                  
 	                                  </select> entries</label>
                                   </div>
                                   <!-- /Combo  -->
                                   
                                   <!--   Pagination  -->
-                                  <div class="dataTables_paginate paging_full_numbers" id="example_paginate" style="float: right;">
+                                  <div class="dataTables_paginate paging_full_numbers" id="example_paginate" style="float: right; padding-top:4px;">
 	                                  <a tabindex="0" class="first paginate_button paginate_button_disabled" id="example_first">First</a>
 	                                  <a tabindex="0" class="previous paginate_button paginate_button_disabled" id="example_previous">Previous</a>
 	                                  <span><a tabindex="0" class="paginate_active">1</a><a tabindex="0" class="paginate_button">2</a>
