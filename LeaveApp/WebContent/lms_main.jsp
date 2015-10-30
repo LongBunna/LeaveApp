@@ -28,11 +28,11 @@
                     <div class="page-title">
                         <div class="title_left">
                             <h3>Dashboard<small>
-									<ol class="breadcrumb">
+									<!-- <ol class="breadcrumb">
 									  <li><a href="#">Users</a></li>
 									  <li><a href="#">list</a></li>
-									  <!--<li class="active">Data</li>-->
-									</ol>
+									  <li class="active">Data</li>
+									</ol> -->
 								</small>
 							</h3>
                         </div>
@@ -62,7 +62,7 @@
                                 <div class="x_content">
                                    <div class="row">
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="leavebalances.jsp">
+                                          <a href="lms_adm_001.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
                                                 <div class="icon" style="right: 167px;"><i class="fa fa-caret-square-o-right"></i>
                                                 </div>
