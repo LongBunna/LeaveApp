@@ -12,8 +12,7 @@
     
     <!-- full calendar by Chitra-->
     <script src="js/moment.min.js"></script>
-    <script src="js/calendar/fullcalendar.min.js"></script>
-    <script src="js/lms_adm_031.js"></script>
+    <script src="js/calendar/fullcalendar.js"></script>
     <!-- End -->
     
     <!-- daterangepicker by borith -->
@@ -21,5 +20,6 @@
     <script type="text/javascript" src="js/datepicker/daterangepicker.js"></script>
     <script type="text/javascript" src="js/leave_form.js"></script>
    
-</body>
-</html>
+   <!-- Please adn end tage body and html on your own page because i need to include my oun js  -->
+<!-- </body>
+</html> -->

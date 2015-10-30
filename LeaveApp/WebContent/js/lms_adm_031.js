@@ -8,7 +8,6 @@
                 var categoryClass;
 
                 var calendar = $('#calendar').fullCalendar({
-                	eventTextColor: '#ffffff',
                     header: {
                         left: 'prev,next today',
                         center: 'title',
@@ -34,7 +33,7 @@
                                         title: title,
                                         start: started,
                                         end: end,
-                                        allDay: allDay
+                                        allDay: allDay                                        
                                     },
                                     true // make the event "stick"
                                 );
@@ -65,37 +64,123 @@
                     editable: true,
                     events: [
                         {
-                            title: 'All Day Event',
-                            start: new Date(y, m, 1)
-                    },
-                        {
-                            title: 'Long Event',
+                            title: 'Special Leave',
                             start: new Date(y, m, d - 5),
-                            end: new Date(y, m, d - 2)
-                    },
+                            end: new Date(y, m, d - 2),
+                        	color: '#337ab7',
+                        	textColor: '#FFFFFF'
+                        },
                         {
-                            title: 'Meeting',
-                            start: new Date(y, m, d, 10, 30),
-                            allDay: false
-                    },
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
                         {
-                            title: 'Lunch',
-                            start: new Date(y, m, d + 14, 12, 0),
-                            end: new Date(y, m, d, 14, 0),
-                            allDay: false
-                    },
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
                         {
-                            title: 'Birthday Party',
-                            start: new Date(y, m, d + 1, 19, 0),
-                            end: new Date(y, m, d + 1, 22, 30),
-                            allDay: false
-                    },
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
                         {
-                            title: 'Click for Google',
-                            start: new Date(y, m, 28),
-                            end: new Date(y, m, 29),
-                            url: 'http://google.com/'
-                    }
-                ]
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual sdfsdf',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 2),
+                            color: '#5cb85c'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 9),
+                            color: '#d9534f'
+                        }
+                       
+                    ]
                 });
             });

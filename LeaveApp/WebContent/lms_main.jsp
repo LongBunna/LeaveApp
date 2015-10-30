@@ -27,13 +27,13 @@
 
                     <div class="page-title">
                         <div class="title_left">
-                            <h3>Leave/Overtime management system<!--<small>
-									 <ol class="breadcrumb">
-									  <li><a href="#">Home</a></li> -->
-									  <!-- <li><a href="#">list</a></li> -->
-									  <!--<li class="active">Data</li>-->
-									<!-- </ol>
-								</small> -->
+                            <h3>Dashboard<small>
+									<!-- <ol class="breadcrumb">
+									  <li><a href="#">Users</a></li>
+									  <li><a href="#">list</a></li>
+									  <li class="active">Data</li>
+									</ol> -->
+								</small>
 							</h3>
                         </div>
                         <div class="title_right">
@@ -62,7 +62,7 @@
                                 <div class="x_content">
                                    <div class="row">
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="leavebalances.jsp">
+                                          <a href="lms_adm_001.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
                                                 <div class="icon" style="right: 167px;"><i class="fa fa-caret-square-o-right"></i>
                                                 </div>
@@ -103,25 +103,26 @@
                                 <div class="x_content">
                                    <div class="row">
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="#">
-                                            <div class="tile-stats" style="height: 138px;width: 390px;text-align: center;">
-                                                <div class="icon" style="right: 210px;;"><i class="fa fa-caret-square-o-right"></i>
+                                            <a href="listleavrequested.jsp">
+                                            <div class="tile-stats" style="height: 138px;text-align: center;">
+                                                <div class="icon" style="right: 167px;"><i class="fa fa-comments-o"></i>
                                                 </div>
-                                                <h3 class="tile_align">All Leave request submitted </h3>
+                                                <h3 class="tile_align">List Leave requested</h3>
                                             </div>
                                             </a>
                                         </div>
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                           <a href="#">
-                                            <div class="tile-stats" style="height: 138px;width: 390px;text-align: center;margin: 0 89px 8px !important;">
-                                                <div class="icon" style="right: 210px;;"><i class="fa fa-comments-o"></i>
+                                            <div class="tile-stats" style="height: 138px;text-align: center;">
+                                                <div class="icon" style="right: 167px;"><i class="fa fa-sort-amount-desc"></i>
                                                 </div>
-                                                 <h3 class="tile_align">All Overtime request submitted </h3>
+                                                <h3 class="tile_align">New Leave</h3>
                                             </div>
                                             </a>
                                         </div>
-                                        
                                     </div>
+                                        
+                                </div>
                                    
                                 </div>
                             </div>
