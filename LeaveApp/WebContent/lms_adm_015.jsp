@@ -675,6 +675,4 @@
     <%@include file="/include/assetfooter.jsp" %>t>
 
 </body>
-
-test
 </html>
