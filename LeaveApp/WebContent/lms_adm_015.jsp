@@ -13,9 +13,17 @@
             <div class="right_col" role="main">
                 <div class="">
                     <div class="page-title">
-                        <div class="title_left">
-                            <h3>Leave and Times Management System </h3>
-                        </div>                        
+                        <div class="title_left">                            
+                            <h3><small>
+									<ol class="breadcrumb">
+									  <li><a href="#">Leave and Times Management System</a></li>
+									  <li><a href="#">Organization</a></li>
+									  <!--<li class="active">Data</li>-->
+									</ol>
+								</small>
+						</h3>
+                        </div>   
+                                            
                     </div>
                     <div class="clearfix"></div>
                     <div class="row">
