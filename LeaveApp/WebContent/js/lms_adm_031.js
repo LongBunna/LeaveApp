@@ -77,6 +77,101 @@
                         },
                         {
                         	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual sdfsdf',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
+                        	start: new Date(y, m, d - 4),
+                            color: '#f0ad4e'
+                        },
+                        {
+                        	title: 'Annual leave',
                         	start: new Date(y, m, d - 2),
                             color: '#5cb85c'
                         },

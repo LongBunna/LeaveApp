@@ -109,7 +109,7 @@
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="x_content">
-                                    
+                                    <div class="table-responsive">	
                                     	<table class="table table-bordered">
                                     		<thead>
                                     			<tr class="info">
@@ -314,6 +314,7 @@
                                     			</tr>
                                     		</tbody>
                                     	</table>
+                                    </div>
                                     
 
                                     </div>
