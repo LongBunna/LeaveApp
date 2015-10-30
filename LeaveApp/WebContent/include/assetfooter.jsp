@@ -15,7 +15,11 @@
     <script src="js/calendar/fullcalendar.min.js"></script>
     <script src="js/lms_adm_031.js"></script>
     <!-- End -->
-
+    
+    <!-- daterangepicker by borith -->
+    <script type="text/javascript" src="js/moment.min2.js"></script>
+    <script type="text/javascript" src="js/datepicker/daterangepicker.js"></script>
+    <script type="text/javascript" src="js/leave_form.js"></script>
+   
 </body>
-dgdsfgfdsg
 </html>
