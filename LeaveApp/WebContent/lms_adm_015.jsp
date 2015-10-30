@@ -516,9 +516,7 @@
                                      <!-- Combo  -->
                                   <div id="example_length" class="dataTables_length" style="width:26%;"><label>Show <select size="1" style="width: 56px;padding: 6px;" name="example_length" aria-controls="example">
 	                                  <option value="10">10</option>
-	                                  <option value="25">25</option>
-	                                  <option value="50">50</option>
-	                                  <option value="100">100</option>
+	                                  <option value="25">15</option>	                                  
 	                                  </select> entries</label>
                                   </div>
                                   <!-- /Combo  -->
@@ -749,7 +747,7 @@
                                      <!-- Combo  -->
                                   <div id="example_length" class="dataTables_length" style="width:26%;"><label>Show <select size="1" style="width: 55px;padding: 5px;" name="example_length" aria-controls="example">
 	                                  <option value="10">10</option>
-	                                  <option value="25">25</option>	                                  
+	                                  <option value="25">15</option>	                                  
 	                                  </select> entries</label>
                                   </div>
                                   <!-- /Combo  -->
