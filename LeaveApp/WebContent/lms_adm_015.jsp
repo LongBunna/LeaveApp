@@ -338,9 +338,9 @@
                 
                 <div class="modal fade"  id="lms_adm_015p_Modal"  role="dialog">
                 	<div class="modal-dialog modal-lg">
-                		<div class="modal-content">
-                            <div class="x_panel">
-                                <div class="x_title">
+                		<div class="modal-content" style="padding-top:4px;">
+                           <div class="x_panel" style="border:none;">
+                                <div class="x_title" >
                                    <h2> Select a Supervisor</h2>
                                     <ul class="nav navbar-right panel_toolbox">
                                         
@@ -641,7 +641,7 @@
                                            <button type="submit" class="btn btn-primary" style="float: right">OK</button>
                                     </div>
                                 </div>
-                            </div>
+                             </div> 
                         </div> <!--  /class x 8 -->
                 
                 
@@ -656,8 +656,8 @@
                 
                 <div class="modal fade"  id="lms_adm_016p_Modal"  role="dialog">
                 	<div class="modal-dialog modal-lg">
-                		<div class="modal-content">
-                            <div class="x_panel">
+                		<div class="modal-content" style="padding-top:4px;">
+                            <div class="x_panel" style="border:none;">
                                 <div class="x_title">
                                    <h2> Add an Employee</h2>
                                     <ul class="nav navbar-right panel_toolbox">
