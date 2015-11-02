@@ -27,8 +27,8 @@
                         <div class="title_left">
                             <h3><small>
 									<ol class="breadcrumb">
-									  <li><a href="#">Users</a></li>
-									  <li><a href="#">balance</a></li>
+									  <li><a href="#">Home</a></li>
+									  <li class="active"><a href="#">Leave balances</a></li>
 									  <!--<li class="active">Data</li>-->
 									</ol>
 								</small>
