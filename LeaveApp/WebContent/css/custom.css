@@ -1087,7 +1087,7 @@ h2 {
 }
 
 .x_title .filter {
-    width: 40%;
+   /* width: 40%;*/
     float: right;
 }
 
