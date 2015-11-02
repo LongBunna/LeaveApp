@@ -25,9 +25,10 @@
 			<div class="modal-dialog modal-lg" style="width: 60%">
 				<div class="modal-content col-md-offset-3" style="margin-top: 10%">
 					<div class="modal-header">
-						<h4 class="modal-title" id="">View Overtime Request</h4>
+						<button type="button" class="close" data-dismiss="modal">×</button>
+						<h2 class="modal-title">View Overtime Request</h2>
 					</div>
-					<div class="modal-body">
+				<div class="modal-body">
 						<form class="form-horizontal form-label-left">
 							<div class="form-group">
 								<label
@@ -87,11 +88,11 @@
 							</div>
 						</form>
 						<!-- end modal body -->
-						<div class="modal-footer">
-							<div class="col-md-11">
+						<div class="modal-footer" style="text-align: center;!important">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<button type="submit" class="btn btn-success">Accept</button>
 								<button type="submit" class="btn">Edit</button>
-								<button type="submit" class="btn" data-dismiss="modal">Back</button>
+								<button type="submit" class="btn" data-dismiss="modal">Back to List</button>
 							</div>
 						</div>
 					</div>

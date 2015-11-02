@@ -20,7 +20,7 @@
             <!-- /top navigation -->
             <!-- page content -->
             <div class="right_col" role="main">
-            <%@include file="/lms_adm_025.jsp" %>
+            <%@include file="/lms_adm_025p.jsp" %>
 				<div class="">
 				
 			       <div class="page-title">

@@ -27,7 +27,7 @@
               <h3><small>
           		<ol class="breadcrumb">
           		  <li><a href="#">Home</a></li>
-          		  <li><a href="#">All leave requests</a></li>
+          		  <li><a href="#">Overtime requests</a></li>
           		  <!--<li class="active">Data</li>-->
           		</ol>
               	</small>
@@ -52,7 +52,7 @@
             <div class="x_panel">
                 <!-- Content title -->
               <div class="x_title">
-                <h2>Leave requests summited to me</h2>
+                <h2>Overtime requests summited to me</h2>
                 <ul class="nav navbar-right panel_toolbox">
                     <!--<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
@@ -97,14 +97,10 @@
                             Date</th>
                           <th class="" role="columnheader" tabindex="0"
                             aria-controls="example" rowspan="1"
-                            colspan="1" style="width: 133px;">End
-                            Date</th>
-                          <th class="" role="columnheader" tabindex="0"
-                            aria-controls="example" rowspan="1"
                             colspan="1" style="width: 133px;">Duration</th>
                           <th class="" role="columnheader" tabindex="0"
                             aria-controls="example" rowspan="1"
-                            colspan="1" style="width: 133px;">Type</th>
+                            colspan="1" style="width: 133px;">Reason</th>
                           <th class="" role="columnheader" tabindex="0"
                             aria-controls="example" rowspan="1"
                             colspan="1" style="width: 133px;">Status</th>
@@ -121,10 +117,9 @@
                             <a href="javascrip:void(0)"><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a>
                           </td>
                           <td id="">Yon Ryna</td>
-                          <td id="">10/16/2015 (Morning)</td>
-                          <td id="">10/16/2015 (Afternoon)</td>
+                          <td id="">10/16/2015</td>
                           <td id="">2</td>
-                          <td id="">Special Leave</td>
+                          <td id="">Standby</td>
                           <td id="">Planed</td>
                         </tr>
                         <tr class="pointer odd">
@@ -135,11 +130,10 @@
                             <a href="javascrip:void(0)"><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a>
                           </td>
                           <td id="">Yon Ryna</td>
-                          <td id="">10/16/2015 (Morning)</td>
-                          <td id="">10/16/2015 (Afternoon)</td>
+                          <td id="">10/16/2015</td>
                           <td id="">2</td>
-                          <td id="">Special Leave</td>
-                          <td id="">Planed</td>
+                          <td id="">Urgent working</td>
+                          <td id="">Requested</td>
                         </tr>
                       </tbody>
                     </table>

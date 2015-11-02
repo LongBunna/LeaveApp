@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- Meta, title, CSS, favicons, etc. -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>List of Users</title>
-
-    <!-- Bootstrap core CSS -->
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-
-    <!-- Custom styling plus plugins -->
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="css/icheck/flat/green.css" rel="stylesheet">
-
+<%@include file="/include/assetheader.jsp" %>
 	<style type="text/css">
 		#create_new_type_btn{
 			text-align: right;
@@ -29,25 +8,10 @@
 		#create_new_type_btn i{
 			padding-right:5px;
 		}
-		.title_left{
-			margin-bottom:50px;
-		}
 		.modal-dialog{
-			margin-top: 200px;
+			margin-top: 100px;
 		}
-		.x_title{
-			margin-bottom:50px;
-		}
-		#dept_selectbox{
-			border-right: 0;
-   			box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
-    		padding-left: 20px;
-    		border: 1px solid rgba(221, 226, 232, 0.49);
-    		line-height: 30px;
-    		width: 20%;
-    		margin-right:10px;
-		}
-		#searchbox{
+ 		#searchbox{
 			border-right: 0;
    			box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
     		border-radius: 25px 25px 25px 25px;
@@ -55,39 +19,52 @@
     		border: 1px solid rgba(221, 226, 232, 0.49);
     		line-height: 30px;
     		width: 20%;
-    		float: right;
-    		clear: right;
-    		margin-bottom:20px;
+    		float:right;
+    		clear: both;
 		}
 		#pagination{
+			clear: both;
 			width:100%;
 			text-align: center;
 			margin:0px auto;
 			margin-bottom: 30px;
 		}
-		#pagination select{
-			width: 5%;
-			padding: 6px;
-			float: left;
-			clear:left;
+		.form-control{
+			display:inline !important;
+			margin-left:10px;
+			width:70%;
 		}
+		
+		#tbl_edit_user{
+			border-spacing: 10px !important;
+			border-collapse:inherit !important;
+			margin: 0px auto;
+		}
+		#tbl_edit_user select{
+		    height: 34px;
+		    padding: 6px 12px;
+		    font-size: 14px;
+		    background-color: #fff;
+		    border: 1px solid #DDE2E8;
+		    margin-left:10px;
+		    width:70%;
+		 }	
+		 #manager_input,#dept_input, #position_input	{
+		 	height: 34px;
+		    padding: 6px 12px;
+		    font-size: 14px;
+		    background-color: #fff;
+		    border: 1px solid #DDE2E8;
+		    margin-left:10px;
+		    width:50%;
+		 }
+		 p{
+		 	margin-left:40px !important;
+		 }
+		 body{
+		 	overflow: hidden !important;
+		 }
 	</style>
-	
-    <script src="js/jquery.min.js"></script>
-
-    <!--[if lt IE 9]>
-        <script src="../assets/js/ie8-responsive-file-warning.js"></script>
-        <![endif]-->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-</head>
-
-
 <body class="nav-md">
 
     <div class="container body">
@@ -95,274 +72,12 @@
 
         <div class="main_container">
 
-            <div class="col-md-3 left_col">
-                <div class="left_col scroll-view">
-
-                    <div class="navbar nav_title" style="border: 0;">
-                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentellela Alela!</span></a>
-                    </div>
-                    <div class="clearfix"></div>
-
-                    <!-- menu prile quick info -->
-                    <div class="profile">
-                        <div class="profile_pic">
-                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
-                        </div>
-                        <div class="profile_info">
-                            <span>Welcome,</span>
-                            <h2>Anthony Fernando</h2>
-                        </div>
-                    </div>
-                    <!-- /menu prile quick info -->
-
-                    <br />
-
-                    <!-- sidebar menu -->
-                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
-
-                        <div class="menu_section">
-                            <h3>General</h3>
-                            <ul class="nav side-menu">
-                                <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="index.html">Dashboard</a>
-                                        </li>
-                                        <li><a href="index2.html">Dashboard2</a>
-                                        </li>
-                                        <li><a href="index3.html">Dashboard3</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="form.html">General Form</a>
-                                        </li>
-                                        <li><a href="form_advanced.html">Advanced Components</a>
-                                        </li>
-                                        <li><a href="form_validation.html">Form Validation</a>
-                                        </li>
-                                        <li><a href="form_wizards.html">Form Wizard</a>
-                                        </li>
-                                        <li><a href="form_upload.html">Form Upload</a>
-                                        </li>
-                                        <li><a href="form_buttons.html">Form Buttons</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="general_elements.html">General Elements</a>
-                                        </li>
-                                        <li><a href="media_gallery.html">Media Gallery</a>
-                                        </li>
-                                        <li><a href="typography.html">Typography</a>
-                                        </li>
-                                        <li><a href="icons.html">Icons</a>
-                                        </li>
-                                        <li><a href="glyphicons.html">Glyphicons</a>
-                                        </li>
-                                        <li><a href="widgets.html">Widgets</a>
-                                        </li>
-                                        <li><a href="invoice.html">Invoice</a>
-                                        </li>
-                                        <li><a href="inbox.html">Inbox</a>
-                                        </li>
-                                        <li><a href="calender.html">Calender</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="tables.html">Tables</a>
-                                        </li>
-                                        <li><a href="tables_dynamic.html">Table Dynamic</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="chartjs.html">Chart JS</a>
-                                        </li>
-                                        <li><a href="chartjs2.html">Chart JS2</a>
-                                        </li>
-                                        <li><a href="morisjs.html">Moris JS</a>
-                                        </li>
-                                        <li><a href="echarts.html">ECharts </a>
-                                        </li>
-                                        <li><a href="other_charts.html">Other Charts </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="menu_section">
-                            <h3>Live On</h3>
-                            <ul class="nav side-menu">
-                                <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="e_commerce.html">E-commerce</a>
-                                        </li>
-                                        <li><a href="projects.html">Projects</a>
-                                        </li>
-                                        <li><a href="project_detail.html">Project Detail</a>
-                                        </li>
-                                        <li><a href="contacts.html">Contacts</a>
-                                        </li>
-                                        <li><a href="profile.html">Profile</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="page_404.html">404 Error</a>
-                                        </li>
-                                        <li><a href="page_500.html">500 Error</a>
-                                        </li>
-                                        <li><a href="plain_page.html">Plain Page</a>
-                                        </li>
-                                        <li><a href="login.html">Login Page</a>
-                                        </li>
-                                        <li><a href="pricing_tables.html">Pricing Tables</a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <!-- /sidebar menu -->
-
-                    <!-- /menu footer buttons -->
-                    <div class="sidebar-footer hidden-small">
-                        <a data-toggle="tooltip" data-placement="top" title="Settings">
-                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-                        </a>
-                        <a data-toggle="tooltip" data-placement="top" title="FullScreen">
-                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
-                        </a>
-                        <a data-toggle="tooltip" data-placement="top" title="Lock">
-                            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
-                        </a>
-                        <a data-toggle="tooltip" data-placement="top" title="Logout">
-                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
-                        </a>
-                    </div>
-                    <!-- /menu footer buttons -->
-                </div>
-            </div>
-
+            <!-- Left menu bar -->
+            <%@include file="/include/leftbar.jsp" %>
+			<!-- /Left menu bar -->
+			
             <!-- top navigation -->
-            <div class="top_nav">
-
-                <div class="nav_menu">
-                    <nav class="" role="navigation">
-                        <div class="nav toggle">
-                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
-                        </div>
-
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="">
-                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                    <img src="images/img.jpg" alt="">John Doe
-                                    <span class=" fa fa-angle-down"></span>
-                                </a>
-                                <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
-                                    <li><a href="javascript:;">  Profile</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">
-                                            Reset Password
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:;">Help</a>
-                                    </li>
-                                    <li><a href="login_form.jsp"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li role="presentation" class="dropdown">
-                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa fa-envelope-o"></i>
-                                    <span class="badge bg-green">6</span>
-                                </a>
-                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list animated fadeInDown" role="menu">
-                                    <li>
-                                        <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
-                                    </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
-                                    </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
-                                    </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
-                                    </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <div class="text-center">
-                                            <a>
-                                                <strong>See All Alerts</strong>
-                                                <i class="fa fa-angle-right"></i>
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-
-                        </ul>
-                    </nav>
-                </div>
-
-            </div>
+            <%@include file="/include/topNav.jsp" %>
             <!-- /top navigation -->
 
             <!-- page content -->
@@ -371,28 +86,55 @@
                 <div class="">
                     <div class="page-title">
                         <div class="title_left">
-                            <h3>Leave and Overtime Management System</h3>
+                            <h3><small>
+									<ol class="breadcrumb">
+									  <li><a href="#">Admin</a></li>
+									  <li><a href="#">List of Users</a></li>
+									  <!--<li class="active">Data</li>-->
+									</ol>
+								</small>
+							</h3>
+                        </div>
+                        <div class="title_right">
+                            <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for...">
+                                    <span class="input-group-btn">
+                            			<button class="btn btn-default" type="button">Go!</button>
+                        			</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="clearfix"></div>
-					<div id="search_div">
-						<span>
-							<input type="text" placeholder="Search for..." id="searchbox"/>
-						</span>
-	                </div>
-					
+                    
+
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
-                                    <h2>List of Users</h2>
+                                    <h2>Leave and Overtime Management System<small>List of all users</small></h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <!--<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="#">Settings 1</a>
+                                                </li>
+                                                <li><a href="#">Settings 2</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>-->
+                                    </ul>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="x_content">
-                                    <!-- start project list -->
-                                    <table class="table table-hover projects">
+                                    <table class="table table-bordered">
                                         <thead>
-                                             <tr>
+                                            <tr>
                                                 <th>ID</th>
                                                 <th>Actions</th>
                                                 <th>First Name</th>
@@ -403,16 +145,14 @@
                                                 <th>Manager</th>
                                             </tr>
                                         </thead>
-                                        
                                         <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>
-                                                	<a data-toggle="modal" data-target="#lms_adm_007" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i></a> <!-- Edit user -->
-                                                	<a href="#" class="btn btn-success btn-xs"><i class="fa fa-check"></i></a> <!-- active user-->
-                                                	<a href="#" class="btn btn-danger btn-xs"><i class="fa fa-close"></i></a> <!-- Delete user -->
-                                                    
-                                                </td>
+                                        	<tr>
+                                        		<th scope="row">1</th>
+                                            	<td>
+													<a href=""><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> | 
+													<a href="javascrip:void(0)" data-toggle="modal" data-target="#update_user"><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
+													<a href=""><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a> 
+												</td>												
                                                 <td>Mark</td>
                                                 <td>Otto</td>
                                                 <td>rara@mdo</td>
@@ -423,43 +163,30 @@
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>
-                                                	<a data-toggle="modal" data-target="#lms_adm_007" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i></a> <!-- Edit user -->
-                                                	<a href="#" class="btn btn-success btn-xs"><i class="fa fa-check"></i></a> <!-- active user-->
-                                                	<a href="#" class="btn btn-danger btn-xs"><i class="fa fa-close"></i></a> <!-- Delete user -->
-                                                    
-                                                </td>
+													<a href=""><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> | 
+													<a href="javascrip:void(0)" data-toggle="modal" data-target="#update_user"><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
+													<a href=""><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a>
+												</td>												
                                                 <td>Mark</td>
                                                 <td>Otto</td>
                                                 <td>rara@mdo</td>
                                                 <td>Coocon Center</td>
                                                 <td>Test</td>
                                                 <td>Kim Wansu</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>
-                                                	<a data-toggle="modal" data-target="#lms_adm_007" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i></a> <!-- Edit user -->
-                                                	<a href="#" class="btn btn-success btn-xs"><i class="fa fa-check"></i></a> <!-- active user-->
-                                                	<a href="#" class="btn btn-danger btn-xs"><i class="fa fa-close"></i></a> <!-- Delete user -->
-                                                    
-                                                </td>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>rara@mdo</td>
-                                                <td>Coocon Center</td>
-                                                <td>Test</td>
-                                                <td>Kim Wansu</td>
-                                            </tr>
+                                            </tr>                                   
                                         </tbody>
+										<!--<tfoot>
+											<div><span>There aren't any users</span></div>
+										</tfoot>-->
                                     </table>
-                                    <!-- end project list -->
 
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
-                <!-- Pagination block -->
+				<!-- Pagination block -->
                 <div id="pagination">
 	                <select size="1" name="" aria-controls="">
 			              <option value="10">10</option>
@@ -484,106 +211,18 @@
                 
 				<div id="create_new_type_btn">
 					<a class="btn btn btn-success"><i class="fa fa-download"></i>Export List</a>
-					<a class="btn btn btn-primary"><i class="fa fa-plus-circle"></i>Create a new type</a>
+					<a class="btn btn btn-primary" data-toggle="modal" data-target="#create_new_user"><i class="fa fa-plus-circle"></i>Create a new user</a>
 				</div>
 				
             </div>
             <!-- /page content -->
         </div>
     </div>
-
-
-	
-
-	
-	<!-- Modal User Edition-->
-	<div class="modal fade" id="lms_adm_007" role="dialog">
-		<div class="modal-dialog modal-lg">
-		<!-- pop up form--edit user-->
-			<div class="modal-content">
-				<div class="modal-header">
-	          		<button type="button" class="close" data-dismiss="modal">&times;</button>
-	          		<h4 class="modal-title"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Edit User</h4>
-	          		<h4 class="modal-title">#1</h4>
-	        	</div>
-	          		<div class="x_content">
-                                    <form class="form-horizontal form-label-left input_mask">
-
-                                        <span class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>First Name:</label>
-                                            <input type="text" class="form-control" id="inputSuccess2" placeholder="First Name">
-                                        </span>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Last Name:</label>
-                                            <input type="text" class="form-control" id="inputSuccess3" placeholder="Last Name">
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
-                                            <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                            <span class="fa fa-phone form-control-feedback right" aria-hidden="true"></span>
-                                        </div>
-                                        
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
-                                            <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                            <span class="fa fa-phone form-control-feedback right" aria-hidden="true"></span>
-                                        </div>
-                                        
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
-                                            <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                            <span class="fa fa-phone form-control-feedback right" aria-hidden="true"></span>
-                                        </div>
-                                        
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
-                                            <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                            <span class="fa fa-phone form-control-feedback right" aria-hidden="true"></span>
-                                        </div>
-                                        
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
-                                            <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                            <span class="fa fa-phone form-control-feedback right" aria-hidden="true"></span>
-                                        </div>
-
-                                    </form>
-                                </div>
-	        	<div class="modal-footer">
-	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;&nbsp;Update</button>
-	          		<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;&nbsp;Cancel</button>
-	        	</div>
-	      	</div>
-	    </div>
-	</div>
-	<!-- End Modal User Edition-->
+    
+	<%@include file="/editUsers.jsp"%>
+		
 	
 	
-	
-	
-
 	
 	
 	
@@ -593,19 +232,5 @@
         <div class="clearfix"></div>
         <div id="notif-group" class="tabbed_notifications"></div>
     </div>
-
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- chart js -->
-    <script src="js/chartjs/chart.min.js"></script>
-    <!-- bootstrap progress js -->
-    <script src="js/progressbar/bootstrap-progressbar.min.js"></script>
-    <script src="js/nicescroll/jquery.nicescroll.min.js"></script>
-    <!-- icheck -->
-    <script src="js/icheck/icheck.min.js"></script>
-
-    <script src="js/custom.js"></script>
-
-</body>
-
-</html>
+    
+<%@include file="/include/assetfooter.jsp" %>
