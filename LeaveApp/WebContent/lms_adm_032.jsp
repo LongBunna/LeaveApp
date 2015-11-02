@@ -98,4 +98,7 @@
         <div id="notif-group" class="tabbed_notifications"></div>
     </div>
 
-   <%@include file="/include/assetfooter.jsp" %>
+   <%@include file="/include/assetfooter.jsp" %>   
+    <script src="js/lms_adm_032.js"></script>
+    </body>
+    </html>
