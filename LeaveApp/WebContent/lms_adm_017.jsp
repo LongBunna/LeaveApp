@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <%@include file="/include/assetheader.jsp" %>
 
 
@@ -19,8 +18,19 @@
                     <div class="page-title">
                        <!-- Contain  -->
                        <div id="coonten"  style="height:100%">
-                        <div class="title_left">
-                            <h3>List of Contracts </h3>
+                        <div class="title_left">                            
+                             <h3><small>
+									<ol class="breadcrumb">
+									  <li><a href="#">List of Contracts</a></li>									  
+									  <!--<li class="active">Data</li>-->
+									</ol>
+						    </small>
+						</h3>
+                            
+                            
+                                            
+                    </div>
+                            
                         </div>
                         
                          <!-- Search  -->
@@ -37,13 +47,14 @@
                         
                     </div>
                     <div class="clearfix"></div>
-                    <div class="row">
-
-                       
+                    <div class="row">                  
 
                         <div class="col-md-6 col-sm-6 col-xs-12"  style="width:100%; position: relative;">
                             <div class="x_panel">                          
-                              
+                              	<div class="x_title">
+                                    <h2>Hover rows <small>Try hovering over the rows</small></h2>                                   
+                                    <div class="clearfix"></div>
+                            	</div>
                                                               
                                  <!-- table  -->                                
                                  	<table id="example" class="table table-striped responsive-utilities jambo_table dataTable" aria-describedby="example_info">
@@ -268,7 +279,7 @@
                                   <!-- /Combo  -->
                                   
                                   <!--   Pagination  -->
-                                  <div class="dataTables_paginate paging_full_numbers" id="example_paginate">
+                                  <div class="dataTables_paginate paging_full_numbers" id="example_paginate" style="float: right;">
 	                                  <a tabindex="0" class="first paginate_button paginate_button_disabled" id="example_first">First</a>
 	                                  <a tabindex="0" class="previous paginate_button paginate_button_disabled" id="example_previous">Previous</a>
 	                                  <span><a tabindex="0" class="paginate_active">1</a><a tabindex="0" class="paginate_button">2</a>
@@ -310,27 +321,9 @@
        
 
     </div>
-     
-    
+    <%@include file="/include/assetfooter.jsp" %>t> 
 
-    <!-- <div id="custom_notifications" class="custom-notifications dsp_none">
-        <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
-        </ul>
-        <div class="clearfix"></div>
-        <div id="notif-group" class="tabbed_notifications"></div>
-    </div> -->
-
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- chart js -->
-    <script src="js/chartjs/chart.min.js"></script>
-    <!-- bootstrap progress js -->
-    <script src="js/progressbar/bootstrap-progressbar.min.js"></script>
-    <script src="js/nicescroll/jquery.nicescroll.min.js"></script>
-    <!-- icheck -->
-    <script src="js/icheck/icheck.min.js"></script>
-
-    <script src="js/custom.js"></script>
+   
 
 </body>
 

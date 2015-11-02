@@ -3,7 +3,7 @@
                 <div class="left_col scroll-view">
 
                     <div class="navbar nav_title" style="border: 0;">
-                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Leave Management</span></a>
+                        <a href="lms_main.jsp" class="site_title"><i class="fa fa-paw"></i> <span>Leave Management</span></a>
                     </div>
                     <div class="clearfix"></div>
 
@@ -31,11 +31,11 @@
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="#"><i class="fa fa-star-half-empty"></i> An Employee</a>
                                         </li>
-                                        <li><a href="leavebalances.jsp">Leave Balances</a>
+                                        <li><a href="lms_adm_001.jsp">Leave Balances</a>
                                         </li>
-                                        <li><a href="listleavrequested.jsp">List Leave requested</a>
+                                        <li><a href="lms_adm_002.jsp">List Leave requested</a>
                                         </li>
-                                        <li><a href="index3.html">New Leaves</a>
+                                        <li><a href="lms_adm_003.jsp">New Leaves</a>
                                         </li>
                                         <li><a href="#"><i class="fa fa-star-half-empty"></i> An Manager</a>
                                         </li>
