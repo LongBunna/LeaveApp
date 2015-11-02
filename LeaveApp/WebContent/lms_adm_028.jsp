@@ -48,11 +48,11 @@
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="x_panel">
-							<div class="text-center">
-								<h3>Personal Overtime Request</h3>
+						<div class="x_title">
+								<h2>Personal Overtime Request</h2>
+								<div class="clearfix"></div>
 							</div>
 							<div class="x_content">
-								<br>
 								<form class="form-horizontal form-label-left">
 									<br>
 									<div>
@@ -92,6 +92,33 @@
 													<td id="">2    days</td>
 													<td id="">Standby</td>
 													<td id="">Planed</td>
+												</tr>
+												<tr class="pointer odd">
+													<td id="" style="width: 40px; text-align: center;">
+													<a class="fa fa-eye" data-toggle="modal" data-target="#otModal"></a></td>
+													<td id="">2</td>
+													<td id="">10/20/2015</td>
+													<td id="">2    days</td>
+													<td id="">Urgent work</td>
+													<td id="">Requested</td>
+												</tr>
+												<tr class="pointer odd">
+													<td id="" style="width: 40px; text-align: center;">
+													<a class="fa fa-eye" data-toggle="modal" data-target="#otModal"></a></td>
+													<td id="">2</td>
+													<td id="">10/20/2015</td>
+													<td id="">2    days</td>
+													<td id="">Urgent work</td>
+													<td id="">Requested</td>
+												</tr>
+												<tr class="pointer odd">
+													<td id="" style="width: 40px; text-align: center;">
+													<a class="fa fa-eye" data-toggle="modal" data-target="#otModal"></a></td>
+													<td id="">2</td>
+													<td id="">10/20/2015</td>
+													<td id="">2    days</td>
+													<td id="">Urgent work</td>
+													<td id="">Requested</td>
 												</tr>
 												<tr class="pointer odd">
 													<td id="" style="width: 40px; text-align: center;">

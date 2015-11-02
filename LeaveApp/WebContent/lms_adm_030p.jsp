@@ -25,9 +25,10 @@
 			<div class="modal-dialog modal-lg" style="width: 60%">
 				<div class="modal-content col-md-offset-3" style="margin-top: 10%">
 					<div class="modal-header">
-						<h4 class="modal-title" id="">View Overtime Request</h4>
+						<button type="button" class="close" data-dismiss="modal">×</button>
+						<h2 class="modal-title">View Overtime Request</h2>
 					</div>
-					<div class="modal-body">
+				<div class="modal-body">
 						<form class="form-horizontal form-label-left">
 							<div class="form-group">
 								<label
