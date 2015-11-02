@@ -20,7 +20,7 @@
 
             <!-- page content -->
 			<div class="right_col" role="main">
-			<%@include file="/lms_adm_030.jsp" %>
+			<%@include file="/lms_adm_030p.jsp" %>
 				<div class="page-title">
 					<div class="title_left">
                             <h3><small>

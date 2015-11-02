@@ -23,7 +23,7 @@
 <body class="nav-md">
 		<div class="modal fade" id="otModal">
 			<div class="modal-dialog modal-lg ">
-						<div class="modal-content col-md-offset-3"  style="margin-top: 25%">
+						<div class="modal-content col-md-offset-3">
 							<div class="modal-header">
 								<!-- <button type="button" class="close" data-dismiss="modal"
 									aria-hidden="true">x</button> -->
