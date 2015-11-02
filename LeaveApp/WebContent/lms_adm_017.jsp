@@ -47,13 +47,14 @@
                         
                     </div>
                     <div class="clearfix"></div>
-                    <div class="row">
-
-                       
+                    <div class="row">                  
 
                         <div class="col-md-6 col-sm-6 col-xs-12"  style="width:100%; position: relative;">
                             <div class="x_panel">                          
-                              
+                              	<div class="x_title">
+                                    <h2>Hover rows <small>Try hovering over the rows</small></h2>                                   
+                                    <div class="clearfix"></div>
+                            	</div>
                                                               
                                  <!-- table  -->                                
                                  	<table id="example" class="table table-striped responsive-utilities jambo_table dataTable" aria-describedby="example_info">
