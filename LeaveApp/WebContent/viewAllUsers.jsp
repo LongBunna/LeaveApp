@@ -9,9 +9,9 @@
 			padding-right:5px;
 		}
 		.modal-dialog{
-			margin-top: 200px;
+			margin-top: 100px;
 		}
-/* 		#searchbox{
+ 		#searchbox{
 			border-right: 0;
    			box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
     		border-radius: 25px 25px 25px 25px;
@@ -19,27 +19,51 @@
     		border: 1px solid rgba(221, 226, 232, 0.49);
     		line-height: 30px;
     		width: 20%;
-    		float: right;
-    		clear: right;
-    		margin-bottom:20px;
-		} */
+    		float:right;
+    		clear: both;
+		}
 		#pagination{
+			clear: both;
 			width:100%;
 			text-align: center;
 			margin:0px auto;
 			margin-bottom: 30px;
 		}
-		#pagination select{
-			width: 5%;
-			padding: 6px;
-			float: left;
-			clear:left;
-		}
 		.form-control{
 			display:inline !important;
-			width:50%;
 			margin-left:10px;
+			width:70%;
 		}
+		
+		#tbl_edit_user{
+			border-spacing: 10px !important;
+			border-collapse:inherit !important;
+			margin: 0px auto;
+		}
+		#tbl_edit_user select{
+		    height: 34px;
+		    padding: 6px 12px;
+		    font-size: 14px;
+		    background-color: #fff;
+		    border: 1px solid #DDE2E8;
+		    margin-left:10px;
+		    width:70%;
+		 }	
+		 #manager_input,#dept_input, #position_input	{
+		 	height: 34px;
+		    padding: 6px 12px;
+		    font-size: 14px;
+		    background-color: #fff;
+		    border: 1px solid #DDE2E8;
+		    margin-left:10px;
+		    width:50%;
+		 }
+		 p{
+		 	margin-left:40px !important;
+		 }
+		 body{
+		 	overflow: hidden !important;
+		 }
 	</style>
 <body class="nav-md">
 
@@ -125,8 +149,8 @@
                                         	<tr>
                                         		<th scope="row">1</th>
                                             	<td>
-													<a data-toggle="modal" data-target="#update_leave_type"><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
+													<a href=""><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> | 
+													<a href="javascrip:void(0)" data-toggle="modal" data-target="#update_user"><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
 													<a href=""><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a> 
 												</td>												
                                                 <td>Mark</td>
@@ -139,8 +163,8 @@
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>
-													<a data-toggle="modal" data-target="#update_leave_type"><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> | 
-													<a href=""><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
+													<a href=""><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> | 
+													<a href="javascrip:void(0)" data-toggle="modal" data-target="#update_user"><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"></span></a> | 
 													<a href=""><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a>
 												</td>												
                                                 <td>Mark</td>
@@ -187,7 +211,7 @@
                 
 				<div id="create_new_type_btn">
 					<a class="btn btn btn-success"><i class="fa fa-download"></i>Export List</a>
-					<a class="btn btn btn-primary"><i class="fa fa-plus-circle"></i>Create a new user</a>
+					<a class="btn btn btn-primary" data-toggle="modal" data-target="#create_new_user"><i class="fa fa-plus-circle"></i>Create a new user</a>
 				</div>
 				
             </div>
@@ -195,95 +219,12 @@
         </div>
     </div>
     
-<!-- Modal User Edition-->
-	<div class="modal fade" id="lms_adm_007" role="dialog">
-		<div class="modal-dialog modal-lg">
-		<!-- pop up form--edit user-->
-			<div class="modal-content">
-				<div class="modal-header">
-	          		<button type="button" class="close" data-dismiss="modal">&times;</button>
-	          		<h4 class="modal-title"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Edit User</h4>
-	          		<h4 class="modal-title">#1</h4>
-	        	</div>
-	          		<div class="x_content">
-                                    <form class="form-horizontal form-label-left input_mask">
-									<table>
-									<tr>
-										<td>
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>First Name :</label>
-                                            <input type="text" class="form-control" id="inputSuccess2" placeholder="First Name">
-                                        </div>
-                                        </td>
-									</tr>
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Contract :</label>
-                                            <input type="text" class="form-control" id="inputSuccess3" placeholder="Last Name">
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Last Name :</label>
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                        </div>
-                                        
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                       		<label>Department :</label>
-                                            <input type="text" class="form-control" id="inputSuccess4" placeholder="Email">
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Role :</label>	
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                        </div>
-                                        
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Position :</label>
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Login :</label>
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                        </div>
-                                        
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Start Date :</label>
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Email :</label>
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                        </div>
-                                        
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Identifier :</label>
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Email">
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Manager :</label>
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                                        </div>
-                                        
-                                        <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                        	<label>Password :</label>
-                                            <input type="text" class="form-control" id="inputSuccess5" placeholder="Phone">
-                                        </div>
-                                        
-									</table>
-                                    </form>
-                                </div>
-	        	<div class="modal-footer">
-	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;&nbsp;Update</button>
-	          		<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;&nbsp;Cancel</button>
-	        	</div>
-	      	</div>
-	    </div>
-	</div>
-	<!-- End Modal User Edition-->
+	<%@include file="/editUsers.jsp"%>
+		
+	
+	
+	
+	
 	
     <div id="custom_notifications" class="custom-notifications dsp_none">
         <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">

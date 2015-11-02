@@ -1,6 +1,122 @@
-<%@include file="/include/assetheader.jsp" %>
+<!-- Modal select Department-->
+	<div class="modal fade" id="select_dept" role="dialog">
+		<div class="modal-dialog">
+		<!-- pop up form--edit user-->
+			<div class="modal-content">
+				<div class="modal-header">
+	          		<button type="button" class="close" data-dismiss="modal" data-toggle="modal" data-target="#update_user">&times;</button>
+	          		<h2>Select the Department</h2>
+	        	</div>
+	        	<div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                      <div class="input-group">
+                           <input class="form-control" placeholder="Search for..." type="text">
+                            <span class="input-group-btn">
+                            	<button class="btn btn-default" type="button">Go!</button>
+                        	</span>
+                      </div>
+                 </div> 
+	          	 <div>
+                 	<form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+					<!-- Tree -->                                
+                    	<div style="padding:40px 50px;">   
+                                <ul id="tree1">
+								    <li><a href="#">KOSIGN</a>
+								        <ul>								            
+								            <li>Account Center
+								                <ul>
+								                    <li>GM
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    
+								                </ul>
+								            </li>
+								            <li>Business Center
+								                <ul>
+								                    <li>Network
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                   <!--  <li>Employee Maint.</li> -->
+								                </ul>
+								            </li>
+								            <li>Coocon Center
+								                <ul>
+								                    <li>Scraping Team
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    <li>Web Team
+								                       <!--  <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    
+								                </ul>
+								            </li>								            
+								            <li>R & D Center
+								                <ul>
+								                    <li>Fintech Team
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    <li>Bizplay Team
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    <li>Smart Team
+								                        <!-- <ul>
+								                            <li>Report1</li>
+								                            <li>Report2</li>
+								                            <li>Report3</li>
+								                        </ul> -->
+								                    </li>
+								                    
+								                </ul>
+								            </li>
+								            
+								            <!-- <li>Human Resources</li> -->
+								        </ul>
+								    </li>
+								    
+								</ul>
+                               
+                               	</div>  
+                              	<!-- /Tree -->
 
-<body class="nav-md" style="background-color:white; " >
+        			</form>
+                </div>
+	        	<div class="modal-footer">
+	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;&nbsp;OK</button>
+	          		<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#update_user"><i class="fa fa-close"></i>&nbsp;&nbsp;Cancel</button>
+	        	</div>
+	      	</div>
+	    </div>
+	</div>
+	<!-- End Modal select department-->
+	
+	
+	
+	
+	
+<%-- <body class="nav-md" style="background-color:white; " >
 	<div class="x_panel" style="width: 450px;" >
         	<div class="x_title">
                 	<h2>Select the Department</h2>
@@ -124,4 +240,4 @@
 	</div>
     </body>
 
-   <%@include file="/include/assetfooter.jsp" %>
+   <%@include file="/include/assetfooter.jsp" %> --%>
