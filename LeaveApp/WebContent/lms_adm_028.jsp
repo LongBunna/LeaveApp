@@ -20,11 +20,29 @@
 
             <!-- page content -->
 			<div class="right_col" role="main">
-			<%@include file="/lms_adm_030.jsp" %>
+			<%@include file="/lms_adm_030p.jsp" %>
 				<div class="page-title">
 					<div class="title_left">
-						<h3>Leave/Overtime management system</h3>
-					</div>
+                            <h3><small>
+									<ol class="breadcrumb">
+									  <li><a href="#">Request</a></li>
+									  <li><a href="#">Overtime</a></li>
+									  <li><a href="#">List of Extra</a></li>
+									  <!--<li class="active">Data</li>-->
+									</ol>
+								</small>
+							</h3>
+                        </div>
+                        <div class="title_right">
+                            <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <span class="input-group-btn">
+                            			<button class="glyphicon glyphicon-search btn btn-default" type="button"></button>
+                        			</span>
+                                </div>
+                            </div>
+                        </div>
 				</div>
 				<div class="clearfix"></div>
 				<div class="row">
@@ -36,14 +54,6 @@
 							<div class="x_content">
 								<br>
 								<form class="form-horizontal form-label-left">
-									<div class="form-group">
-										<div class="has-feedback" style="margin-left: 70%;">
-											<input type="text" class="form-control has-feedback-left"
-												style="border-radius: 25px;" id="" placeholder="Search" />
-											<span
-												class="glyphicon glyphicon-search form-control-feedback left"></span>
-										</div>
-									</div>
 									<br>
 									<div>
 										<table id=""
@@ -76,7 +86,7 @@
 											<tbody role="alert" aria-live="polite" aria-relevant="all">
 												<tr class="pointer odd">
 													<td id="" style="width: 40px; text-align: center;"><a 
-														class="fa fa-eye"></a></td>
+														class="fa fa-eye" data-toggle="modal" data-target="#otModal"></a></td>
 													<td id="">1</td>
 													<td id="">10/20/2015</td>
 													<td id="">2    days</td>
@@ -124,9 +134,9 @@
 									<div class="ln_solid"></div>
 									<!-- Buttons -->
 									<div class="form-group">
-										<div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-10">
-											<a class="btn btn-app" style="border-radius:15px; !important"> <i class="fa fa-send" ></i> Export</a> 
-											<a class="btn btn-app" style="border-radius:15px; !important" href="lms_adm_029.jsp"> <i class="fa fa-file"></i> New
+										<div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-9">
+											<a class="btn btn-success btn-round"> <i class="fa fa-send" ></i> Export</a> 
+											<a class="btn btn-primary btn-round"  href="lms_adm_029.jsp"> <i class="fa fa-file"></i> New
 												Request	</a>
 										</div>
 									</div>

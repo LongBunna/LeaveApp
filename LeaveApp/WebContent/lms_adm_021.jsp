@@ -170,7 +170,7 @@
 						<div class="dataTables_paginate paging_full_numbers" id="example_paginate"><a tabindex="0" class="first paginate_button paginate_button_disabled" id="example_first">First</a><a tabindex="0" class="previous paginate_button paginate_button_disabled" id="example_previous">Previous</a><span><a tabindex="0" class="paginate_active">1</a><a tabindex="0" class="paginate_button">2</a><a tabindex="0" class="paginate_button">3</a><a tabindex="0" class="paginate_button">4</a></span><a tabindex="0" class="next paginate_button" id="example_next">Next</a><a tabindex="0" class="last paginate_button" id="example_last">Last</a></div>
 						<div>
 							<div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
-                           		<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" style="margin: 0 370px;">
+                           		<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3 pull-right">
                                 	<button type="submit" class="btn btn-success">Create position</button>
                            	 	</div>
                          	</div>

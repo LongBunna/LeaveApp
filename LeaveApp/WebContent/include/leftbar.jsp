@@ -63,11 +63,11 @@
                                         </li>
                                         <li><a href="general_elements.html">List of employees</a>
                                         </li>
-                                        <li><a href="media_gallery.html">Organization</a>
+                                        <li><a href="lms_adm_015.jsp">Organization</a>
                                         </li>
                                         <li><a href="javascript:"><i class="fa fa-star-half-empty"></i> CONTRACTS</a>
                                         </li>
-                                        <li><a href="typography.html">List of Contracts</a>
+                                        <li><a href="lms_adm_017.jsp">List of Contracts</a>
                                         </li>
                                         <li><a href="icons.html">List of Positions</a>
                                         </li>

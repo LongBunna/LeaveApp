@@ -87,11 +87,11 @@
 							</div>
 						</form>
 						<!-- end modal body -->
-						<div class="modal-footer">
-							<div class="col-md-11">
+						<div class="modal-footer" style="text-align: center;!important">
+							<div class="col-md-12 col-sm-12 col-xs-12">
 								<button type="submit" class="btn btn-success">Accept</button>
 								<button type="submit" class="btn">Edit</button>
-								<button type="submit" class="btn" data-dismiss="modal">Back</button>
+								<button type="submit" class="btn" data-dismiss="modal">Back to List</button>
 							</div>
 						</div>
 					</div>
