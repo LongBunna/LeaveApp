@@ -324,8 +324,8 @@
                                     
            <div class="modal fade"  id="lms_adm_017p_Modal"  role="dialog">
                   
-                <div class="modal-dialog modal-md">
-		           <div class="modal-content" style="padding-top:4px; width:440px;">
+                <div class="modal-dialog modal-md" style="width:439px;">
+		           <div class="modal-content" style="padding-top:4px;">
 			           <div class="x_panel" style="border:none;">
 			        	<div class="x_title">
 			                	<h2>Create a new contract</h2>
