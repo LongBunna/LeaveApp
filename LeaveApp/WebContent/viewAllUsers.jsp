@@ -88,7 +88,7 @@
                         <div class="title_left">
                             <h3><small>
 									<ol class="breadcrumb">
-									  <li><a href="#">Users</a></li>
+									  <li><a href="#">Admin</a></li>
 									  <li><a href="#">List of Users</a></li>
 									  <!--<li class="active">Data</li>-->
 									</ol>
