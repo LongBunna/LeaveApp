@@ -151,21 +151,22 @@
                                 </div>
                                
                                  <!-- Select for -->
-                                  
-                               	<div class="input-group" style="width:45%">
-                                    <input type="text" class="form-control" placeholder="Please Select an User ..." >
-                                   	<span class="input-group-btn">
-	                            		<button class="btn btn-default" type="button" ><i class="fa fa-close"></i></button>
-	                            		<button class="btn btn-default" type="button" data-toggle="modal" data-target="#lms_adm_015p_Modal" >Select</button>
-                      				</span>
-                               	</div>                                            
-                                    
+                                <div class="col-md-6 col-sm-8 col-xs-12">  
+	                               	<div class="input-group">
+	                                    <input type="text" class="form-control" placeholder="Please Select an User ..." >
+	                                   	<span class="input-group-btn">
+		                            		<button class="btn btn-default" type="button" ><i class="fa fa-close"></i></button>
+		                            		<button class="btn btn-default" type="button" data-toggle="modal" data-target="#lms_adm_015p_Modal" >Select</button>
+	                      				</span>
+	                               	</div>
+	                              	                                           
+                                </div><br/><br/>
                                   <!-- /Select for -->  
-                                
-                                <br/>
-                                <div><h2 style="font-weight:700;">Employees attached to Department</h2></div>
+                                  
+                                <div class="col-md-8" style="width:56.66%"><h2 style="font-weight:600;">Employees attached to Department</h2></div>
                                 <!-- Search  -->
-                                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">  
+                                                               
                                 	<div class="input-group">
 	                                    <input type="text" class="form-control" placeholder="Search for...">
 	                                    <span class="input-group-btn">
@@ -337,6 +338,7 @@
                 <!-- ****************** Popup lms_adm_015p******************************************************************************* -->
                 
                 <div class="modal fade"  id="lms_adm_015p_Modal"  role="dialog">
+                  
                 	<div class="modal-dialog modal-md">
                 		<div class="modal-content" style="padding-top:4px;">
                            <div class="x_panel" style="border:none;">
@@ -543,6 +545,7 @@
                 
                 
                 </div> <!-- /Modal content -->
+                
         	</div> <!-- /Modal -->
                 
                 
