@@ -22,30 +22,57 @@
       <!-- page content -->
       <div class="right_col" role="main">
         <div class="page-title">
+          <!-- Content title left -->
           <div class="title_left">
-            <h3>Leave/Overtime management system</h3>
+              <h3><small>
+          		<ol class="breadcrumb">
+          		  <li><a href="#">Home</a></li>
+          		  <li><a href="#">Overtime requests</a></li>
+          		  <!--<li class="active">Data</li>-->
+          		</ol>
+              	</small>
+              </h3>
+          </div>
+          <!-- Content title right -->
+          <div class="title_right">
+              <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+                </div>
+              </div>
           </div>
         </div>
         <div class="clearfix"></div>
+        <!-- Content -->
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="x_panel">
-              <div class="text-center">
-                <h3>Personal Overtime Request</h3>
+                <!-- Content title -->
+              <div class="x_title">
+                <h2>Overtime requests summited to me</h2>
+                <ul class="nav navbar-right panel_toolbox">
+                    <!--<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Settings 1</a>
+                            </li>
+                            <li><a href="#">Settings 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>-->
+                </ul>
+                <div class="clearfix"></div>
               </div>
               <div class="x_content">
-                <br>
+                <!-- Table and button -->
                 <form class="form-horizontal form-label-left">
-                  <div class="form-group">
-                    <div class="has-feedback" style="margin-left: 70%;">
-                      <input type="text"
-                        class="form-control has-feedback-left"
-                        style="border-radius: 25px;" id=""
-                        placeholder="Search" /> <span
-                        class="glyphicon glyphicon-search form-control-feedback left"></span>
-                    </div>
-                  </div>
-                  <br>
                   <div>
                     <table id=""
                       class=" table table-bordered table-striped responsive-utilities jambo_table dataTable"
@@ -66,7 +93,8 @@
                             Name</th>
                           <th class="" role="columnheader" tabindex="0"
                             aria-controls="example" rowspan="1"
-                            colspan="1" style="width: 134px;">Start</th>
+                            colspan="1" style="width: 134px;">Start
+                            Date</th>
                           <th class="" role="columnheader" tabindex="0"
                             aria-controls="example" rowspan="1"
                             colspan="1" style="width: 133px;">Duration</th>
@@ -83,23 +111,29 @@
                         aria-relevant="all">
                         <tr class="pointer odd">
                           <td id="">1</td>
-                          <td id=""><a href="javascrip:void(0)" class="fa fa-eye"
-                            data-toggle="modal" data-target="#myModal"></a></td>
+                          <td id="">
+                            <a href="javascrip:void(0)"><span class="fa fa-eye" data-toggle="modal" data-target="#myModal" data-placement="top" title="" data-original-title="View"></span></a> |
+                            <a href="javascrip:void(0)"><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> |
+                            <a href="javascrip:void(0)"><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a>
+                          </td>
                           <td id="">Yon Ryna</td>
                           <td id="">10/16/2015</td>
                           <td id="">2</td>
-                          <td id="">Sick</td>
+                          <td id="">Standby</td>
                           <td id="">Planed</td>
                         </tr>
                         <tr class="pointer odd">
                           <td id="">1</td>
-                          <td id=""><a href="javascrip:void(0)" class="fa fa-eye"
-                            data-toggle="modal" data-target="#myModal"></a></td>
+                          <td id="">
+                            <a href="javascrip:void(0)"><span class="fa fa-eye" data-toggle="modal" data-target="#myModal" data-placement="top" title="" data-original-title="View"></span></a> |
+                            <a href="javascrip:void(0)"><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> |
+                            <a href="javascrip:void(0)"><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a>
+                          </td>
                           <td id="">Yon Ryna</td>
                           <td id="">10/16/2015</td>
                           <td id="">2</td>
-                          <td id="">Sick</td>
-                          <td id="">Planed</td>
+                          <td id="">Urgent working</td>
+                          <td id="">Requested</td>
                         </tr>
                       </tbody>
                     </table>
@@ -136,11 +170,11 @@
                   <!-- Buttons -->
                   <div class="form-group pull-right">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                      <a class="btn btn-app"
+                      <a class="btn btn-default"
                         style="border-radius: 15px; !important">Export</a>
-                      <a class="btn btn-app"
+                      <a class="btn btn-default"
                         style="border-radius: 15px; !important">All
-                        requests</a> <a class="btn btn-app"
+                        requests</a> <a class="btn btn-default"
                         style="border-radius: 15px; !important">Pending
                         requests</a>
                     </div>
