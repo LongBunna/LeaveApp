@@ -1,5 +1,5 @@
 .status_space{
 }
 td.fc-sat, td.fc-sun {
-    background-color: #337ab7 !important;
+    color: red;
 }
