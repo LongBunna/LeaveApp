@@ -72,7 +72,8 @@
 		                                    			<option>June</option>                                          			
 		                                    		</select>
 		                                    		</div>
-		                                    	</div><br/><br/>
+		                                    	</div>
+		                                    	<br/><br/>
 		                                    	<div class="group">
 		                                    		<label class="col-xs-1">Year</label>
 		                                    		<div class="col-xs-2 selectContainer" >                                    			
@@ -85,13 +86,19 @@
 		                                    	</div><br/>
                                     		
                                     		</form>
-                                    	</div>
+                                    	</div>                                    
                                     	<div class="group">
-                                        <h2 class="btn-sm btn-primary">Planed</h2>
-                                        <h2 class="btn-sm btn-warning">Requested</h2>
-                                        <h2 class="btn-sm btn-success">Accepted</h2>
+                                    		<div class="col-sm-2">
+                                    	 		<h3 class="btn-sm btn-primary status_space">Planed</h3>
+                                    		</div>
+                                    		<div class="col-sm-2">
+	                                     		<h3 class="btn-sm btn-warning">Requested</h3>
+                                    		</div>
+                                    		<div class="col-sm-2">
+	                                        	<h3 class="btn-sm btn-success">Accepted</h3>
+                                    		</div>
                                     	</div>
-                                        <ul class="nav navbar-right panel_toolbox">
+                                        <!-- <ul class="nav navbar-right panel_toolbox">
                                             <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                             </li>
                                             <li class="dropdown">
@@ -105,7 +112,7 @@
                                             </li>
                                             <li><a class="close-link"><i class="fa fa-close"></i></a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="x_content">

@@ -60,11 +60,17 @@
                                     		</select>
                                     		</div>
 											<label><input type="checkbox" value="">Include-sub-department</label>
-                                    	</div><br/>
+                                    	</div><br/>                                    
                                     	<div class="group">
-	                                        <h2 class="btn-sm btn-primary">Planed</h2>
-	                                        <h2 class="btn-sm btn-warning">Requested</h2>
-	                                        <h2 class="btn-sm btn-success">Accepted</h2>
+                                    		<div class="col-sm-2">
+                                    	 		<h3 class="btn-sm btn-primary status_space">Planed</h3>
+                                    		</div>
+                                    		<div class="col-sm-2">
+	                                     		<h3 class="btn-sm btn-warning">Requested</h3>
+                                    		</div>
+                                    		<div class="col-sm-2">
+	                                        	<h3 class="btn-sm btn-success">Accepted</h3>
+                                    		</div>
                                     	</div>
                                         <ul class="nav navbar-right panel_toolbox">
                                             <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
