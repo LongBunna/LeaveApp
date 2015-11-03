@@ -119,7 +119,7 @@
                                     <div class="clearfix"></div>
                                 </div>
                                 <div id="search_div">
-									<span><label>Department : </label><input type="text" placeholder="KOSIGN" id="dept_selectbox"/><input type="button" value="Select" class="btn btn-primary btn-sm"/></span>
+									<span><label>Department : &nbsp &nbsp  </label><input type="text" placeholder="KOSIGN" id="dept_selectbox"/><input type="button" value="Select" class="btn btn-primary btn-sm"/></span>
 									<span><input type="checkbox">include sub-department</span>
 	                			</div>
                                 <div class="x_content">
