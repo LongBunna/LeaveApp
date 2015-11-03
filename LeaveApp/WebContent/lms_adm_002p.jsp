@@ -15,11 +15,11 @@
           <form class="form-horizontal form-label-left">
             <div class="form-group">
               <label
-                class="control-label control-label col-md-3 col-sm-3 col-xs-3">Start
+                class="control-label control-label col-md-3 col-sm-3">Start
                 Date: </label> <label
-                class="control-label control-label col-md-1 col-sm-1 col-xs-1"></label>
+                class="control-label control-label col-md-1 col-sm-1"></label>
               <div
-                class="col-md-6 col-sm-6 col-xs-6 xdisplay_inputx form-group has-feedback">
+                class="col-md-4 col-sm-4 xdisplay_inputx form-group has-feedback">
                 <input type="text"
                   class="form-control has-feedback-left" id=""
                   name="daterang1"
@@ -28,14 +28,22 @@
                   aria-hidden="true"></span> <span id="" class="sr-only">(success)
                 </span>
               </div>
+              <!-- combo box -->
+              <div class="col-md-2 col-sm-2">
+                <select data-parsley-id="4308" id="heard"
+                  class="form-control" required="">
+                  <option value="plan">Morning</option>
+                  <option value="unplan">Afternoon</option>
+                </select>
+              </div>
             </div>
             <div class="form-group">
               <label
-                class="control-label control-label col-md-3 col-sm-3 col-xs-3">End
+                class="control-label control-label col-md-3 col-sm-3">End
                 Date: </label> <label
-                class="control-label control-label col-md-1 col-sm-1 col-xs-1"></label>
+                class="control-label control-label col-md-1 col-sm-1"></label>
               <div
-                class="col-md-6 col-sm-6 col-xs-6 xdisplay_inputx form-group has-feedback">
+                class="col-md-4 col-sm-4 xdisplay_inputx form-group has-feedback">
                 <input type="text"
                   class="form-control has-feedback-left" id=""
                   name="daterang1"
@@ -44,24 +52,32 @@
                   aria-hidden="true"></span> <span id="" class="sr-only">(success)
                 </span>
               </div>
+              <!-- combo box -->
+              <div class="col-md-2 col-sm-2">
+                <select data-parsley-id="4308" id="heard"
+                  class="form-control" required="">
+                  <option value="plan">Afternoon</option>
+                  <option value="unplan">Morning</option>
+                </select>
+              </div>
             </div>
             <div class="form-group">
-              <label class="control-label col-md-3 col-sm-3 col-xs-3">Duration:</label>
+              <label class="control-label col-md-3 col-sm-3">Duration:</label>
               <label
-                class="control-label control-label col-md-1 col-sm-1 col-xs-1"></label>
-              <div class="col-md-2 col-sm-2 col-xs-2">
+                class="control-label control-label col-md-1 col-sm-1"></label>
+              <div class="col-md-2 col-sm-2">
                 <input class="form-control"
                   data-inputmask="'mask': '99/99/9999'" type="text">
               </div>
-              <label class="control-label col-md-1 col-sm-1 col-xs-1"
+              <label class="control-label col-md-1 col-sm-1"
                 style="text-align: left;">Day(s)</label>
             </div>
             <br>
             <div class="form-group">
-              <label class="control-label col-md-3 col-sm-3 col-xs-3">Leave
+              <label class="control-label col-md-3 col-sm-3">Leave
                 Type:</label> <label
-                class="control-label control-label col-md-1 col-sm-1 col-xs-1"></label>
-              <div class="col-md-3 col-sm-3 col-xs-3">
+                class="control-label control-label col-md-1 col-sm-1"></label>
+              <div class="col-md-3 col-sm-3">
                 <select data-parsley-id="4308" id="heard"
                   class="form-control" required="">
                   <option value="plan">Annual Leave</option>
@@ -70,20 +86,20 @@
               </div>
             </div>
             <div class="form-group">
-              <label class="control-label col-md-3 col-sm-3 col-xs-12">Reason:
+              <label class="control-label col-md-3 col-sm-3">Reason:
                 <span class="required">*</span>
               </label> <label
-                class="control-label control-label col-md-1 col-sm-1 col-xs-1"></label>
-              <div class="col-md-6 col-sm-6 col-xs-6">
+                class="control-label control-label col-md-1 col-sm-1"></label>
+              <div class="col-md-4 col-sm-4">
                 <textarea class="form-control" rows="2"></textarea>
               </div>
             </div>
 
             <div class="form-group">
-              <label class="control-label col-md-3 col-sm-3 col-xs-3">Status:</label>
+              <label class="control-label col-md-3 col-sm-3">Status:</label>
               <label
-                class="control-label control-label col-md-1 col-sm-1 col-xs-1"></label>
-              <div class="col-md-3 col-sm-3 col-xs-3">
+                class="control-label control-label col-md-1 col-sm-1"></label>
+              <div class="col-md-3 col-sm-3">
                 <select data-parsley-id="4308" id="heard"
                   class="form-control" required="">
                   <option value="plan">Planned</option>
@@ -95,8 +111,8 @@
           <!-- end modal body -->
           <div class="modal-footer">
             <div class="col-md-11">
-              <button type="submit" class="btn btn-success">Accept</button>
-              <button type="submit" class="btn">Edit</button>
+              <!-- <button type="submit" class="btn btn-success">Accept</button>
+              <button type="submit" class="btn">Edit</button> -->
               <button type="submit" class="btn">Back to list</button>
             </div>
           </div>

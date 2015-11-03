@@ -101,7 +101,9 @@
                             Date</th>
                           <th class="" role="columnheader" tabindex="0"
                             aria-controls="example" rowspan="1"
-                            colspan="1" style="width: 133px;">Duration</th>
+                            colspan="1"
+                            style="width: 40px; text-align: center;">
+                            Duration</th>
                           <th class="" role="columnheader" tabindex="0"
                             aria-controls="example" rowspan="1"
                             colspan="1" style="width: 133px;">Type</th>
