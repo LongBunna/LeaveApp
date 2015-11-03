@@ -39,7 +39,7 @@
                    <div class="col-md-6 col-sm-6 col-xs-12">
                        <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required" type="text" data-parsley-id="4786"><ul class="parsley-errors-list" id="parsley-id-4786"></ul>
                    </div>
-               </div>
+               </div>sdfsd
                <div class="form-group">
                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Description: </label>
                    <div class="col-md-6 col-sm-6 col-xs-12">
