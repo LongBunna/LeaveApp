@@ -34,5 +34,4 @@
         	</form>
     	</div>
 	</div>
-	change
    <%@include file="/include/assetfooter.jsp" %>
