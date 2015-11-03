@@ -1,4 +1,5 @@
 <%@include file="/include/assetheader.jsp"%>
+<%@include file="/lms_adm_005p.jsp"%>
 
 <body class="nav-md">
 
