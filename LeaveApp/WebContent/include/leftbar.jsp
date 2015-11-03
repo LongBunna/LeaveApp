@@ -47,13 +47,13 @@
                                 </li>
                                 <li><a><i class="fa fa-key"></i> Admin <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
-                                        <li><a href="viewAllUsers.jsp">List of Users</a>
+                                        <li><a href="lms_adm_006.jsp">List of Users</a>
                                         </li>
                                         <li><a href="javascrip:void(0)" data-toggle="modal" data-target="#create_new_user">Create Users</a>
                                         </li>
                                         <li><a href="javascript:">LEAVES</a>
                                         </li>
-                                        <li><a href="leaveType.jsp">List of Types</a>
+                                        <li><a href="lms_adm_011.jsp">List of Types</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -61,7 +61,7 @@
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="javascript:"><i class="fa fa-star-half-empty"></i> EMPLOYEE</a>
                                         </li>
-                                        <li><a href="listAllEmployeee.jsp">List of employees</a>
+                                        <li><a href="lms_adm_014.jsp">List of employees</a>
                                         </li>
                                         <li><a href="lms_adm_015.jsp">Organization</a>
                                         </li>
@@ -174,4 +174,4 @@
                 </div>
             </div>
             
-            <%@include file="/createNewUser.jsp"%>
+            <%@include file="/lms_adm_008.jsp"%>
