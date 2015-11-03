@@ -1,4 +1,6 @@
 <%@include file="/include/assetheader.jsp" %>
+<%@include file="/lms_adm_021p.jsp" %>
+<%@include file="/lms_adm_022p.jsp" %>
 
 <body class="nav-md">
 
@@ -71,7 +73,7 @@
                                 				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_022p"><i class="fa fa-pencil"></i></a>
                                    					</td>
                                     				<td class=" ">1</td>
                                     				<td class=" ">CEO</td>
@@ -80,7 +82,7 @@
                                 				<tr class="odd pointer">
                                                 	<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_022p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                      				<td class=" ">2</td>
                                     				<td class=" ">General Manager</td>
@@ -89,7 +91,7 @@
                                 				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_022p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">3</td>
                                     				<td class=" ">Manager</td>
@@ -98,7 +100,7 @@
                                 				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_022p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">4</td>
                                     				<td class=" ">Researcher</td>
@@ -107,7 +109,7 @@
                                 				<tr class="odd pointer">
                                                	 	<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_022p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                      				<td class=" ">5</td>
                                     				<td class=" ">Assistand Researcher</td>
@@ -116,7 +118,7 @@
                                 				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_022p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">6</td>
                                     				<td class=" ">General worker</td>
@@ -125,7 +127,7 @@
                                				 	<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_022p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">7</td>
                                     				<td class=" ">Internship</td>
@@ -134,7 +136,7 @@
                                 				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_022p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">7</td>
                                     				<td class=" ">Internship0</td>
@@ -143,7 +145,7 @@
                                     			<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_022p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">7</td>
                                     				<td class=" ">Internship1</td>
@@ -152,7 +154,7 @@
                                     			<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_022p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">7</td>
                                     				<td class=" ">Internship11</td>
@@ -171,7 +173,7 @@
 						<div>
 							<div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                            		<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3 pull-right">
-                                	<button type="submit" class="btn btn-success">Create position</button>
+                                	<button type="submit" class="btn btn-success" data-toggle="modal" data-target="#lms_adm_021p">Create position</button>
                            	 	</div>
                          	</div>
 						

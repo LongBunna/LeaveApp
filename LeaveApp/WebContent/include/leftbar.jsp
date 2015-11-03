@@ -33,27 +33,27 @@
                                         </li>
                                         <li><a href="lms_adm_001.jsp">Leave Balances</a>
                                         </li>
-                                        <li><a href="lms_adm_002.jsp">List Leave requested</a>
+                                        <li><a href="lms_adm_002.jsp">List Leave Requested</a>
                                         </li>
                                         <li><a href="lms_adm_003.jsp">New Leaves</a>
                                         </li>
                                         <li><a href="#"><i class="fa fa-star-half-empty"></i> An Manager</a>
                                         </li>
-                                        <li><a href="index.html">All Leave requests</a>
+                                        <li><a href="lms_adm_004.jsp">All Leave Requests</a>
                                         </li>
-                                        <li><a href="index2.html">Overtime Request</a>
+                                        <li><a href="lms_adm_005.jsp">All Overtime Request</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li><a><i class="fa fa-key"></i> Admin <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
-                                        <li><a href="viewAllUsers.jsp">List of Users</a>
+                                        <li><a href="lms_adm_006.jsp">List of Users</a>
                                         </li>
                                         <li><a href="javascrip:void(0)" data-toggle="modal" data-target="#create_new_user">Create Users</a>
                                         </li>
                                         <li><a href="javascript:">LEAVES</a>
                                         </li>
-                                        <li><a href="leaveType.jsp">List of Types</a>
+                                        <li><a href="lms_adm_011.jsp">List of Types</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -61,7 +61,7 @@
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="javascript:"><i class="fa fa-star-half-empty"></i> EMPLOYEE</a>
                                         </li>
-                                        <li><a href="listAllEmployeee.jsp">List of employees</a>
+                                        <li><a href="lms_adm_014.jsp">List of employees</a>
                                         </li>
                                         <li><a href="lms_adm_015.jsp">Organization</a>
                                         </li>
@@ -69,17 +69,17 @@
                                         </li>
                                         <li><a href="lms_adm_017.jsp">List of Contracts</a>
                                         </li>
-                                        <li><a href="icons.html">List of Positions</a>
+                                        <li><a href="lms_adm_021.jsp">List of Positions</a>
                                         </li>
                                         <li><a href="javascript:"><i class="fa fa-star-half-empty"></i> REPORTS</a>
                                         </li>
-                                        <li><a href="glyphicons.html">leave Balance</a>
+                                        <li><a href="lms_adm_023.jsp">leave Balance</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li><a><i class="fa fa-cog"></i>Validation<span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
-                                        <li><a href="tables.html">Delegations</a>
+                                        <li><a href="lms_adm_024.jsp">Delegations</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -174,4 +174,4 @@
                 </div>
             </div>
             
-            <%@include file="/createNewUser.jsp"%>
+            <%@include file="/lms_adm_008.jsp"%>
