@@ -13,7 +13,7 @@
                 <br>
             <form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">                       
                <div class="form-group">
-                   <label cclass="control-label col-md-3 col-sm-3 col-xs-12">Name: </label>
+                   <label class="control-label col-md-3 col-sm-3 col-xs-12">Name: </label>
                    <div class="col-md-6 col-sm-6 col-xs-12">
                        <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required" type="text" data-parsley-id="4786"><ul class="parsley-errors-list" id="parsley-id-4786"></ul>
                    </div>
