@@ -125,7 +125,7 @@
                         <tr class="pointer odd">
                           <td id="">1</td>
                           <td id="">
-                            <a href="javascrip:void(0)"><span class="fa fa-eye" data-toggle="modal" data-target="#myModal" data-placement="top" title="" data-original-title="View"></span></a> |
+                            <a href="javascrip:void(0)"><span class="fa fa-eye" data-toggle="modal" data-target="#lms_adm_005p" data-placement="top" title="" data-original-title="View"></span></a> |
                             <a href="javascrip:void(0)"><span class="glyphicon glyphicon-ok" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></span></a> |
                             <a href="javascrip:void(0)"><span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></span></a>
                           </td>
