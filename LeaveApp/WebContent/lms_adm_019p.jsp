@@ -58,5 +58,4 @@
     	</div>
 	</div>
     
-	wel done
    <%@include file="/include/assetfooter.jsp" %>
