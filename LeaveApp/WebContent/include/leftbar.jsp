@@ -49,7 +49,7 @@
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="lms_adm_006.jsp">List of Users</a>
                                         </li>
-                                        <li><a href="javascrip:void(0)" data-toggle="modal" data-target="#create_new_user">Create Users</a>
+                                        <li><a href="javascript:">Create Users</a>
                                         </li>
                                         <li><a href="javascript:">LEAVES</a>
                                         </li>
@@ -174,4 +174,3 @@
                 </div>
             </div>
             
-            <%@include file="/lms_adm_008.jsp"%>
