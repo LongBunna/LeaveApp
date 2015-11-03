@@ -75,6 +75,7 @@
                                         </li>
                                         <li><a href="lms_adm_023.jsp">leave Balance</a>
                                         </li>
+                                        test
                                     </ul>
                                 </li>
                                 <li><a><i class="fa fa-cog"></i>Validation<span class="fa fa-chevron-down"></span></a>
