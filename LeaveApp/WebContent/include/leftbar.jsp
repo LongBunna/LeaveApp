@@ -79,7 +79,7 @@
                                 </li>
                                 <li><a><i class="fa fa-cog"></i>Validation<span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
-                                        <li><a href="tables.html">Delegations</a>
+                                        <li><a href="lms_adm_024.jsp">Delegations</a>
                                         </li>
                                     </ul>
                                 </li>
