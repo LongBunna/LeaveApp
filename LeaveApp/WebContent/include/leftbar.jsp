@@ -174,4 +174,3 @@
                 </div>
             </div>
             
-            <%@include file="/lms_adm_008.jsp"%>
