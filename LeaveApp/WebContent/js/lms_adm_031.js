@@ -68,7 +68,12 @@
                             start: new Date(y, m, d - 5),
                             end: new Date(y, m, d - 2),
                         	color: '#337ab7',
-                        	textColor: '#FFFFFF'
+                        },
+                        {
+                        	title: 'Sick hay',
+                        	start: new Date(y, m, d),
+                    		start: new Date(y, m, d+4),
+                    		color: '#337ab7',
                         },
                         {
                         	title: 'Annual leave',

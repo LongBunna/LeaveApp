@@ -22,18 +22,18 @@
             <!-- page content -->
             <div class="right_col" role="main">
 				<div class="">
-
                     <div class="page-title">
                         <div class="title_left">
                             <h3><small>
 									<ol class="breadcrumb">
-									  <li><a href="#">My Calendar</a></li>
+									  <li>Calendar / My Calendar</li>
 									  <!--<li class="active">Data</li>-->
 									</ol>
 								</small>
 							</h3>
                         </div>
-                        <div class="title_right">
+                        
+                        <!-- <div class="title_right">
                             <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Search for...">
@@ -42,32 +42,34 @@
                         </span>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+                        
+                        
                     </div>
                     <div class="clearfix"></div>
                     <!-- Create Calendar -->
                     <div class="row">
                             <div class="col-md-12">
                                 <div class="x_panel">
-                                    <div class="x_title">
+                                    <div class="x_title">                                    
                                     	<div class="group">
-                                    	<div class="col-xs-1">
-                                        	<h2 class="btn-sm btn-primary">Planed</h2>
-                                       	</div>
-                                    	<div class="col-xs-">
-                                        	<h2 class="btn-sm btn-warning">Requested</h2>
+                                    		<div class="col-sm-2">
+                                    	 		<h3 class="btn-sm btn-primary status_space">Planed</h3>
+                                    		</div>
+                                    		<div class="col-sm-2">
+	                                     		<h3 class="btn-sm btn-warning">Requested</h3>
+                                    		</div>
+                                    		<div class="col-sm-2">
+	                                        	<h3 class="btn-sm btn-success">Accepted</h3>
+                                    		</div>
+                                    		<div class="col-sm-2">
+	                                        <h3 class="btn-sm btn-danger">Rejected</h3>
+                                    		</div>
                                     	</div>
-                                    	<div class="col-xs-1">
-                                        	<h2 class="btn-sm btn-success">Accepted</h2>
-                                    	</div>
-                                    		<div class="col-xs-1">
-                                        <h2 class="btn-sm btn-danger">Rejected</h2>
-                                    	</div>
-                                    	</div>
-                                        <ul class="nav navbar-right panel_toolbox">
+                                        <!-- <ul class="nav navbar-right panel_toolbox">
                                             <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                             </li>
-                                            <li class="dropdown">
+                                           <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
                                                 <ul class="dropdown-menu" role="menu">
                                                     <li><a href="#">Settings 1</a>
@@ -77,8 +79,8 @@
                                                 </ul>
                                             </li>
                                             <li><a class="close-link"><i class="fa fa-close"></i></a>
-                                            </li>
-                                        </ul>
+                                            </li> 
+                                        </ul> -->
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="x_content">

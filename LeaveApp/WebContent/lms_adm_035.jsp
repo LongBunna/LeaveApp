@@ -27,7 +27,7 @@
                         <div class="title_left">
                             <h3><small>
 									<ol class="breadcrumb">
-									  <li><a href="#">Calendar of the Organization</a></li>
+									  <li><a href="#">Calendar/Calendar of the Organization</a></li>
 									  <!--<li class="active">Data</li>-->
 									</ol>
 								</small>
@@ -60,27 +60,18 @@
                                     		</select>
                                     		</div>
 											<label><input type="checkbox" value="">Include-sub-department</label>
-                                    	</div><br/>
+                                    	</div><br/>                                    
                                     	<div class="group">
-	                                        <h2 class="btn-sm btn-primary">Planed</h2>
-	                                        <h2 class="btn-sm btn-warning">Requested</h2>
-	                                        <h2 class="btn-sm btn-success">Accepted</h2>
+                                    		<div class="col-sm-2">
+                                    	 		<h3 class="btn-sm btn-primary status_space">Planed</h3>
+                                    		</div>
+                                    		<div class="col-sm-2">
+	                                     		<h3 class="btn-sm btn-warning">Requested</h3>
+                                    		</div>
+                                    		<div class="col-sm-2">
+	                                        	<h3 class="btn-sm btn-success">Accepted</h3>
+                                    		</div>
                                     	</div>
-                                        <ul class="nav navbar-right panel_toolbox">
-                                            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                                                <ul class="dropdown-menu" role="menu">
-                                                    <li><a href="#">Settings 1</a>
-                                                    </li>
-                                                    <li><a href="#">Settings 2</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li><a class="close-link"><i class="fa fa-close"></i></a>
-                                            </li>
-                                        </ul>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="x_content">

@@ -193,7 +193,7 @@
         </div>
       </div>
       <!-- /page content -->
-      <%@include file="/lms_adm_r002p.jsp"%>
+      <%@include file="/lms_adm_002p.jsp"%>
     </div>
 
   </div>

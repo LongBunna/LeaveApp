@@ -88,7 +88,7 @@
                                         <tbody>
 											<tr>
                                                 <th scope="row">
-                                                	<a href=""><span class="fa fa-eye" data-toggle="tooltip" data-placement="top" title="" data-original-title="view"></span></a>
+                                                	<a href="javascrip:void(0)"><span class="fa fa-eye" data-toggle="modal" data-target="#myModal" data-placement="top" title="" data-original-title="View"></span></a>
                                                 </th>
                                                 <td>
 													1
@@ -141,10 +141,12 @@
                             </div>
                         </div>
                         <div class="clearfix"></div>
+                        
                     </div>
                 </div>
             </div>
             <!-- /page content -->
+            <%@include file="/lms_adm_002p.jsp"%><!--  -->
         </div>
 
     </div>
