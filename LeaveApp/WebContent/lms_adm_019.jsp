@@ -218,6 +218,4 @@
         <div id="notif-group" class="tabbed_notifications"></div>
     </div>
 
-chang testing
-
    <%@include file="/include/assetfooter.jsp" %>
