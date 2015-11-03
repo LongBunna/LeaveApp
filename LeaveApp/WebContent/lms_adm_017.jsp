@@ -81,8 +81,7 @@
                                                 <td class=" ">001 </td>
                                                 <td class=" ">Employee term </td>
                                                 <td class=" ">01/01</td>
-                                                <td class=" ">12/31</td>
-                                                
+                                                <td class=" ">12/31</td>                                                
                                                 </td>
                                          </tr>
                                          <tr class="pointer even">
