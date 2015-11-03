@@ -9,7 +9,7 @@
 	        	</div>
 	          		<div>
                                     <form>
-									<table id="tbl_edit_user">
+								<table id="tbl_edit_user">
 									<tr>
                                         <td><label>First Name :</label></td>
                                         <td><input type="text" class="form-control" placeholder="First Name"></td>
