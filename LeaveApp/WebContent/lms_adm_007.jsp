@@ -80,7 +80,6 @@
 	<!-- End Modal User Edition-->
 	
 	<%@include file="/lms_adm_010p.jsp"%>
-	<%@include file="/lms_adm_008.jsp"%>
 	<%@include file="/lms_adm_009p.jsp"%>
 	<%@include file="/lms_adm_008p.jsp"%>
 
