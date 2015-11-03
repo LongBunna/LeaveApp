@@ -173,7 +173,7 @@
 						<div>
 							<div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                            		<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3 pull-right">
-                                	<button type="submit" class="btn btn-success">Create position</button>
+                                	<button type="submit" class="btn btn-success" data-toggle="modal" data-target="#lms_adm_021p">Create position</button>
                            	 	</div>
                          	</div>
 						
