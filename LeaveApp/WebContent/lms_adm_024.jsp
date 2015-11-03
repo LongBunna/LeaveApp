@@ -18,7 +18,7 @@
             <%@include file="/include/topNav.jsp" %>
             
             <!-- /top navigation -->
-            <!-- page content -->a
+            <!-- page content -->
             <div class="right_col" role="main">
             <%@include file="/lms_adm_025p.jsp" %>
 				<div class="">
