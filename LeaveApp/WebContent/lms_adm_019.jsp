@@ -17,7 +17,7 @@
             
             <%@include file="/include/topNav.jsp" %>
             
-            <!-- /top navigation -->sd
+            <!-- /top navigation -->
 
             <!-- page content -->
             <div class="right_col" role="main">
