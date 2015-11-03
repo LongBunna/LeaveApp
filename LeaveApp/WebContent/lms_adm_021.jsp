@@ -13,7 +13,7 @@
             
 			<!-- /Left menu bar -->
 			
-            <!-- top navigation -->s
+            <!-- top navigation -->
             
             <%@include file="/include/topNav.jsp" %>
             
