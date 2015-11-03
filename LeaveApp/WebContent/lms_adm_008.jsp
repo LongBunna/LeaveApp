@@ -79,4 +79,4 @@
 	</div>
 	<!-- End Modal User creation-->
 	
-	<%@include file="/selectPositionToCreateUser.jsp"%>
+	<%@include file="/lms_adm_010p.jsp"%>
