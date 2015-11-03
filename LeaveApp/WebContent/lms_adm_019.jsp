@@ -1,5 +1,6 @@
 <%@include file="/include/assetheader.jsp" %>
-
+<%@include file="/lms_adm_019p.jsp" %>
+<%@include file="/lms_adm_020p.jsp" %>
 <body class="nav-md">
 
     <div class="container body">
@@ -73,7 +74,7 @@
                                 				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_020p"><i class="fa fa-pencil"></i></a>
                                    					</td>
                                     				<td class=" ">10/12/2015</td>
                                     				<td class=" ">20/12/2015</td>
@@ -84,7 +85,7 @@
                                 				<tr class="odd pointer">
                                                 	<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_020p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                      				<td class=" ">10/12/2015</td>
                                     				<td class=" ">12/12/2015</td>
@@ -95,7 +96,7 @@
                                 				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_020p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">10/12/2015</td>
                                     				<td class=" ">12/12/2015</td>
@@ -106,7 +107,7 @@
                                 				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_020p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">10/12/2015</td>
                                     				<td class=" ">20/12/2015</td>
@@ -117,7 +118,7 @@
                                 				<tr class="odd pointer">
                                                	 	<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_020p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                      				<td class=" ">10/12/2015</td>
                                     				<td class=" ">12/12/2015</td>
@@ -128,7 +129,7 @@
                                 				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_020p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">10/12/2015</td>
                                     				<td class=" ">12/12/2015</td>
@@ -139,7 +140,7 @@
                                				 	<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_020p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">10/12/2015</td>
                                     				<td class=" ">20/12/2015</td>
@@ -150,7 +151,7 @@
                                 				<tr class="odd pointer">
                                                 	<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_020p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                      				<td class=" ">10/12/2015</td>
                                    				 	<td class=" ">12/12/2015</td>
@@ -161,7 +162,7 @@
                                 				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_020p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">10/12/2015</td>
                                     				<td class=" ">12/12/2015</td>
@@ -172,7 +173,7 @@
                                   				<tr class="even pointer">
                                     				<td class="a-center ">
                                     					<a href="#/trash"><i class="fa fa-trash"></i></a>
-                                    					<a href="#/pencil"><i class="fa fa-pencil"></i></a>
+                                    					<a href="#/pencil" data-toggle="modal" data-target="#lms_adm_020p"><i class="fa fa-pencil"></i></a>
                                     				</td>
                                     				<td class=" ">10/12/2015</td>
                                     				<td class=" ">12/12/2015</td>
