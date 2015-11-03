@@ -41,7 +41,7 @@
                                         </li>
                                         <li><a href="lms_adm_004.jsp">All Leave requests</a>
                                         </li>
-                                        <li><a href="index2.html">Overtime Request</a>
+                                        <li><a href="lms_adm_005.jsp">Overtime Request</a>
                                         </li>
                                     </ul>
                                 </li>
