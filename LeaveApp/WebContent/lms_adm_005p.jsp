@@ -21,7 +21,7 @@
 	</head>
 
 	<body class="nav-md">
-		<div id="lms_adm_019p" class="modal fade" role="dialog"> 
+		<div id="lms_adm_005p" class="modal fade" role="dialog"> 
   			<div class="modal-dialog">
 	   			<!-- Modal content-->
 	    		<div class="modal-content">
