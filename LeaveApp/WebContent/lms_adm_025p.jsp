@@ -21,7 +21,7 @@
 </head>
 
 <body class="nav-md">
-		<div class="modal fade" id="otModal">s
+		<div class="modal fade" id="otModal">
 		<div class="modal-dialog modal-lg ">
 			<div class="modal-content col-md-offset-3">
 				<div class="modal-header">
