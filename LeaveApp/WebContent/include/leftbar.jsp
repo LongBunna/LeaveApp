@@ -69,11 +69,11 @@
                                         </li>
                                         <li><a href="lms_adm_017.jsp">List of Contracts</a>
                                         </li>
-                                        <li><a href="icons.html">List of Positions</a>
+                                        <li><a href="lms_adm_021.jsp">List of Positions</a>
                                         </li>
                                         <li><a href="javascript:"><i class="fa fa-star-half-empty"></i> REPORTS</a>
                                         </li>
-                                        <li><a href="glyphicons.html">leave Balance</a>
+                                        <li><a href="lms_adm_023.jsp">leave Balance</a>
                                         </li>
                                     </ul>
                                 </li>
