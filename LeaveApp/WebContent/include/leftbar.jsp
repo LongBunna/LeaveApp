@@ -33,15 +33,15 @@
                                         </li>
                                         <li><a href="lms_adm_001.jsp">Leave Balances</a>
                                         </li>
-                                        <li><a href="lms_adm_002.jsp">List Leave requested</a>
+                                        <li><a href="lms_adm_002.jsp">List Leave Requested</a>
                                         </li>
                                         <li><a href="lms_adm_003.jsp">New Leaves</a>
                                         </li>
                                         <li><a href="#"><i class="fa fa-star-half-empty"></i> An Manager</a>
                                         </li>
-                                        <li><a href="lms_adm_004.jsp">All Leave requests</a>
+                                        <li><a href="lms_adm_004.jsp">All Leave Requests</a>
                                         </li>
-                                        <li><a href="index2.html">Overtime Request</a>
+                                        <li><a href="lms_adm_005.jsp">All Overtime Request</a>
                                         </li>
                                     </ul>
                                 </li>
