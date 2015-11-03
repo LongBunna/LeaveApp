@@ -8,7 +8,7 @@
                        <li><a class="close-link"><i class="fa fa-close"></i></a></li>
                     </ul>
                     <div class="clearfix"></div>
-            </div>ss
+            </div>
             <div class="x_content">
                 <br>
             <form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
