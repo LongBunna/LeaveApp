@@ -37,7 +37,7 @@
                                         </li>
                                         <li><a href="lms_adm_003.jsp">New Leaves</a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i> An Manager</a>
+                                        <li><i class="fa fa-star-half-empty"></i> An Manager
                                         </li>
                                         <li><a href="lms_adm_004.jsp">All Leave Requests</a>
                                         </li>
