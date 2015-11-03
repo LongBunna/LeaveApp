@@ -9,7 +9,7 @@
                     </ul>
                     <div class="clearfix"></div>
             </div>
-            <div class="x_content">ss
+            <div class="x_content">
                 <br>
             <form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
 				<div class="form-group">
