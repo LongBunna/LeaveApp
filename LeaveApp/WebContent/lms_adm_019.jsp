@@ -194,7 +194,7 @@
 						<div>
 							<div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                            		<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3 pull-right">
-                                	<button type="submit" class="btn btn-primary">Add</button>
+                                	<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="lms_adm_019p">Add</button>
                                 	<button type="submit" class="btn btn-success">Back to list</button>
                            	 	</div>
                          	</div>
