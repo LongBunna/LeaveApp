@@ -118,7 +118,7 @@
 	                        <tr>
 	                        	<td></td>
 	                            <td class="align_center">
-	                            	<a class="btn btn-default submit" href="index.html">Log in</a>
+	                            	<a class="btn btn-default submit" href="lms_adm_001.jsp">Log in</a>
 	                            	<a class="btn btn-default submit" href="#toregister">Sign Up</a>
 	                            </td>
 	                        </tr>
