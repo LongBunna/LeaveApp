@@ -21,8 +21,8 @@
 										<label class="control-label col-md-2 col-sm-2 col-xs-2">Contract :</label>
 										<div class="col-md-3 col-sm-3 col-xs-3">
 											<select data-parsley-id="4308" id="heard" class="form-control">
-											<option value="">Employee Term</option>
-										</select>
+												<option value="">Employee Term</option>
+											</select>
 										</div>
 									</div>
 									
@@ -42,8 +42,11 @@
 									
 									<div class="form-group">
 										<label class="control-label col-md-3 col-sm-3 col-xs-3">Role :</label>
-										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
-                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+										<div class="col-md-3 col-sm-3 col-xs-3">
+                                        	<select data-parsley-id="4308" id="heard" class="form-control">
+												<option value="">User</option>
+												<option value="">HR Admin</option>
+											</select>
                                         </div>
 										<label class="control-label col-md-2 col-sm-2 col-xs-2">Position :</label>
 										<div class="input-group col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback" style="padding-left:10px;">

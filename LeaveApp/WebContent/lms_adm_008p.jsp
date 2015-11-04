@@ -87,7 +87,7 @@
                 
 				<div id="ok_btn">
 					<a class="btn btn btn-primary"><i class="fa fa-check"></i>OK</a>
-					<a class="btn btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#update_user"><i class="fa fa-close"></i>Cancel</a>
+					<a class="btn btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>Cancel</a>
 				</div>
 				
             </div>
