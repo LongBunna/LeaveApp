@@ -9,9 +9,6 @@
 		#create_new_type_btn i{
 			padding-right:5px;
 		}
-		.modal-dialog{
-			margin-top: 200px;
-		}
 		#dept_selectbox{
 			border-right: 0;
    			box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
@@ -28,28 +25,14 @@
 		#search_div input[type="checkbox"]{
 			margin-right:5px;
 		}
-		#searchbox{
-			border-right: 0;
-   			box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
-    		border-radius: 25px 25px 25px 25px;
-    		padding-left: 20px;
-    		border: 1px solid rgba(221, 226, 232, 0.49);
-    		line-height: 30px;
-    		width: 20%;
-    		float: right;
-    		clear: right;
-		}
 		#pagination{
 			width:100%;
 			text-align: center;
 			margin:0px auto;
 			margin-bottom: 30px;
 		}
-		#pagination select{
-			width: 5%;
+		.dataTables_length select{
 			padding: 6px;
-			float: left;
-			clear:left;
 		}
 	</style>
 
@@ -163,14 +146,16 @@
                                 </div>
                                 
                                 <!-- Pagination block -->
+                                <div class="dataTables_length">
+	                                <label>Show <select size="1">
+	                                <option value="10">10</option>
+	                                <option value="25">25</option>
+	                                <option value="50">50</option>
+	                                <option value="100">100</option>
+	                                </select> entries</label>
+                                </div>
+                                
 				                <div id="pagination">
-					                <select size="1" name="" aria-controls="">
-							              <option value="10">10</option>
-							              <option value="25">25</option>
-							              <option value="50">50</option>
-							              <option value="100">100</option>
-					                </select> 
-					
 					                <span class="dataTables_paginate paging_full_numbers">
 					                	<a tabindex="0" class="first paginate_button paginate_button_disabled" id="example_first">First</a>
 					                	<a tabindex="0" class="previous paginate_button paginate_button_disabled" id="example_previous">Previous</a>
@@ -187,7 +172,7 @@
 				                <!-- button -->
 								<div id="create_new_type_btn">
 									<a class="btn btn btn-success"><i class="fa fa-download"></i>Export List</a>
-									<a class="btn btn btn-primary"><i class="fa fa-plus-circle"></i>Create a new type</a>
+									<a class="btn btn btn-primary" href="lms_adm_008.jsp"><i class="fa fa-plus-circle"></i>Create a new</a>
 								</div>
 				                <!-- End button -->                
                             </div>

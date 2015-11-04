@@ -51,7 +51,7 @@
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="lms_adm_006.jsp">List of Users</a>
                                         </li>
-                                        <li><a href="javascript:">Create Users</a>
+                                        <li><a href="lms_adm_008.jsp">Create Users</a>
                                         </li>
                                         <li><a href="javascript:">LEAVES</a>
                                         </li>

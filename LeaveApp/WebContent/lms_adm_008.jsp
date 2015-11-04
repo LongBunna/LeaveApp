@@ -199,7 +199,7 @@
 										<p>If a user has no manager(itself), it can validate its leave request.</p>
 										<div class="modal-footer">
 		        							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;&nbsp;Create User</button>
-		          							<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;&nbsp;Cancel</button>
+		          							<!-- <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;&nbsp;Cancel</button> -->
 		        						</div>
                                     </form>
                                 </div>
