@@ -64,7 +64,7 @@
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                           <a href="lms_adm_001.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-caret-square-o-right"></i>
+                                                <div class="icon" style="right: 167px;"><i class="fa fa-bar-chart"></i>
                                                 </div>
                                                 <h3 class="tile_align">Leave Balance</h3>
                                             </div>
@@ -74,7 +74,7 @@
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                             <a href="listleavrequested.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-comments-o"></i>
+                                                <div class="icon" style="right: 167px;"><i class="fa fa-list"></i>
                                                 </div>
                                                 <h3 class="tile_align">List Leave requested</h3>
                                             </div>
@@ -83,7 +83,7 @@
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                           <a href="#">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-sort-amount-desc"></i>
+                                                <div class="icon" style="right: 167px;"><i class="fa fa-pencil-square-o"></i>
                                                 </div>
                                                 <h3 class="tile_align">New Leave</h3>
                                             </div>
@@ -105,18 +105,18 @@
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                             <a href="listleavrequested.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-comments-o"></i>
+                                                <div class="icon" style="right: 167px;"><i class="fa fa-envelope-o"></i>
                                                 </div>
-                                                <h3 class="tile_align">List Leave requested</h3>
+                                                <h3 class="tile_align">Leave Submitted </h3>
                                             </div>
                                             </a>
                                         </div>
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                           <a href="#">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-sort-amount-desc"></i>
+                                                <div class="icon" style="right: 167px;"><i class="fa fa-clock-o"></i>
                                                 </div>
-                                                <h3 class="tile_align">New Leave</h3>
+                                                <h3 class="tile_align">OT Submitted</h3>
                                             </div>
                                             </a>
                                         </div>

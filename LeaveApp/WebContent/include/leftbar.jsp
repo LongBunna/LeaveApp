@@ -53,7 +53,7 @@
                                         </li>
                                         <li><a href="lms_adm_008.jsp">Create Users</a>
                                         </li>
-                                        <li><a href="javascript:">LEAVES</a>
+                                        <li><a href="#"><i class="fa fa-star-half-empty"></i> Leaves</a>
                                         </li>
                                         <li><a href="lms_adm_011.jsp">List of Types</a>
                                         </li>
