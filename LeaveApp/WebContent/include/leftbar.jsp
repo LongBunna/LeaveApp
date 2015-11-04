@@ -47,7 +47,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-key"></i> Admin <span class="fa fa-chevron-down"></span></a>
+                                <li><a href="javascript:"><i class="fa fa-key"></i> Admin <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="lms_adm_006.jsp">List of Users</a>
                                         </li>
@@ -59,7 +59,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-lightbulb-o"></i> HR <span class="fa fa-chevron-down"></span></a>
+                                <li><a href="javascript:"><i class="fa fa-lightbulb-o"></i> HR <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="javascript:"><i class="fa fa-star-half-empty"></i> EMPLOYEE</a>
                                         </li>
@@ -79,13 +79,13 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-cog"></i>Validation<span class="fa fa-chevron-down"></span></a>
+                                <li><a href="javascript:"><i class="fa fa-cog"></i>Validation<span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="lms_adm_024.jsp">Delegations</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-pencil-square-o"></i> Request <span class="fa fa-chevron-down"></span></a>
+                                <li><a href="javascript:"><i class="fa fa-pencil-square-o"></i> Request <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                     	<li><a href="javascript:"><i class="fa fa-star-half-empty"></i> Leaves</a>
                                         </li>
@@ -99,7 +99,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a><i class="fa fa-calendar"></i> Calendar <span class="fa fa-chevron-down"></span></a>
+                                <li><a href="javascript:"><i class="fa fa-calendar"></i> Calendar <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="lms_adm_031.jsp">My Calendar</a>
                                         </li>
