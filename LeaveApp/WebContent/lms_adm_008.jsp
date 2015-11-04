@@ -1,5 +1,5 @@
 <%@include file="/include/assetheader.jsp" %>
-	<style type="text/css">
+<style type="text/css">
 		#ok_btn{
 			text-align: right;
 			margin-bottom:10px;
@@ -8,17 +8,6 @@
 		.modal-dialog{
 			margin-top: 100px;
 		}
- 		#searchbox{
-			border-right: 0;
-   			box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
-    		border-radius: 25px 25px 25px 25px;
-    		padding-left: 20px;
-    		border: 1px solid rgba(221, 226, 232, 0.49);
-    		line-height: 30px;
-    		width: 20%;
-    		float:right;
-    		clear: both;
-		}
 		#pagination{
 			clear: both;
 			width:100%;
@@ -26,53 +15,8 @@
 			margin:0px auto;
 			margin-bottom: 30px;
 		}
-		#pagination select{
-			width: 5%;
-			padding: 6px;
-			float: left;
-			clear:left;
-		}
-		.form-control{
-			display:inline !important;
-			margin-left:10px;
-			width:70%;
-		}
-		.add_length{
-			display:inline !important;
-			margin-left:10px;
-			width:100%;
-			padding: 6px 12px;
-			font-size: 14px;
-			border: 1px solid #DDE2E8;
-		}
-		#tbl_edit_user{
-			border-spacing: 10px !important;
-			border-collapse:inherit !important;
-			margin: 0px auto;
-		}
-		#tbl_edit_user #contract{
-		    padding: 6px 12px;
-		    font-size: 14px;
-		    background-color: #fff;
-		    border: 1px solid #DDE2E8;
-		    margin-left:10px;
-		    width:70%;
-		 }	
-		 #manager_input,#dept_input, #position_input	{
-		 	height: 34px;
-		    padding: 6px 12px;
-		    font-size: 14px;
-		    background-color: #fff;
-		    border: 1px solid #DDE2E8;
-		    margin-left:10px;
-		 }
-		 body{
-		 	overflow: hidden !important;
-		 }
-		 .form-control.has-feedback-left {
-    		padding-left: 10px !important;
-		 }
 	</style>
+
 <body class="nav-md">
 
     <div class="container body">
@@ -123,95 +67,111 @@
                                 <div class="x_title">
                                     <h2>Leave and Overtime Management System<small>Create Users</small></h2>
                                     <ul class="nav navbar-right panel_toolbox">
-                                        <!--<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a href="#">Settings 1</a>
-                                                </li>
-                                                <li><a href="#">Settings 2</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
-                                        </li>-->
                                     </ul>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="x_content">
-                                    <form>
-										<table id="tbl_edit_user">
-										<tr>
-	                                        <td><label>First Name :</label></td>
-	                                        <td><input type="text" class="add_length" placeholder="First Name"></td>
-	                                        <td></td>
-	                                        <td><label>Contract :</label></td>
-	                                        <td>
-		                                        <select id="contract">
-		                                        	<option>Employee term</option>
-		                                        </select>
-	                                        </td>
-										</tr>
-										<tr>
-	                                        <td><label>Last Name :</label></td>
-	                                        <td><input type="text" class="add_length" placeholder="Last Name"></td>
-	                                        <td></td>
-	                                        <td><label>Department :</label></td>
-	                                    	<td>
-	                                    		<input type="text" class="form-control" placeholder="Department" id="dept_input" >
-	                                    		<button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#select_dept">Select</button>
-	                                    	</td>
-	                                    </tr>
-	                                    <tr>
-	                                    	<td><label>Role :</label></td>
-	                                    	<td>
-												<select class="add_length">
-		                                        	<option>User</option>
-		                                        	<option>HR Admin</option>
-		                                        </select>
-											</td>
-											<td></td>
-	                                    	<td><label>Position :</label></td>
-	                                    	<td>
-	                                    		<input type="text" class="form-control" placeholder="Position" id="position_input">
-	                                    		<button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#select_position">Select</button>
-	                                    	</td>
-	                                    </tr> 
-	                                    <tr>
-	                                    	<td><label>Login :</label></td>
-	                                    	<td><input type="text" class="add_length" placeholder="Login"></td>
-	                                    	<td></td>
-	                                    	<td><label>Start Date :</label></td>
-	                                    	<td><input type="text" class="form-control has-feedback-left active" placeholder="Start Date" name="daterang1" aria-describedby="inputSuccess2Status">
-	                                    		<span id="" class="sr-only">(success)</span>
-	                                    	</td>
-	                                    </tr> 
-	                                    <tr>
-	                                    	<td><label>Email :</label></td>
-	                                    	<td ><input type="text" class="add_length" placeholder="Email"></td>
-	                                    	<td></td>
-	                                    	<td><label>Identifier :</label></td>
-	                                    	<td><input type="text" class="form-control" placeholder="Identifier"></td>
-	                                    </tr>
-	                                    <tr>
-	                                    	<td><label>Manager :</label></td>
-	                                        <td><input type="text" placeholder="Manager" id="manager_input"/></td>
-	                                        <td>
-	                                        	<button type="button" class="btn btn-success" data-dismiss="modal">Self</button>
-	                                        	<button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#select_manager">Select</button>
-	                                        </td>
-	                                        
-	                                        <td><label>Password :</label></td>
-	                                        <td><input type="text" class="form-control" id="inputSuccess5" placeholder="Password" required="required"></td>
-	                                    </tr>    
-										</table>
+                                
+                                    <form class="form-horizontal form-label-left">
+
+									<div class="form-group">
+										<label class="control-label col-md-3 col-sm-3 col-xs-3">First Name :</label>
+										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
+                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        </div>
+										<label class="control-label col-md-1 col-sm-1 col-xs-1">Contract :</label>
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<select data-parsley-id="4308" id="heard" class="form-control">
+											<option value="">Employee Term</option>
+										</select>
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="control-label control-label col-md-3 col-sm-3 col-xs-3">Last Name :</label>
+										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
+                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        </div>
+                                        <label class="control-label col-md-1 col-sm-1 col-xs-1">Department :</label>
+										<div class="input-group col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback" style="padding-left:10px;">
+                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        	<span class="input-group-btn">
+                                            	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#select_dept">Select</button> 
+                                        	</span>
+                                        </div>
+									</div>
+									
+									<div class="form-group">
+										<label class="control-label col-md-3 col-sm-3 col-xs-3">Role :</label>
+										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
+                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        </div>
+										<label class="control-label col-md-1 col-sm-1 col-xs-1">Position :</label>
+										<div class="input-group col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback" style="padding-left:10px;">
+                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        	<span class="input-group-btn">
+                                            	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#select_position">Select</button> 
+                                        	</span>
+                                        </div>
+									</div>
+									
+									<div class="form-group">
+										<label class="control-label control-label col-md-3 col-sm-3 col-xs-3">Login :</label>
+										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
+                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        </div>
+                                        <label class="control-label col-md-1 col-sm-1 col-xs-1">Start Date :</label>
+										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
+											<input type="text" class="form-control has-feedback-left" id="" name="daterang1" aria-describedby="inputSuccess2Status">
+											<span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span> <span id="" class="sr-only">(success)
+											</span>
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label class="control-label col-md-3 col-sm-3 col-xs-3">Email :</label>
+										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
+                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        </div>
+										<label class="control-label col-md-1 col-sm-1 col-xs-1">Identifier :</label>
+										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
+                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        </div>
+									</div>
+
+									<div class="form-group">
+										<label class="control-label col-md-3 col-sm-3 col-xs-3">Manager :</label>
+										<div class="input-group col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback" style="padding-left:10px;">
+                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        	<span class="input-group-btn">
+                                            	<button type="button" class="btn btn-primary">Self</button> 
+                                        	</span>
+                                        	<span class="input-group-btn">
+                                            	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#select_manager">Select</button> 
+                                        	</span>
+                                        </div>
+									</div>
+									<div class="form-group">
+										<label class="control-label col-md-3 col-sm-3 col-xs-3">Password :</label>
+										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
+                                        	<input type="password" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        </div>
+									</div>
+									
+									<div class="form-group">
 										<p>If a user has no manager(itself), it can validate its leave request.</p>
-										<div class="modal-footer">
-		        							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;&nbsp;Create User</button>
-		          							<!-- <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;&nbsp;Cancel</button> -->
-		        						</div>
-                                    </form>
+									</div>
+									
+									<div class="ln_solid"></div>
+									<!-- Buttons -->
+									<div class="form-group">
+										<div class="col-md-12 col-sm-12 col-xs-12 col-md-offset-3" style="margin-left:63%;">
+											<button type="submit" class="btn btn-success"><span class="fa fa-check-circle" aria-hidden="true"></span> Request Leave</button>
+											<button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span> Cancel</button>
+										</div>
+									</div>
+
+								</form>
                                 </div>
                                 <!-- /End x-content -->
                             </div>
@@ -238,4 +198,4 @@
         <div id="notif-group" class="tabbed_notifications"></div>
     </div>
     
-<%@include file="/include/assetfooter.jsp" %>
+<%@include file="/include/assetfooter.jsp" %> 
