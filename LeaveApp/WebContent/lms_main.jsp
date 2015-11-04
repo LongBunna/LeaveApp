@@ -64,7 +64,7 @@
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                           <a href="lms_adm_001.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-bar-chart"></i>
+                                                <div class="icon" style="right: 130px;"><i class="fa fa-bar-chart"></i>
                                                 </div>
                                                 <h3 class="tile_align">Leave Balance</h3>
                                             </div>
@@ -74,7 +74,7 @@
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                             <a href="lms_adm_002.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-list"></i>
+                                                <div class="icon" style="right: 130px;"><i class="fa fa-list"></i>
                                                 </div>
                                                 <h3 class="tile_align">List Leave requested</h3>
                                             </div>
@@ -83,7 +83,7 @@
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                           <a href="lms_adm_027.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-pencil-square-o"></i>
+                                                <div class="icon" style="right: 130px;"><i class="fa fa-pencil-square-o"></i>
                                                 </div>
                                                 <h3 class="tile_align">New Leave</h3>
                                             </div>
@@ -105,7 +105,7 @@
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                             <a href="lms_adm_004.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-envelope-o"></i>
+                                                <div class="icon" style="right: 130px;"><i class="fa fa-envelope-o"></i>
                                                 </div>
                                                 <h3 class="tile_align">Leave Submitted </h3>
                                             </div>
@@ -114,7 +114,7 @@
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                           <a href="lms_adm_005.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
-                                                <div class="icon" style="right: 167px;"><i class="fa fa-clock-o"></i>
+                                                <div class="icon" style="right: 130px;"><i class="fa fa-clock-o"></i>
                                                 </div>
                                                 <h3 class="tile_align">OT Submitted</h3>
                                             </div>
