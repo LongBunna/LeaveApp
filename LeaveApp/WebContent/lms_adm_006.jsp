@@ -15,17 +15,6 @@
 		.modal-dialog{
 			margin-top: 100px;
 		}
- 		#searchbox{
-			border-right: 0;
-   			box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
-    		border-radius: 25px 25px 25px 25px;
-    		padding-left: 20px;
-    		border: 1px solid rgba(221, 226, 232, 0.49);
-    		line-height: 30px;
-    		width: 20%;
-    		float:right;
-    		clear: both;
-		}
 		#pagination{
 			clear: both;
 			width:100%;
@@ -39,41 +28,10 @@
 		#pagination label{
 			float:left;
 		}
-		.form-control{
-			display:inline !important;
-			margin-left:10px;
-			width:70%;
-		}
-		
-		#tbl_edit_user{
-			border-spacing: 10px !important;
-			border-collapse:inherit !important;
-			margin: 0px auto;
-		}
-		#tbl_edit_user select{
-		    height: 34px;
-		    padding: 6px 12px;
-		    font-size: 14px;
-		    background-color: #fff;
-		    border: 1px solid #DDE2E8;
-		    margin-left:10px;
-		    width:70%;
-		 }	
-		 #manager_input,#dept_input, #position_input	{
-		 	height: 34px;
-		    padding: 6px 12px;
-		    font-size: 14px;
-		    background-color: #fff;
-		    border: 1px solid #DDE2E8;
-		    margin-left:10px;
-		    width:50%;
-		 }
 		 p{
 		 	margin-left:40px !important;
 		 }
-		 body{
-		 	overflow: hidden !important;
-		 }
+
 	</style>
 <body class="nav-md">
 

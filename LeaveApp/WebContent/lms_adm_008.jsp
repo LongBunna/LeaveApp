@@ -154,7 +154,7 @@
 									<div class="form-group">
 										<label class="control-label col-md-3 col-sm-3 col-xs-3">Password :</label>
 										<div class="col-md-3 col-sm-3 col-xs-3 xdisplay_inputx form-group has-feedback">
-                                        	<input type="text" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
+                                        	<input type="password" class="form-control col-md-7 col-xs-3"><ul class="parsley-errors-list" id="parsley-id-7168"></ul>
                                         </div>
 									</div>
 									
