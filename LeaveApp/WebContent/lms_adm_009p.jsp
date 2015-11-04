@@ -4,7 +4,7 @@
 		<!-- pop up form--edit user-->
 			<div class="modal-content">
 				<div class="modal-header">
-	          		<button type="button" class="close" data-dismiss="modal" data-toggle="modal" data-target="#update_user">&times;</button>
+	          		<button type="button" class="close" data-dismiss="modal">&times;</button>
 	          		<h2>Select the Department</h2>
 	        	</div>
 	        	<div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
@@ -105,7 +105,7 @@
                 </div>
 	        	<div class="modal-footer">
 	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;&nbsp;OK</button>
-	          		<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#update_user"><i class="fa fa-close"></i>&nbsp;&nbsp;Cancel</button>
+	          		<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;&nbsp;Cancel</button>
 	        	</div>
 	      	</div>
 	    </div>
