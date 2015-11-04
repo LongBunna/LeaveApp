@@ -72,7 +72,7 @@
                                         </div>
                                         
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                            <a href="listleavrequested.jsp">
+                                            <a href="lms_adm_002.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
                                                 <div class="icon" style="right: 167px;"><i class="fa fa-list"></i>
                                                 </div>
@@ -81,7 +81,7 @@
                                             </a>
                                         </div>
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="#">
+                                          <a href="lms_adm_027.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
                                                 <div class="icon" style="right: 167px;"><i class="fa fa-pencil-square-o"></i>
                                                 </div>
@@ -103,7 +103,7 @@
                                 <div class="x_content">
                                    <div class="row">
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                            <a href="listleavrequested.jsp">
+                                            <a href="lms_adm_004.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
                                                 <div class="icon" style="right: 167px;"><i class="fa fa-envelope-o"></i>
                                                 </div>
@@ -112,7 +112,7 @@
                                             </a>
                                         </div>
                                         <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                          <a href="#">
+                                          <a href="lms_adm_005.jsp">
                                             <div class="tile-stats" style="height: 138px;text-align: center;">
                                                 <div class="icon" style="right: 167px;"><i class="fa fa-clock-o"></i>
                                                 </div>
