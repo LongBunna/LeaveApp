@@ -4,6 +4,11 @@
 			text-align: right;
 			margin-bottom:10px;
 		}
+		#ok_btn{
+			text-align: right;
+			margin-bottom:10px;
+			margin-right: 16px;
+		}
 		#create_new_type_btn i{
 			padding-right:5px;
 		}
@@ -28,11 +33,11 @@
 			margin:0px auto;
 			margin-bottom: 30px;
 		}
-		#pagination select{
-			width: 5%;
+		#pagination label select{
 			padding: 6px;
-			float: left;
-			clear:left;
+		}
+		#pagination label{
+			float:left;
 		}
 		.form-control{
 			display:inline !important;
@@ -189,12 +194,12 @@
                                 
                                 <!-- Pagination block -->
 				                <div id="pagination">
-					                <select size="1" name="" aria-controls="">
+					                <label>Show <select size="1" name="" aria-controls="">
 							              <option value="10">10</option>
 							              <option value="25">25</option>
 							              <option value="50">50</option>
 							              <option value="100">100</option>
-					                </select> 
+					                </select> entries</label>
 					
 					                <span class="dataTables_paginate paging_full_numbers">
 					                	<a tabindex="0" class="first paginate_button paginate_button_disabled" id="example_first">First</a>

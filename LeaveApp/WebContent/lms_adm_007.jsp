@@ -79,9 +79,9 @@
 	</div>
 	<!-- End Modal User Edition-->
 	
-	<%@include file="/lms_adm_010p.jsp"%>
-	<%@include file="/lms_adm_009p.jsp"%>
-	<%@include file="/lms_adm_008p.jsp"%>
+	<%@include file="/lms_adm_010p.jsp"%> <!-- select position -->
+	<%@include file="/lms_adm_009p.jsp"%> <!-- select dept -->
+	<%@include file="/lms_adm_008p.jsp"%> <!-- select manager -->
 
 
 

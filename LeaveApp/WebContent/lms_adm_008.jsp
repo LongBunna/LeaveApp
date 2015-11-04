@@ -1,11 +1,9 @@
 <%@include file="/include/assetheader.jsp" %>
 	<style type="text/css">
-		#create_new_type_btn{
+		#ok_btn{
 			text-align: right;
 			margin-bottom:10px;
-		}
-		#create_new_type_btn i{
-			padding-right:5px;
+			margin-right: 16px;
 		}
 		.modal-dialog{
 			margin-top: 100px;
@@ -39,14 +37,20 @@
 			margin-left:10px;
 			width:70%;
 		}
-		
+		.add_length{
+			display:inline !important;
+			margin-left:10px;
+			width:100%;
+			padding: 6px 12px;
+			font-size: 14px;
+			border: 1px solid #DDE2E8;
+		}
 		#tbl_edit_user{
 			border-spacing: 10px !important;
 			border-collapse:inherit !important;
 			margin: 0px auto;
 		}
-		#tbl_edit_user select{
-		    height: 34px;
+		#tbl_edit_user #contract{
 		    padding: 6px 12px;
 		    font-size: 14px;
 		    background-color: #fff;
@@ -61,13 +65,12 @@
 		    background-color: #fff;
 		    border: 1px solid #DDE2E8;
 		    margin-left:10px;
-		    width:50%;
-		 }
-		 p{
-		 	margin-left:40px !important;
 		 }
 		 body{
 		 	overflow: hidden !important;
+		 }
+		 .form-control.has-feedback-left {
+    		padding-left: 10px !important;
 		 }
 	</style>
 <body class="nav-md">
@@ -141,31 +144,34 @@
 										<table id="tbl_edit_user">
 										<tr>
 	                                        <td><label>First Name :</label></td>
-	                                        <td><input type="text" class="form-control" placeholder="First Name"></td>
+	                                        <td><input type="text" class="add_length" placeholder="First Name"></td>
+	                                        <td></td>
 	                                        <td><label>Contract :</label></td>
 	                                        <td>
-		                                        <select>
+		                                        <select id="contract">
 		                                        	<option>Employee term</option>
 		                                        </select>
 	                                        </td>
 										</tr>
 										<tr>
 	                                        <td><label>Last Name :</label></td>
-	                                        <td><input type="text" class="form-control" placeholder="Last Name"></td>
+	                                        <td><input type="text" class="add_length" placeholder="Last Name"></td>
+	                                        <td></td>
 	                                        <td><label>Department :</label></td>
 	                                    	<td>
-	                                    		<input type="text" class="form-control" placeholder="Department" width="50" id="dept_input">
-	                                    		<button type="button" class="btn btn-primary" data-dismiss="modal" >Select</button>
+	                                    		<input type="text" class="form-control" placeholder="Department" id="dept_input" >
+	                                    		<button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#select_dept">Select</button>
 	                                    	</td>
 	                                    </tr>
 	                                    <tr>
 	                                    	<td><label>Role :</label></td>
 	                                    	<td>
-												<select>
+												<select class="add_length">
 		                                        	<option>User</option>
 		                                        	<option>HR Admin</option>
 		                                        </select>
 											</td>
+											<td></td>
 	                                    	<td><label>Position :</label></td>
 	                                    	<td>
 	                                    		<input type="text" class="form-control" placeholder="Position" id="position_input">
@@ -174,26 +180,30 @@
 	                                    </tr> 
 	                                    <tr>
 	                                    	<td><label>Login :</label></td>
-	                                    	<td><input type="text" class="form-control" placeholder="Login"></td>
+	                                    	<td><input type="text" class="add_length" placeholder="Login"></td>
+	                                    	<td></td>
 	                                    	<td><label>Start Date :</label></td>
-	                                    	<td><input type="text" class="form-control" placeholder="Start Date"></td>
+	                                    	<td><input type="text" class="form-control has-feedback-left active" placeholder="Start Date" name="daterang1" aria-describedby="inputSuccess2Status">
+	                                    		<span id="" class="sr-only">(success)</span>
+	                                    	</td>
 	                                    </tr> 
 	                                    <tr>
 	                                    	<td><label>Email :</label></td>
-	                                    	<td ><input type="text" class="form-control" placeholder="Email"></td>
+	                                    	<td ><input type="text" class="add_length" placeholder="Email"></td>
+	                                    	<td></td>
 	                                    	<td><label>Identifier :</label></td>
 	                                    	<td><input type="text" class="form-control" placeholder="Identifier"></td>
 	                                    </tr>
 	                                    <tr>
 	                                    	<td><label>Manager :</label></td>
+	                                        <td><input type="text" placeholder="Manager" id="manager_input"/></td>
 	                                        <td>
-	                                        	<input type="text" placeholder="Manager" id="manager_input"/>
 	                                        	<button type="button" class="btn btn-success" data-dismiss="modal">Self</button>
-	                                        	<button type="button" class="btn btn-primary" data-dismiss="modal">Select</button>
+	                                        	<button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#select_manager">Select</button>
 	                                        </td>
 	                                        
 	                                        <td><label>Password :</label></td>
-	                                        <td><input type="text" class="form-control" id="inputSuccess5" placeholder="Phone"></td>
+	                                        <td><input type="text" class="form-control" id="inputSuccess5" placeholder="Password" required="required"></td>
 	                                    </tr>    
 										</table>
 										<p>If a user has no manager(itself), it can validate its leave request.</p>
@@ -215,7 +225,9 @@
         </div>
     </div>
     
-	<%@include file="/lms_adm_007.jsp"%>
+	<%@include file="/lms_adm_010p.jsp"%> <!-- select position -->
+	<%@include file="/lms_adm_009p.jsp"%> <!-- select dept -->
+	<%@include file="/lms_adm_008p.jsp"%> <!-- select manager -->
 
 	
 	

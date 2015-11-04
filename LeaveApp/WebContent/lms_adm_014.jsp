@@ -9,6 +9,14 @@
 		#create_new_type_btn i{
 			padding-right:5px;
 		}
+		#ok_btn{
+			text-align: right;
+			margin-bottom:10px;
+			margin-right: 16px;
+		}
+		.modal-dialog{
+			margin-top: 100px;
+		}
 		#dept_selectbox{
 			border-right: 0;
    			box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
@@ -102,7 +110,7 @@
                                     <div class="clearfix"></div>
                                 </div>
                                 <div id="search_div">
-									<span><label>Department:</label><input type="text" placeholder="KOSIGN" id="dept_selectbox"/><input type="button" value="Select" class="btn btn-primary btn-sm"/></span>
+									<span><label>Department:</label><input type="text" placeholder="KOSIGN" id="dept_selectbox"/><input type="button" value="Select" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#select_dept"/></span>
 									<span><input type="checkbox">include sub-department</span>
 	                			</div>
                                 <div class="x_content">
@@ -187,6 +195,7 @@
         </div>
     </div>
 
+	<%@include file="/lms_adm_009p.jsp"%>
 	
     <div id="custom_notifications" class="custom-notifications dsp_none">
         <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
