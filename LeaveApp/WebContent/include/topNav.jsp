@@ -13,7 +13,7 @@
                                     <span class=" fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
-                                    <li><a href="lms_profile.jsp">  Profile</a>
+                                    <li><a href="lms_profile_001.jsp">  Profile</a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
