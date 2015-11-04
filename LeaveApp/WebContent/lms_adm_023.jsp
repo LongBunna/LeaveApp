@@ -83,7 +83,7 @@
                                                 	<th class="column-title">Department </th>
                                                 	<th class="column-title">Position </th>
                                                 	<th class="column-title">Hired date </th>
-                                                	<th class="column-title">Contract </th>
+                                                	<th class="column-title">Contact number </th>
                                                 	<th class="column-title">Annual leave </th>
                                                 	<th class="column-title">Special leave </th>
                                                 	<th class="column-title">Sick leave </th>
@@ -98,7 +98,7 @@
                                     				<td class=" ">Coocon center</td>
                                    				 	<td class=" ">General Manager</td>
                                    				 	<td class=" ">10/12/2015</td>
-                                    				<td class=" ">Manager Term</td>
+                                    				<td class=" ">012 454 545</td>
                                     				<td class=" ">13</td>
                                     				<td class=" ">7</td>
                                    				 	<td class=" ">7</td>
@@ -110,7 +110,7 @@
                                     				<td class=" ">R&D center</td>
                                    				 	<td class=" ">General Manager</td>
                                    				 	<td class=" ">10/12/2015</td>
-                                    				<td class=" ">Manager Term</td>
+                                    				<td class=" ">012 454 545</td>
                                     				<td class=" ">13</td>
                                     				<td class=" ">7</td>
                                    				 	<td class=" ">7</td>
@@ -122,8 +122,8 @@
                                     				<td class=" ">Coocon Center</td>
                                    				 	<td class=" ">Researcher</td>
                                    				 	<td class=" ">10/12/2015</td>
-                                    				<td class=" ">Employee Term</td>
-                                    				<td class=" ">13</td>
+                                    				<td class=" ">012 30 30 20</td>
+                                    				<td class=" " style=" color:red;">-2</td>
                                     				<td class=" ">7</td>
                                    				 	<td class=" ">7</td>
                                 				</tr>
@@ -134,9 +134,9 @@
                                     				<td class=" ">Coocon Center</td>
                                    				 	<td class=" ">Researcher</td>
                                    				 	<td class=" ">10/12/2015</td>
-                                    				<td class=" ">Employee Term</td>
+                                    				<td class=" ">012 30 30 20</td>
                                     				<td class=" ">13</td>
-                                    				<td class=" ">7</td>
+                                    				<td class=" "style=" color:red;">-1</td>
                                    				 	<td class=" ">7</td>
                                 				</tr>
                                 				<tr class="odd pointer">
@@ -146,7 +146,7 @@
                                     				<td class=" ">Coocon Center</td>
                                    				 	<td class=" ">Assistant Researcher</td>
                                    				 	<td class=" ">10/12/2015</td>
-                                    				<td class=" ">Employee Term</td>
+                                    				<td class=" ">012 30 30 20</td>
                                     				<td class=" ">13</td>
                                     				<td class=" ">7</td>
                                    				 	<td class=" ">7</td>
@@ -158,7 +158,7 @@
                                     				<td class=" ">Coocon Center</td>
                                    				 	<td class=" ">Assistant Researcher</td>
                                    				 	<td class=" ">10/12/2015</td>
-                                    				<td class=" ">Employee Term</td>
+                                    				<td class=" ">012 30 30 20</td>
                                     				<td class=" ">13</td>
                                     				<td class=" ">7</td>
                                    				 	<td class=" ">7</td>
@@ -170,7 +170,7 @@
                                     				<td class=" ">Coocon Center</td>
                                    				 	<td class=" ">Assistant Researcher</td>
                                    				 	<td class=" ">10/12/2015</td>
-                                    				<td class=" ">Employee Term</td>
+                                    				<td class=" ">012 30 30 20</td>
                                     				<td class=" ">13</td>
                                     				<td class=" ">7</td>
                                    				 	<td class=" ">7</td>
@@ -182,7 +182,7 @@
                                     				<td class=" ">Coocon Center</td>
                                    				 	<td class=" ">Assistant Researcher</td>
                                    				 	<td class=" ">10/12/2015</td>
-                                    				<td class=" ">Employee Term</td>
+                                    				<td class=" ">012 30 30 20</td>
                                     				<td class=" ">13</td>
                                     				<td class=" ">7</td>
                                    				 	<td class=" ">7</td>
@@ -194,7 +194,7 @@
                                     				<td class=" ">Coocon Center</td>
                                    				 	<td class=" ">Assistant Researcher</td>
                                    				 	<td class=" ">10/12/2015</td>
-                                    				<td class=" ">Employee Term</td>
+                                    				<td class=" ">012 30 30 20</td>
                                     				<td class=" ">13</td>
                                     				<td class=" ">7</td>
                                    				 	<td class=" ">7</td>
@@ -206,7 +206,7 @@
                                     				<td class=" ">Coocon Center</td>
                                    				 	<td class=" ">Assistant Researcher</td>
                                    				 	<td class=" ">10/12/2015</td>
-                                    				<td class=" ">Employee Term</td>
+                                    				<td class=" ">012 30 30 20</td>
                                     				<td class=" ">13</td>
                                     				<td class=" ">7</td>
                                    				 	<td class=" ">7</td>
