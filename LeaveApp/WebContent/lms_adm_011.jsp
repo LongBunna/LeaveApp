@@ -35,7 +35,7 @@
                             <h3><small>
 									<ol class="breadcrumb">
 									  <li><a href="#">Leaves</a></li>
-									  <li><a href="#">Leave Type</a></li>
+									  <li><a href="#">List of Types</a></li>
 									  <!--<li class="active">Data</li>-->
 									</ol>
 								</small>
@@ -59,7 +59,7 @@
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
-                                    <h2>Leave and Overtime Management System<small>Leave Type</small></h2>
+                                    <h2>Leave and Overtime Management System<small>List of Leave Types</small></h2>
                                     <ul class="nav navbar-right panel_toolbox">
                                         <!--<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                         </li>
@@ -127,46 +127,11 @@
     </div>
     
 	<!-- Modal of form create new leave type-->
-	<div class="modal fade" id="new_leave_type" role="dialog">
-		<div class="modal-dialog">
-	    
-		<!-- pop up form--create new leave type-->
-			<div class="modal-content">
-				<div class="modal-header">
-	          		<button type="button" class="close" data-dismiss="modal">&times;</button>
-	          		<h4 class="modal-title"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;Add a leave type</h4>
-	        	</div>
-	        	<div class="modal-body">
-	          		Name: <input type="text" size="50">
-	        	</div>
-	        	<div class="modal-footer">
-	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;&nbsp;OK</button>
-	          		<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;&nbsp;Close</button>
-	        	</div>
-	      	</div>
-	    </div>
-	</div>
+	<%@include file="/lms_adm_012p.jsp" %>
   	<!--End Modal -->
   	
   	<!-- Modal updating leaving form-->
-  	<div class="modal fade" id="update_leave_type" role="dialog">
-		<div class="modal-dialog">
-		<!-- pop up form--update leave type-->
-			<div class="modal-content">
-				<div class="modal-header">
-	          		<button type="button" class="close" data-dismiss="modal">&times;</button>
-	          		<h4 class="modal-title"><i class="fa fa-edit"></i>&nbsp;&nbsp;Update a leave type</h4>
-	        	</div>
-	        	<div class="modal-body">
-	          		Name: <input type="text" size="50">
-	        	</div>
-	        	<div class="modal-footer">
-	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-check"></i>&nbsp;&nbsp;OK</button>
-	          		<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;&nbsp;Close</button>
-	        	</div>
-	      	</div>
-	    </div>
-	</div>
+  	<%@include file="/lms_adm_013p.jsp" %>
 	<!--End Modal -->
 	
     <div id="custom_notifications" class="custom-notifications dsp_none">
