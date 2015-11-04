@@ -130,7 +130,6 @@
 	<%@include file="/lms_adm_012p.jsp" %>
   	<!--End Modal -->
   	
-  	
   	<!-- Modal updating leaving form-->
   	<%@include file="/lms_adm_013p.jsp" %>
 	<!--End Modal -->
