@@ -158,6 +158,10 @@
                                         </div>
 									</div>
 									
+									<div class="form-group">
+										<p>If a user has no manager(itself), it can validate its leave request.</p>
+									</div>
+									
 									<div class="ln_solid"></div>
 									<!-- Buttons -->
 									<div class="form-group">
