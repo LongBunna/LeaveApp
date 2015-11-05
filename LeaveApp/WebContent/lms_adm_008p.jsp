@@ -18,7 +18,7 @@
                                 <div class="x_title">
                                     <h2>Select Manager</h2>
                                     <ul class="nav navbar-right panel_toolbox">
-                                        <button type="button" class="close" data-dismiss="modal" data-toggle="modal" data-target="#update_user">&times;</button>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     </ul>
                                     <div class="clearfix"></div>
                                 </div>
