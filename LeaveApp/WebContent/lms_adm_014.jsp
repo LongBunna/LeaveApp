@@ -120,6 +120,7 @@
 												<th>ID</th>
                                                 <th>First Name</th>
 												<th>Last Name</th>
+												<th>Contact number</th>
 												<th>Email</th>
 												<th>Department</th>
 												<th>Contrast</th>
@@ -131,6 +132,7 @@
                                                 <th scope="row">1</th>	
                                                 <td>First</td>											
                                                 <td>Last</td>
+                                                <td>012 366 399</td>
                                                 <td>name@gmail.com</td>
                                                 <td>Manager</td>
                                                 <td>User</td>
@@ -140,6 +142,7 @@
                                                 <th scope="row">2</th>
                                                 <td>First</td>												
                                                 <td>bensteav</td>
+                                                <td>010 555 888</td>
                                                 <td>ben@gmail.com</td>
                                                 <td>Employee</td>
                                                 <td>Hr Manager</td>

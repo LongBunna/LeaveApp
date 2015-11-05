@@ -107,9 +107,9 @@
                                                 <th>Actions</th>
                                                 <th>First Name</th>
                                                 <th>Last Name</th>
+                                                <th>Login</th>
                                                 <th>Email</th>
-                                                <th>Department</th>
-                                                <th>Contract</th>
+                                                <th>Role</th>
                                                 <th>Manager</th>
                                             </tr>
                                         </thead>
@@ -123,9 +123,9 @@
 												</td>												
                                                 <td>Mark</td>
                                                 <td>Otto</td>
-                                                <td>rara@mdo</td>
-                                                <td>Coocon Center</td>
-                                                <td>Test</td>
+                                                <td>rara</td>
+                                                <td>rara@gmail.com</td>
+                                                <td>User</td>
                                                 <td>Kim Wansu</td>
                                             </tr>
                                             <tr>
@@ -137,9 +137,9 @@
 												</td>												
                                                 <td>Mark</td>
                                                 <td>Otto</td>
-                                                <td>rara@mdo</td>
-                                                <td>Coocon Center</td>
-                                                <td>Test</td>
+                                                <td>otto</td>
+                                                <td>mark@gmail.com</td>
+                                                <td>HR Admin</td>
                                                 <td>Kim Wansu</td>
                                             </tr>                                   
                                         </tbody>

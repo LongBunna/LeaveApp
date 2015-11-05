@@ -33,10 +33,10 @@
                                 
                                 <div class="x_content">
                                     <!-- start project list -->
-                                    <table class="table table-hover table-bordered projects">
+                                    <table class="table table-hover table-bordered projects responsive-utilities bulk_action"><!-- responsive-utilities jambo_table bulk_action -->
                                         <thead>
-                                             <tr>
-                                             	<th><input type="checkbox"/></th>
+                                             <tr class="headings">
+                                             	<th><input type="checkbox" id="check-all" class="flat"/></th>
                                                 <th>ID</th>
                                                 <th>First Name</th>
                                                 <th>Last Name</th>
@@ -45,15 +45,15 @@
                                         </thead>
                                         
                                         <tbody>
-                                            <tr>
-                                            	<td><input type="checkbox"/></td>
+                                            <tr class="even pointer">
+                                            	<td class="a-center "><input type="checkbox" class="flat" name="table_records"/></td>
                                                 <td scope="row">1</td>
                                                 <td>Kim</td>
                                                 <td>Wansu</td>
                                                 <td>kimwansu@gmail.com</td>
                                             </tr>
-                                            <tr>
-                                            	<td><input type="checkbox"/></td>
+                                            <tr class="odd pointer">
+                                            	<td class="a-center "><input type="checkbox" class="flat" name="table_records"/></td>
                                                 <td scope="row">2</td>
                                                 <td>Choi</td>
                                                 <td>Siwan</td>
