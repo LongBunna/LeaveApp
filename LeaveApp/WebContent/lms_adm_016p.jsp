@@ -10,7 +10,7 @@
 
     <title>Gentallela Alela! | </title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS    -->
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
